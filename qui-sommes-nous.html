@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qui sommes-nous - Guidon Vayracois</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7/css/flag-icons.min.css">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Roboto Condensed', sans-serif;
+      background-color: #fff;
+      color: #111;
+      animation: pageFadeIn 1s ease;
+    }
+    @keyframes pageFadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    header, .nav-left ul, .nav-left a {
+      font-family: 'Quicksand', sans-serif;
+    }
+    header {
+      background: #111;
+      padding: 14px 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    .header-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo img { height: 55px; }
+    .nav-left ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .nav-left a {
+      position: relative;
+      display: inline-block;
+      color: #eee;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+      padding: 6px 12px;
+    }
+    .nav-left a::after {
+      content: '';
+      position: absolute;
+      left: 12px;
+      right: 12px;
+      bottom: -1px;
+      height: 2px;
+      background-color: #ffeb3b;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+    .nav-left a:hover::after,
+    .nav-left a:focus::after,
+    .nav-left a.active::after {
+      transform: scaleX(1);
+    }
+    .nav-left a:hover,
+    .nav-left a:focus,
+    .nav-left a.active {
+      color: #50b5ff;
+    }
+    .nav-left a.active {
+  color: #50b5ff;
+}
+
+.nav-left a.active::after {
+  transform: scaleX(1);
+}
+
+    .burger {
+      display: none;
+      font-size: 1.8rem;
+      color: #fff;
+      cursor: pointer;
+    }
+    @media (max-width: 768px) {
+      .burger {
+        display: block;
+        z-index: 1001;
+      }
+      .nav-left {
+        position: absolute;
+        top: 75px;
+        left: 0;
+        background: #111;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+      }
+      .nav-left ul {
+        flex-direction: column;
+        gap: 15px;
+      }
+      .nav-left.show {
+        display: flex;
+      }
+    }
+    main {
+      max-width: 1000px;
+      margin: 140px auto 60px;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+      animation: fadeInUp 1s ease both;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    section h2 {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #0d47a1;
+      position: relative;
+    }
+    section h2::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 60px;
+      height: 3px;
+      background-color: #e91e63;
+    }
+    .equipe-section,
+    .organigramme-section {
+      text-align: center;
+    }
+    .equipe-grid,
+    .organigramme-wrapper,
+    .organigramme-soutien {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .member-card {
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      padding: 20px;
+      width: 180px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    }
+    .member-card img {
+      width: 100%;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .member-card h3 {
+      margin: 0;
+      font-size: 1.1em;
+      color: #111;
+    }
+    .member-card p {
+      margin: 5px 0 0;
+      font-size: 0.95em;
+      color: #0d47a1;
+      font-weight: bold;
+    }
+    .membre-central {
+      transform: scale(1.1);
+      border: 2px solid #0d47a1;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+    .team-photo {
+      text-align: center;
+    }
+    .team-photo img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      transition: transform 0.4s ease;
+    }
+    .team-photo img:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      padding: 60px 20px 20px;
+    }
+    .footer-container {
+      max-width: 1200px;
+      margin: auto;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+    .footer-column h4 {
+      color: #50b5ff;
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+    .footer-column a, .footer-column p, .footer-column li {
+      color: #ccc;
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+    .footer-column a:hover {
+      color: #fff;
+    }
+    .newsletter-form input[type="email"] {
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 12px;
+      border: none;
+      border-radius: 6px;
+    }
+    .newsletter-form button {
+      padding: 10px 20px;
+      border: none;
+      background: #50b5ff;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .social-icons a {
+      margin: 0 8px;
+      font-size: 1.5rem;
+      color: #ccc;
+    }
+    .social-icons a:hover {
+      color: #50b5ff;
+    }
+    .footer-logo-center {
+      text-align: center;
+    }
+    .footer-logo-center img {
+      max-width: 130px;
+      margin-bottom: 10px;
+    }
+    .footer-copyright {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #fff;
+    }
+    .lang-switcher {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.lang-btn span.fi {
+  width: 26px;
+  height: 18px;
+  display: inline-block;
+  border-radius: 2px;
+  transition: transform 0.2s ease;
+}
+
+.lang-btn:hover span.fi {
+  transform: scale(1.1);
+}
+
+/* Responsive - adapte les drapeaux sur petit écran */
+@media (max-width: 768px) {
+  .lang-switcher {
+    justify-content: center;
+    margin: 10px auto 0;
+    padding-bottom: 10px;
+    order: 3;
+  }
+
+  .lang-btn span.fi {
+    width: 22px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lang-btn span.fi {
+    width: 20px;
+    height: 13px;
+  }
+}
+.btn-retour-haut {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0d47a1;
+  color: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  font-size: 20px;
+  z-index: 999;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-retour-haut:hover {
+  background-color: #08306b;
+  transform: translateY(-5px);
+}
+
+
+  </style>
+</head>
+<body><a id="top"></a>
+
+
+ 
+  <header>
+   
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Logo-Guidon-Vayracois.png" alt="Logo Guidon Vayracois">
+        </a>
+      </div>
+      <nav class="nav nav-left">
+        <ul>
+          <li><a href="index.html" data-i18n="nav_home">Accueil</a></li>
+          <li><a href="qui-sommes-nous.html" data-i18n="nav_about">Qui sommes-nous</a></li>
+          <li><a href="Uxellotoise-2025.html" data-i18n="nav_event">Uxellotoise 2025</a></li>
+          <li><a href="galerie.html" data-i18n="nav_gallery">Galerie</a></li>
+          <li><a href="inscription.html" data-i18n="nav_register">Inscription</a></li>
+          <li><a href="partenaires.html" data-i18n="nav_partners">Partenaires</a></li>
+          <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+        
+      </nav>
+      <div class="lang-switcher">
+        <button class="lang-btn" data-lang="fr" aria-label="Français">
+          <span class="fi fi-fr"></span>
+        </button>
+        <button class="lang-btn" data-lang="en" aria-label="English">
+          <span class="fi fi-gb"></span>
+        </button>
+        <button class="lang-btn" data-lang="es" aria-label="Español">
+          <span class="fi fi-es"></span>
+        </button>
+      </div>
+      
+    </div>
+  </header>
+
+  <main>
+    <section class="organigramme-section">
+      <h2 data-i18n="team_bureau">Le Bureau</h2>
+      <div class="organigramme-wrapper">
+        <div class="member-card" data-aos="fade-up" data-aos-delay="0">
+          <img src="images/jean-michel-lagriffol.jpg" alt="Jean-Michel Lagriffol">
+          <h3>Jean-Michel Lagriffol</h3>
+          <p>Trésorier</p>
+        </div>
+    
+        <div class="member-card membre-central" data-aos="fade-up" data-aos-delay="100">
+          <img src="images/gerard-gouygou.jpg" alt="Gérard Gouygou">
+          <h3>Gérard Gouygou</h3>
+          <p>Président</p>
+        </div>
+    
+        <div class="member-card" data-aos="fade-up" data-aos-delay="200">
+          <img src="images/bureau/francis-meillac.jpg" alt="Francis Meillac">
+          <h3>Francis Meillac</h3>
+          <p>Secrétaire</p>
+        </div>
+      </div>
+    
+      <div class="organigramme-soutien">
+        <div class="member-card" data-aos="fade-up" data-aos-delay="300">
+          <img src="images/bureau/jean-luc-perrier.jpg" alt="Jean-Luc Perrier">
+          <h3>Jean-Luc Perrier</h3>
+          <p>Trésorier adjoint</p>
+        </div>
+        <div class="member-card" data-aos="fade-up" data-aos-delay="400">
+          <img src="images/Hugues-du-Pradel.jpg" alt="Hugues Du Pradel">
+          <h3>Hugues Du Pradel</h3>
+          <p>Secrétaire adjoint</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="equipe-section">
+      <h2 data-i18n="team_communication">Communication</h2>
+      <div class="equipe-grid">
+        <div class="member-card" data-aos="fade-up" data-aos-delay="0">
+          <img src="images/communication/hugues-du-pradel.jpg" alt="Hugues Du Pradel">
+          <h3>Hugues Du Pradel</h3>
+        </div>
+        <div class="member-card" data-aos="fade-up" data-aos-delay="100">
+          <img src="images/antoine-brunou.png" alt="Antoine Brunou">
+          <h3>Antoine Brunou</h3>
+        </div>
+        <div class="member-card" data-aos="fade-up" data-aos-delay="200">
+          <img src="images/communication/pascal-marchou.jpg" alt="Pascal Marchou">
+          <h3>Pascal Marchou</h3>
+        </div>
+      </div>
+    </section>
+    
+    <section class="equipe-section">
+      <h2 data-i18n="team_logistics">Logistique & Sécurité</h2>
+      <div class="equipe-grid">
+        <div class="member-card" data-aos="fade-up" data-aos-delay="0">
+          <img src="images/logistique/francis-meillac.jpg" alt="Francis Meillac">
+          <h3>Francis Meillac</h3>
+        </div>
+        <div class="member-card" data-aos="fade-up" data-aos-delay="100">
+          <img src="images/logistique/denis-bordes.jpg" alt="Denis Bordes">
+          <h3>Denis Bordes</h3>
+        </div>
+        <div class="member-card" data-aos="fade-up" data-aos-delay="200">
+          <img src="images/logistique/aurelien-van-de-put.jpg" alt="Aurélien Van De Put">
+          <h3>Aurélien Van De Put</h3>
+        </div>
+      </div>
+    </section>
+    
+    <section class="equipe-section">
+      <h2 data-i18n="team_uxel">Responsable Uxel'Lotoise</h2>
+      <div class="equipe-grid">
+        <div class="member-card" data-aos="fade-up" data-aos-delay="0">
+          <img src="images/uxellotoise/mario-thomas.jpg" alt="Mario Thomas">
+          <h3>Mario Thomas</h3>
+          <p>Responsable organisation</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="team-photo">
+      <h2 data-i18n="team_full">L'équipe au complet</h2>
+      <img src="images/guidon-vayracois.png" alt="Photo de l'équipe du Guidon Vayracois" />
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h4 data-i18n="footer_contact">Contact</h4>
+          <p><i class="fas fa-map-marker-alt"></i> 28 Rue Jean de Vayrac, 46110 Vayrac</p>
+          <p><i class="fas fa-phone"></i> <a href="tel:+33787340690">07 87 34 06 90</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:gvayracois@gmail.com">gvayracois@gmail.com</a></p>
+        </div>
+        <div class="footer-column">
+          <h4 data-i18n="footer_navigation">Navigation</h4>
+          <ul>
+            <li><a href="mentions-legales.html" data-i18n="footer_mentions">Mentions légales</a></li>
+            <li><a href="confidentialite.html" data-i18n="footer_privacy">Politique de confidentialité</a></li>
+            <li><a href="cgu.html" data-i18n="footer_terms">CGU</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 data-i18n="footer_newsletter">Newsletter</h4>
+          <form class="newsletter-form">
+            <input type="email" name="email" placeholder="Votre email" data-i18n-placeholder="footer_email_placeholder" required />
+            <button type="submit" data-i18n="footer_subscribe">S'inscrire</button>
+          </form>
+        </div>
+        <div class="footer-column footer-logo-center">
+          <img src="images/Logo-Guidon-Vayracois.png" alt="Logo du club" />
+          <p data-i18n="footer_followus">Suivez-nous sur</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; <span id="currentYear"></span> <span data-i18n="footer_copyright">Le Guidon Vayracois. Tous droits réservés.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="btn-retour-haut" title="Retour en haut">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    easing: 'ease-in-out',
+    once: true
+  });
+</script>
+<script>
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll(".nav-left a");
+    const currentUrl = window.location.pathname;
+
+    links.forEach(link => {
+      if (link.getAttribute("href") === currentUrl) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+<script>
+  let translations = {};
+  let currentLang = "fr";
+
+  function updateLanguage(lang) {
+    if (!translations[lang]) return;
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (translations[lang][key]) {
+        el.innerHTML = translations[lang][key];
+      }
+    });
+    document.documentElement.setAttribute("lang", lang);
+    localStorage.setItem("language", lang);
+    currentLang = lang;
+  }
+
+  async function loadTranslations() {
+    try {
+      const res = await fetch("locales/lang.json");
+      translations = await res.json();
+      const savedLang = localStorage.getItem("language");
+      const browserLang = navigator.language.slice(0, 2);
+      const lang = savedLang || (translations[browserLang] ? browserLang : "fr");
+      updateLanguage(lang);
+    } catch (error) {
+      console.error("Erreur de chargement des traductions :", error);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    loadTranslations();
+    document.querySelectorAll(".lang-btn").forEach(btn => {
+      btn.addEventListener("click", function () {
+        updateLanguage(this.dataset.lang);
+      });
+    });
+  });
+</script>
+<script>
+  // Afficher/Masquer le bouton retour haut
+  const btnRetourHaut = document.querySelector('.btn-retour-haut');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      btnRetourHaut.style.display = 'block';
+    } else {
+      btnRetourHaut.style.display = 'none';
+    }
+  });
+</script>
+
+
+
+  
+
+</body>
+</html>

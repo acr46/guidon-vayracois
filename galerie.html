@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="gallery_page_title">Galerie - Guidon Vayracois</title>
+
+  <!-- Polices et icônes -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@6.6.6/css/flag-icons.min.css">
+
+  <style>
+    /* Loader */
+    #loader {
+      position: fixed;
+      left: 0; top: 0; width: 100%; height: 100%;
+      background: #fff;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .spinner {
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid #0d47a1;
+      border-radius: 50%;
+      width: 60px; height: 60px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fdfdfd;
+      color: #2b2b2b;
+      padding-top: 100px;
+    }
+    header {
+      background: #111;
+      padding: 14px 30px;
+      position: fixed;
+      top: 0; width: 100%;
+      z-index: 1000;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    .header-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo img { height: 55px; }
+    .nav-left ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+   
+    .nav-left ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-left a {
+  position: relative;
+  display: inline-block;
+  color: #eee;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  padding: 6px 12px;
+}
+
+.nav-left a::after {
+  content: '';
+  position: absolute;
+  left: 12px;     /* correspond au padding-left */
+  right: 12px;    /* correspond au padding-right */
+  bottom: -1px;   /* décalé légèrement VERS LE BAS */
+  height: 2px;
+  background-color: #ffeb3b; /* jaune */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-left a:hover::after,
+.nav-left a:focus::after,
+.nav-left a:active::after {
+  transform: scaleX(1);
+}
+
+.nav-left a:hover,
+.nav-left a:focus,
+.nav-left a:active {
+  color: #50b5ff; /* bleu clair */
+}
+.nav-left a.active {
+  color: #50b5ff;
+}
+
+.nav-left a.active::after {
+  transform: scaleX(1);
+}
+
+   /* Hamburger button */
+   .burger {
+  display: none;
+  font-size: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Responsive nav */
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+    z-index: 1001;
+  }
+
+  .nav-left {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    background: #111;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .nav-left ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-left.show {
+    display: flex;
+  }
+}
+
+    h1 {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 3rem;
+      text-align: center;
+      margin: 40px 20px 10px;
+      color: #003566;
+    }
+    .intro {
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.1rem;
+      padding: 10px 20px 30px;
+      color: #444;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px 30px;
+    }
+    .gallery a img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery a img:hover {
+      transform: scale(1.04);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    }
+
+ /* Pagination stylisée centrée et en ronds */
+ #pagination {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1001;
+}
+
+.stylish-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  gap: 12px;
+}
+
+.stylish-pagination button {
+  width: 12px; /* Plus fin */
+  height: 12px; /* Plus fin */
+  border-radius: 50%;
+  background-color: #ccc;
+  border: 1px solid #999; /* Un fin contour gris clair */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+
+.stylish-pagination button:hover {
+  background-color: #999;
+}
+
+.stylish-pagination button.active {
+  background-color: #0d47a1;
+  transform: scale(1.2);
+}
+
+
+    #scrollTopBtn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background-color: #50b5ff;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 12px;
+      font-size: 18px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      display: none;
+      z-index: 999;
+    }
+    #scrollTopBtn:hover {
+      background-color: #0d47a1;
+    }
+
+    footer {
+      background: #111;
+      color: #ccc;
+      padding: 60px 20px 20px;
+    }
+    .footer-container {
+      max-width: 1200px;
+      margin: auto;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+    .footer-column h4 {
+      color: #50b5ff;
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+    .footer-column a, .footer-column p, .footer-column li {
+      color: #ccc;
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+    .footer-column a:hover {
+      color: #fff;
+    }
+    .newsletter-form input[type="email"] {
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 12px;
+      border: none;
+      border-radius: 6px;
+    }
+    .newsletter-form button {
+      padding: 10px 20px;
+      border: none;
+      background: #50b5ff;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .social-icons a {
+      margin: 0 8px;
+      font-size: 1.5rem;
+      color: #ccc;
+    }
+    .social-icons a:hover {
+      color: #50b5ff;
+    }
+    .footer-logo-center {
+      text-align: center;
+    }
+    .footer-logo-center img {
+    max-width: 130px;
+    margin-bottom: 10px;
+  }
+    .footer-copyright {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #fff;
+    }
+   
+    /* === TITRES ÉVÉNEMENTIELS RÉUTILISABLES === */
+.event-title {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2.5rem;
+  color: #0d47a1;
+  text-align: center;
+  margin: 100px 20px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.lang-buttons {
+  display: flex;
+  align-items: center; /* 🛠 Aligne verticalement */
+  gap: 12px; /* 🛠 Espace entre les boutons */
+  margin-left: 20px; /* 🛠 Petit espace entre la navigation et les drapeaux */
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-btn span.fi {
+  display: inline-block;
+  width: 24px;
+  height: 16px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lang-btn:hover span.fi {
+  transform: scale(1.1);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+}
+
+.lang-btn.active span.fi {
+  box-shadow: 0 0 0 2px #ffd700, 0 0 6px rgba(255, 215, 0, 0.8);
+  transform: scale(1.15);
+}
+
+
+
+
+  </style>
+</head>
+
+<body>
+  <div id="loader"><div class="spinner"></div></div>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Logo-Guidon-Vayracois.png" alt="Logo Guidon Vayracois">
+        </a>
+      </div>
+      <nav class="nav nav-left">
+        <ul>
+          <li><a href="index.html" data-i18n="nav_home">Accueil</a></li>
+          <li><a href="qui-sommes-nous.html" data-i18n="nav_about">Qui sommes-nous</a></li>
+          <li><a href="Uxellotoise-2025.html" data-i18n="nav_event">Uxellotoise 2025</a></li>
+          <li><a href="galerie.html" class="active" data-i18n="nav_gallery">Galerie</a></li>
+          <li><a href="inscription.html" data-i18n="nav_register">Inscription</a></li>
+          <li><a href="partenaires.html" data-i18n="nav_partners">Partenaires</a></li>
+          <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="lang-buttons">
+        <button class="lang-btn" data-lang="fr" aria-label="Français">
+          <span class="fi fi-fr"></span>
+        </button>
+        <button class="lang-btn" data-lang="en" aria-label="English">
+          <span class="fi fi-gb"></span>
+        </button> 
+          <button class="lang-btn" data-lang="es" aria-label="Español">
+            <span class="fi fi-es"></span>
+          </button>
+        </div>
+
+      
+    </div>
+  </header>
+
+  <main>
+    <h1 class="event-title" data-i18n="gallery_event_title">Critérium de Vayrac 2024</h1>
+
+    <div class="intro">
+      <p data-i18n="gallery_event_intro">Le Critérium de Vayrac 2024 a rassemblé passionnés de cyclisme, sportifs et familles dans une ambiance festive et chaleureuse. Revivez cette journée inoubliable à travers notre sélection de clichés !</p>
+    </div>
+
+    <section class="gallery" id="gallery"></section>
+    <div class="pagination stylish-pagination" id="pagination"></div>
+  </main>
+
+  <button onclick="scrollToTop()" id="scrollTopBtn" title="Retour en haut"><i class="fas fa-arrow-up"></i></button>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h4 data-i18n="footer_contact">Contact</h4>
+          <p><i class="fas fa-map-marker-alt"></i> 28 Rue Jean de Vayrac, 46110 Vayrac</p>
+          <p><i class="fas fa-phone"></i> <a href="tel:+33787340690">07 87 34 06 90</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:gvayracois@gmail.com">gvayracois@gmail.com</a></p>
+        </div>
+        <div class="footer-column">
+          <h4 data-i18n="footer_navigation">Navigation</h4>
+          <ul>
+            <li><a href="mentions-legales.html" data-i18n="footer_mentions">Mentions légales</a></li>
+            <li><a href="confidentialite.html" data-i18n="footer_privacy">Politique de confidentialité</a></li>
+            <li><a href="cgu.html" data-i18n="footer_terms">CGU</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 data-i18n="footer_newsletter">Newsletter</h4>
+          <form class="newsletter-form">
+            <input type="email" name="email" placeholder="Votre email" required />
+            <button type="submit" data-i18n="footer_subscribe">S'inscrire</button>
+          </form>
+        </div>
+        <div class="footer-column footer-logo-center">
+          <img src="images/Logo-Guidon-Vayracois.png" alt="Logo du club" />
+          <p data-i18n="footer_followus">Suivez-nous sur</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; <span id="currentYear"></span> <span data-i18n="copyright_text">Le Guidon Vayracois. Tous droits réservés.</span></p>
+      </div>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+    const gallery = document.getElementById("gallery");
+    const pagination = document.getElementById("pagination");
+    const perPage = 4;
+    let currentPage = 1;
+    let images = [];
+
+    function fetchImages() {
+      fetch("images/gallery.json")
+        .then(response => response.json())
+        .then(data => {
+          images = data.images;
+          renderGallery();
+          renderPagination();
+        })
+        .catch(error => {
+          console.error("Erreur lors du chargement des images:", error);
+        });
+    }
+
+    function renderGallery() {
+      gallery.innerHTML = "";
+      const start = (currentPage - 1) * perPage;
+      const end = start + perPage;
+      images.slice(start, end).forEach(file => {
+        const a = document.createElement("a");
+        a.href = `images/${file}`;
+        a.setAttribute("data-lightbox", "gallery");
+        const img = document.createElement("img");
+        img.src = `images/${file}`;
+        img.alt = "Photo";
+        a.appendChild(img);
+        gallery.appendChild(a);
+      });
+    }
+     // 👉 Ajoute ce petit bout pour scroller automatiquement au début de la galerie
+  gallery.scrollIntoView({ behavior: "smooth" });
+
+
+    function renderPagination() {
+      pagination.innerHTML = "";
+      const totalPages = Math.ceil(images.length / perPage);
+      for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement("button");
+        btn.classList.toggle("active", i === currentPage);
+        btn.addEventListener("click", () => {
+          currentPage = i;
+          renderGallery();
+          renderPagination();
+        });
+        pagination.appendChild(btn);
+      }
+    }
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    window.addEventListener("scroll", function () {
+      const btn = document.getElementById("scrollTopBtn");
+      btn.style.display = window.scrollY > 300 ? "block" : "none";
+    });
+
+    window.addEventListener("load", () => {
+      document.getElementById("loader").style.display = "none";
+      fetchImages();
+    });
+  </script>
+  <!-- Ton autre code ici -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+<!-- Ton script actuel avec fetchImages, renderGallery, etc. -->
+
+<!-- 💬 Ici tu ajoutes mon script de traduction -->
+<script>
+  // === SCRIPT DE TRADUCTION (le code que je t'ai donné) ===
+  let translations = {};
+  let currentLang = "fr";
+
+  async function loadTranslations() {
+    try {
+      const response = await fetch("locales/lang.json");
+      translations = await response.json();
+      setLanguage(currentLang);
+    } catch (error) {
+      console.error("Erreur de chargement des traductions :", error);
+    }
+  }
+
+  function setLanguage(lang) {
+    if (!translations[lang]) return;
+    currentLang = lang;
+    const elements = document.querySelectorAll("[data-i18n]");
+    elements.forEach(el => {
+      const key = el.getAttribute("data-i18n");
+      if (translations[lang][key]) {
+        if (el.tagName.toLowerCase() === "input" && el.type === "email") {
+          el.placeholder = translations[lang][key];
+        } else {
+          el.innerHTML = translations[lang][key];
+        }
+      }
+    });
+    if (translations[lang]["gallery_page_title"]) {
+      document.title = translations[lang]["gallery_page_title"];
+    }
+  }
+
+  const langButtons = document.querySelectorAll(".lang-btn");
+  langButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const lang = button.getAttribute("data-lang");
+      setLanguage(lang);
+      setActiveButton(lang);
+    });
+  });
+
+  function setActiveButton(lang) {
+    langButtons.forEach(btn => {
+      btn.classList.remove("active");
+      if (btn.getAttribute("data-lang") === lang) {
+        btn.classList.add("active");
+      }
+    });
+  }
+
+  window.addEventListener("load", loadTranslations);
+</script>
+<!-- Fin de script -->
+
+</body>
+</html>
+
+
+  
+</body>
+</html>

@@ -1,0 +1,4662 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="VisuGPX - https://www.visugpx.com">
+  <metadata>
+    <name>Uxel'lotoise 2025 - Cyclo - Circuit 66 km - D+ 620</name>
+  </metadata>
+  <trk>
+    <name><![CDATA[Uxel'lotoise 2025 - Cyclo - Circuit 66 km - D+ 620_1]]></name>
+    <trkseg>
+      <trkpt lat="44.95279" lon="1.70355">
+        <ele>138.8</ele>
+      </trkpt>
+      <trkpt lat="44.95288" lon="1.70345">
+        <ele>138.6</ele>
+      </trkpt>
+      <trkpt lat="44.95296" lon="1.70351">
+        <ele>138.9</ele>
+      </trkpt>
+      <trkpt lat="44.95281" lon="1.70401">
+        <ele>138.2</ele>
+      </trkpt>
+      <trkpt lat="44.95273" lon="1.70441">
+        <ele>137.8</ele>
+      </trkpt>
+      <trkpt lat="44.95268" lon="1.705">
+        <ele>138.4</ele>
+      </trkpt>
+      <trkpt lat="44.95269" lon="1.70524">
+        <ele>137.5</ele>
+      </trkpt>
+      <trkpt lat="44.95281" lon="1.70591">
+        <ele>134.8</ele>
+      </trkpt>
+      <trkpt lat="44.95286" lon="1.70626">
+        <ele>134.1</ele>
+      </trkpt>
+      <trkpt lat="44.95288" lon="1.70653">
+        <ele>133.7</ele>
+      </trkpt>
+      <trkpt lat="44.95288" lon="1.70726">
+        <ele>133.4</ele>
+      </trkpt>
+      <trkpt lat="44.95282" lon="1.70803">
+        <ele>129.9</ele>
+      </trkpt>
+      <trkpt lat="44.95283" lon="1.70825">
+        <ele>129.1</ele>
+      </trkpt>
+      <trkpt lat="44.95288" lon="1.70856">
+        <ele>128.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>1</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.95292" lon="1.70879">
+        <ele>126.4</ele>
+      </trkpt>
+      <trkpt lat="44.95314" lon="1.70908">
+        <ele>126</ele>
+      </trkpt>
+      <trkpt lat="44.95404" lon="1.71009">
+        <ele>124.9</ele>
+      </trkpt>
+      <trkpt lat="44.95419" lon="1.71031">
+        <ele>124.9</ele>
+      </trkpt>
+      <trkpt lat="44.95428" lon="1.71048">
+        <ele>124.6</ele>
+      </trkpt>
+      <trkpt lat="44.95435" lon="1.71071">
+        <ele>124.5</ele>
+      </trkpt>
+      <trkpt lat="44.9544" lon="1.71108">
+        <ele>123.8</ele>
+      </trkpt>
+      <trkpt lat="44.95455" lon="1.71373">
+        <ele>122</ele>
+      </trkpt>
+      <trkpt lat="44.95478" lon="1.71466">
+        <ele>121.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>2</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.95471" lon="1.71476">
+        <ele>122.1</ele>
+      </trkpt>
+      <trkpt lat="44.95469" lon="1.71489">
+        <ele>122.5</ele>
+      </trkpt>
+      <trkpt lat="44.95471" lon="1.71502">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.95478" lon="1.71512">
+        <ele>123.2</ele>
+      </trkpt>
+      <trkpt lat="44.9546" lon="1.71531">
+        <ele>124.2</ele>
+      </trkpt>
+      <trkpt lat="44.95415" lon="1.71591">
+        <ele>126.1</ele>
+      </trkpt>
+      <trkpt lat="44.95384" lon="1.71628">
+        <ele>126.4</ele>
+      </trkpt>
+      <trkpt lat="44.94934" lon="1.72153">
+        <ele>127</ele>
+      </trkpt>
+      <trkpt lat="44.94897" lon="1.72199">
+        <ele>127.7</ele>
+      </trkpt>
+      <trkpt lat="44.94874" lon="1.72233">
+        <ele>126.3</ele>
+      </trkpt>
+      <trkpt lat="44.94742" lon="1.72452">
+        <ele>125.5</ele>
+      </trkpt>
+      <trkpt lat="44.94638" lon="1.72629">
+        <ele>123.2</ele>
+      </trkpt>
+      <trkpt lat="44.94617" lon="1.72669">
+        <ele>122.8</ele>
+      </trkpt>
+      <trkpt lat="44.94447" lon="1.73069">
+        <ele>121.1</ele>
+      </trkpt>
+      <trkpt lat="44.94403" lon="1.73169">
+        <ele>121.5</ele>
+      </trkpt>
+      <trkpt lat="44.94358" lon="1.73282">
+        <ele>122</ele>
+      </trkpt>
+      <trkpt lat="44.94336" lon="1.73328">
+        <ele>122.8</ele>
+      </trkpt>
+      <trkpt lat="44.94316" lon="1.73381">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.94283" lon="1.73459">
+        <ele>123</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>3</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.94271" lon="1.73453">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.94265" lon="1.73453">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.94242" lon="1.73461">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.94147" lon="1.73503">
+        <ele>123.5</ele>
+      </trkpt>
+      <trkpt lat="44.93914" lon="1.736">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.93436" lon="1.73803">
+        <ele>122.9</ele>
+      </trkpt>
+      <trkpt lat="44.92832" lon="1.74056">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.92043" lon="1.74389">
+        <ele>122.5</ele>
+      </trkpt>
+      <trkpt lat="44.91928" lon="1.74436">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.91806" lon="1.7449">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.91647" lon="1.74557">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.91624" lon="1.74565">
+        <ele>123.2</ele>
+      </trkpt>
+      <trkpt lat="44.91615" lon="1.74566">
+        <ele>123.3</ele>
+      </trkpt>
+      <trkpt lat="44.91601" lon="1.74563">
+        <ele>123.5</ele>
+      </trkpt>
+      <trkpt lat="44.91588" lon="1.74557">
+        <ele>123.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>4</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.91576" lon="1.74549">
+        <ele>123.9</ele>
+      </trkpt>
+      <trkpt lat="44.91561" lon="1.74531">
+        <ele>124.5</ele>
+      </trkpt>
+      <trkpt lat="44.91554" lon="1.74518">
+        <ele>124.3</ele>
+      </trkpt>
+      <trkpt lat="44.91547" lon="1.74499">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.91449" lon="1.74153">
+        <ele>122</ele>
+      </trkpt>
+      <trkpt lat="44.91382" lon="1.73902">
+        <ele>121.7</ele>
+      </trkpt>
+      <trkpt lat="44.91375" lon="1.73886">
+        <ele>121.1</ele>
+      </trkpt>
+      <trkpt lat="44.91358" lon="1.7386">
+        <ele>122.2</ele>
+      </trkpt>
+      <trkpt lat="44.91343" lon="1.73831">
+        <ele>124.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>5</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.91107" lon="1.73986">
+        <ele>129.4</ele>
+      </trkpt>
+      <trkpt lat="44.9103" lon="1.74034">
+        <ele>127.2</ele>
+      </trkpt>
+      <trkpt lat="44.90998" lon="1.7406">
+        <ele>127.7</ele>
+      </trkpt>
+      <trkpt lat="44.90976" lon="1.74086">
+        <ele>127.3</ele>
+      </trkpt>
+      <trkpt lat="44.90956" lon="1.74119">
+        <ele>127.5</ele>
+      </trkpt>
+      <trkpt lat="44.90809" lon="1.74394">
+        <ele>126.2</ele>
+      </trkpt>
+      <trkpt lat="44.90788" lon="1.74428">
+        <ele>127.5</ele>
+      </trkpt>
+      <trkpt lat="44.90775" lon="1.74446">
+        <ele>127.2</ele>
+      </trkpt>
+      <trkpt lat="44.90744" lon="1.74479">
+        <ele>126.2</ele>
+      </trkpt>
+      <trkpt lat="44.90732" lon="1.74489">
+        <ele>125.8</ele>
+      </trkpt>
+      <trkpt lat="44.90516" lon="1.74652">
+        <ele>128.5</ele>
+      </trkpt>
+      <trkpt lat="44.90477" lon="1.74685">
+        <ele>126.7</ele>
+      </trkpt>
+      <trkpt lat="44.90451" lon="1.74712">
+        <ele>126.7</ele>
+      </trkpt>
+      <trkpt lat="44.90413" lon="1.7476">
+        <ele>126</ele>
+      </trkpt>
+      <trkpt lat="44.90315" lon="1.74901">
+        <ele>126.7</ele>
+      </trkpt>
+      <trkpt lat="44.90291" lon="1.74945">
+        <ele>126.1</ele>
+      </trkpt>
+      <trkpt lat="44.90274" lon="1.74987">
+        <ele>125.4</ele>
+      </trkpt>
+      <trkpt lat="44.90155" lon="1.75304">
+        <ele>123.9</ele>
+      </trkpt>
+      <trkpt lat="44.90127" lon="1.7539">
+        <ele>124.7</ele>
+      </trkpt>
+      <trkpt lat="44.90104" lon="1.7548">
+        <ele>127.7</ele>
+      </trkpt>
+      <trkpt lat="44.9009" lon="1.75524">
+        <ele>126.5</ele>
+      </trkpt>
+      <trkpt lat="44.90063" lon="1.75583">
+        <ele>125</ele>
+      </trkpt>
+      <trkpt lat="44.90042" lon="1.75616">
+        <ele>126.4</ele>
+      </trkpt>
+      <trkpt lat="44.90015" lon="1.75652">
+        <ele>126.2</ele>
+      </trkpt>
+      <trkpt lat="44.90001" lon="1.75677">
+        <ele>126.1</ele>
+      </trkpt>
+      <trkpt lat="44.8991" lon="1.75918">
+        <ele>127.9</ele>
+      </trkpt>
+      <trkpt lat="44.89892" lon="1.75959">
+        <ele>127.3</ele>
+      </trkpt>
+      <trkpt lat="44.89871" lon="1.75998">
+        <ele>128.1</ele>
+      </trkpt>
+      <trkpt lat="44.89819" lon="1.7608">
+        <ele>130.2</ele>
+      </trkpt>
+      <trkpt lat="44.89805" lon="1.76109">
+        <ele>127.7</ele>
+      </trkpt>
+      <trkpt lat="44.89794" lon="1.76143">
+        <ele>129.3</ele>
+      </trkpt>
+      <trkpt lat="44.89773" lon="1.76231">
+        <ele>127.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>6</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.89765" lon="1.76229">
+        <ele>128.4</ele>
+      </trkpt>
+      <trkpt lat="44.89745" lon="1.76231">
+        <ele>130.3</ele>
+      </trkpt>
+      <trkpt lat="44.89735" lon="1.76235">
+        <ele>131.2</ele>
+      </trkpt>
+      <trkpt lat="44.89691" lon="1.76261">
+        <ele>137</ele>
+      </trkpt>
+      <trkpt lat="44.8968" lon="1.76265">
+        <ele>139.7</ele>
+      </trkpt>
+      <trkpt lat="44.8967" lon="1.76266">
+        <ele>141.3</ele>
+      </trkpt>
+      <trkpt lat="44.8966" lon="1.76265">
+        <ele>142.5</ele>
+      </trkpt>
+      <trkpt lat="44.89623" lon="1.76253">
+        <ele>145</ele>
+      </trkpt>
+      <trkpt lat="44.89602" lon="1.76248">
+        <ele>144.8</ele>
+      </trkpt>
+      <trkpt lat="44.8959" lon="1.76248">
+        <ele>145.3</ele>
+      </trkpt>
+      <trkpt lat="44.89561" lon="1.76257">
+        <ele>145.8</ele>
+      </trkpt>
+      <trkpt lat="44.89552" lon="1.76258">
+        <ele>146.1</ele>
+      </trkpt>
+      <trkpt lat="44.89533" lon="1.76252">
+        <ele>147.4</ele>
+      </trkpt>
+      <trkpt lat="44.8951" lon="1.76241">
+        <ele>149.4</ele>
+      </trkpt>
+      <trkpt lat="44.89503" lon="1.7624">
+        <ele>150</ele>
+      </trkpt>
+      <trkpt lat="44.89496" lon="1.76242">
+        <ele>150.5</ele>
+      </trkpt>
+      <trkpt lat="44.89483" lon="1.7625">
+        <ele>151.6</ele>
+      </trkpt>
+      <trkpt lat="44.89477" lon="1.76252">
+        <ele>152</ele>
+      </trkpt>
+      <trkpt lat="44.89471" lon="1.76251">
+        <ele>152.3</ele>
+      </trkpt>
+      <trkpt lat="44.8945" lon="1.76235">
+        <ele>154.4</ele>
+      </trkpt>
+      <trkpt lat="44.89415" lon="1.76202">
+        <ele>156.1</ele>
+      </trkpt>
+      <trkpt lat="44.89399" lon="1.76184">
+        <ele>158</ele>
+      </trkpt>
+      <trkpt lat="44.89368" lon="1.76143">
+        <ele>162.4</ele>
+      </trkpt>
+      <trkpt lat="44.89348" lon="1.76121">
+        <ele>164.9</ele>
+      </trkpt>
+      <trkpt lat="44.89339" lon="1.76114">
+        <ele>166.2</ele>
+      </trkpt>
+      <trkpt lat="44.89318" lon="1.76102">
+        <ele>169.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>7</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.89312" lon="1.76084">
+        <ele>170.4</ele>
+      </trkpt>
+      <trkpt lat="44.89315" lon="1.76052">
+        <ele>171.1</ele>
+      </trkpt>
+      <trkpt lat="44.89323" lon="1.76029">
+        <ele>172.9</ele>
+      </trkpt>
+      <trkpt lat="44.89328" lon="1.76022">
+        <ele>174</ele>
+      </trkpt>
+      <trkpt lat="44.89335" lon="1.76016">
+        <ele>175</ele>
+      </trkpt>
+      <trkpt lat="44.89351" lon="1.76009">
+        <ele>176.9</ele>
+      </trkpt>
+      <trkpt lat="44.89367" lon="1.76011">
+        <ele>177.9</ele>
+      </trkpt>
+      <trkpt lat="44.89375" lon="1.76015">
+        <ele>178.8</ele>
+      </trkpt>
+      <trkpt lat="44.89406" lon="1.7604">
+        <ele>181.3</ele>
+      </trkpt>
+      <trkpt lat="44.89417" lon="1.76047">
+        <ele>182.9</ele>
+      </trkpt>
+      <trkpt lat="44.89437" lon="1.76053">
+        <ele>184.5</ele>
+      </trkpt>
+      <trkpt lat="44.89446" lon="1.76053">
+        <ele>185.5</ele>
+      </trkpt>
+      <trkpt lat="44.89455" lon="1.7605">
+        <ele>186</ele>
+      </trkpt>
+      <trkpt lat="44.89471" lon="1.76036">
+        <ele>187.9</ele>
+      </trkpt>
+      <trkpt lat="44.8948" lon="1.76024">
+        <ele>189</ele>
+      </trkpt>
+      <trkpt lat="44.89505" lon="1.75983">
+        <ele>192</ele>
+      </trkpt>
+      <trkpt lat="44.89524" lon="1.75958">
+        <ele>193.9</ele>
+      </trkpt>
+      <trkpt lat="44.89534" lon="1.75948">
+        <ele>194.3</ele>
+      </trkpt>
+      <trkpt lat="44.89558" lon="1.7593">
+        <ele>196.6</ele>
+      </trkpt>
+      <trkpt lat="44.89633" lon="1.75881">
+        <ele>204.6</ele>
+      </trkpt>
+      <trkpt lat="44.89698" lon="1.75855">
+        <ele>210.9</ele>
+      </trkpt>
+      <trkpt lat="44.89742" lon="1.75829">
+        <ele>215.3</ele>
+      </trkpt>
+      <trkpt lat="44.89753" lon="1.7582">
+        <ele>216.2</ele>
+      </trkpt>
+      <trkpt lat="44.89761" lon="1.7581">
+        <ele>216.7</ele>
+      </trkpt>
+      <trkpt lat="44.89773" lon="1.75787">
+        <ele>218.5</ele>
+      </trkpt>
+      <trkpt lat="44.89779" lon="1.7577">
+        <ele>219.5</ele>
+      </trkpt>
+      <trkpt lat="44.89784" lon="1.75749">
+        <ele>220.5</ele>
+      </trkpt>
+      <trkpt lat="44.89792" lon="1.75698">
+        <ele>224.1</ele>
+      </trkpt>
+      <trkpt lat="44.89793" lon="1.75679">
+        <ele>225</ele>
+      </trkpt>
+      <trkpt lat="44.89787" lon="1.75616">
+        <ele>229.7</ele>
+      </trkpt>
+      <trkpt lat="44.89765" lon="1.75502">
+        <ele>236.7</ele>
+      </trkpt>
+      <trkpt lat="44.89756" lon="1.75483">
+        <ele>238.1</ele>
+      </trkpt>
+      <trkpt lat="44.89744" lon="1.75473">
+        <ele>239</ele>
+      </trkpt>
+      <trkpt lat="44.89735" lon="1.7547">
+        <ele>239.6</ele>
+      </trkpt>
+      <trkpt lat="44.897" lon="1.75467">
+        <ele>242.6</ele>
+      </trkpt>
+      <trkpt lat="44.89686" lon="1.75464">
+        <ele>243.6</ele>
+      </trkpt>
+      <trkpt lat="44.89676" lon="1.7546">
+        <ele>244.4</ele>
+      </trkpt>
+      <trkpt lat="44.89667" lon="1.75454">
+        <ele>245</ele>
+      </trkpt>
+      <trkpt lat="44.89653" lon="1.75439">
+        <ele>246.9</ele>
+      </trkpt>
+      <trkpt lat="44.89634" lon="1.75409">
+        <ele>250.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>8</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.89613" lon="1.75381">
+        <ele>253.4</ele>
+      </trkpt>
+      <trkpt lat="44.89531" lon="1.75295">
+        <ele>262.5</ele>
+      </trkpt>
+      <trkpt lat="44.89522" lon="1.75284">
+        <ele>264</ele>
+      </trkpt>
+      <trkpt lat="44.89488" lon="1.75234">
+        <ele>266.8</ele>
+      </trkpt>
+      <trkpt lat="44.8948" lon="1.75224">
+        <ele>267.9</ele>
+      </trkpt>
+      <trkpt lat="44.89471" lon="1.75216">
+        <ele>269.1</ele>
+      </trkpt>
+      <trkpt lat="44.89446" lon="1.752">
+        <ele>271.7</ele>
+      </trkpt>
+      <trkpt lat="44.89401" lon="1.7518">
+        <ele>275.3</ele>
+      </trkpt>
+      <trkpt lat="44.89388" lon="1.75176">
+        <ele>277.4</ele>
+      </trkpt>
+      <trkpt lat="44.89354" lon="1.75173">
+        <ele>279.7</ele>
+      </trkpt>
+      <trkpt lat="44.89334" lon="1.75166">
+        <ele>280.9</ele>
+      </trkpt>
+      <trkpt lat="44.89326" lon="1.7516">
+        <ele>281.7</ele>
+      </trkpt>
+      <trkpt lat="44.89317" lon="1.7515">
+        <ele>282.9</ele>
+      </trkpt>
+      <trkpt lat="44.89304" lon="1.75126">
+        <ele>284.8</ele>
+      </trkpt>
+      <trkpt lat="44.89288" lon="1.75071">
+        <ele>288.1</ele>
+      </trkpt>
+      <trkpt lat="44.89277" lon="1.75047">
+        <ele>289.8</ele>
+      </trkpt>
+      <trkpt lat="44.89263" lon="1.75033">
+        <ele>291.5</ele>
+      </trkpt>
+      <trkpt lat="44.89253" lon="1.75028">
+        <ele>292.6</ele>
+      </trkpt>
+      <trkpt lat="44.89231" lon="1.75022">
+        <ele>294.4</ele>
+      </trkpt>
+      <trkpt lat="44.89192" lon="1.75019">
+        <ele>297.2</ele>
+      </trkpt>
+      <trkpt lat="44.89171" lon="1.75023">
+        <ele>299.2</ele>
+      </trkpt>
+      <trkpt lat="44.89144" lon="1.75035">
+        <ele>301.6</ele>
+      </trkpt>
+      <trkpt lat="44.89114" lon="1.75055">
+        <ele>304.8</ele>
+      </trkpt>
+      <trkpt lat="44.89104" lon="1.75063">
+        <ele>305.8</ele>
+      </trkpt>
+      <trkpt lat="44.89096" lon="1.75073">
+        <ele>306.9</ele>
+      </trkpt>
+      <trkpt lat="44.89085" lon="1.75095">
+        <ele>308.4</ele>
+      </trkpt>
+      <trkpt lat="44.89076" lon="1.75132">
+        <ele>310.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>9</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.89058" lon="1.75244">
+        <ele>311</ele>
+      </trkpt>
+      <trkpt lat="44.89052" lon="1.75269">
+        <ele>310.9</ele>
+      </trkpt>
+      <trkpt lat="44.89044" lon="1.75288">
+        <ele>311</ele>
+      </trkpt>
+      <trkpt lat="44.89033" lon="1.75301">
+        <ele>311</ele>
+      </trkpt>
+      <trkpt lat="44.89018" lon="1.75306">
+        <ele>310.7</ele>
+      </trkpt>
+      <trkpt lat="44.88997" lon="1.75304">
+        <ele>309.7</ele>
+      </trkpt>
+      <trkpt lat="44.88984" lon="1.753">
+        <ele>308.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>10</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.8892" lon="1.75278">
+        <ele>304.9</ele>
+      </trkpt>
+      <trkpt lat="44.88884" lon="1.75271">
+        <ele>306.5</ele>
+      </trkpt>
+      <trkpt lat="44.88868" lon="1.7527">
+        <ele>307.2</ele>
+      </trkpt>
+      <trkpt lat="44.88834" lon="1.75274">
+        <ele>308.5</ele>
+      </trkpt>
+      <trkpt lat="44.88785" lon="1.75291">
+        <ele>311</ele>
+      </trkpt>
+      <trkpt lat="44.88767" lon="1.75294">
+        <ele>311.5</ele>
+      </trkpt>
+      <trkpt lat="44.88733" lon="1.75295">
+        <ele>312.5</ele>
+      </trkpt>
+      <trkpt lat="44.88707" lon="1.7529">
+        <ele>313.5</ele>
+      </trkpt>
+      <trkpt lat="44.88696" lon="1.75286">
+        <ele>313.9</ele>
+      </trkpt>
+      <trkpt lat="44.88684" lon="1.75279">
+        <ele>314.4</ele>
+      </trkpt>
+      <trkpt lat="44.88659" lon="1.7526">
+        <ele>315.6</ele>
+      </trkpt>
+      <trkpt lat="44.886" lon="1.75208">
+        <ele>317.2</ele>
+      </trkpt>
+      <trkpt lat="44.8858" lon="1.75195">
+        <ele>316.8</ele>
+      </trkpt>
+      <trkpt lat="44.88569" lon="1.7519">
+        <ele>316.7</ele>
+      </trkpt>
+      <trkpt lat="44.88544" lon="1.75184">
+        <ele>316.8</ele>
+      </trkpt>
+      <trkpt lat="44.88484" lon="1.75176">
+        <ele>319.3</ele>
+      </trkpt>
+      <trkpt lat="44.88462" lon="1.75167">
+        <ele>321.7</ele>
+      </trkpt>
+      <trkpt lat="44.88453" lon="1.75161">
+        <ele>322.5</ele>
+      </trkpt>
+      <trkpt lat="44.88444" lon="1.75151">
+        <ele>323.6</ele>
+      </trkpt>
+      <trkpt lat="44.88413" lon="1.75106">
+        <ele>326.4</ele>
+      </trkpt>
+      <trkpt lat="44.88395" lon="1.7509">
+        <ele>328.3</ele>
+      </trkpt>
+      <trkpt lat="44.88287" lon="1.75032">
+        <ele>329.8</ele>
+      </trkpt>
+      <trkpt lat="44.88263" lon="1.75014">
+        <ele>330.4</ele>
+      </trkpt>
+      <trkpt lat="44.88239" lon="1.74988">
+        <ele>331.9</ele>
+      </trkpt>
+      <trkpt lat="44.88193" lon="1.74922">
+        <ele>334.9</ele>
+      </trkpt>
+      <trkpt lat="44.88171" lon="1.74894">
+        <ele>335.8</ele>
+      </trkpt>
+      <trkpt lat="44.88109" lon="1.7483">
+        <ele>336.8</ele>
+      </trkpt>
+      <trkpt lat="44.88089" lon="1.74814">
+        <ele>336.4</ele>
+      </trkpt>
+      <trkpt lat="44.88062" lon="1.74801">
+        <ele>334.9</ele>
+      </trkpt>
+      <trkpt lat="44.88043" lon="1.74794">
+        <ele>334.4</ele>
+      </trkpt>
+      <trkpt lat="44.87949" lon="1.74763">
+        <ele>333.4</ele>
+      </trkpt>
+      <trkpt lat="44.8792" lon="1.74755">
+        <ele>333.2</ele>
+      </trkpt>
+      <trkpt lat="44.87847" lon="1.74739">
+        <ele>332.5</ele>
+      </trkpt>
+      <trkpt lat="44.87833" lon="1.74734">
+        <ele>332.3</ele>
+      </trkpt>
+      <trkpt lat="44.87822" lon="1.74728">
+        <ele>332</ele>
+      </trkpt>
+      <trkpt lat="44.87786" lon="1.74699">
+        <ele>331</ele>
+      </trkpt>
+      <trkpt lat="44.87774" lon="1.74693">
+        <ele>330.9</ele>
+      </trkpt>
+      <trkpt lat="44.87731" lon="1.74681">
+        <ele>328.9</ele>
+      </trkpt>
+      <trkpt lat="44.87698" lon="1.74667">
+        <ele>327</ele>
+      </trkpt>
+      <trkpt lat="44.87601" lon="1.74611">
+        <ele>320.6</ele>
+      </trkpt>
+      <trkpt lat="44.87573" lon="1.74592">
+        <ele>318.9</ele>
+      </trkpt>
+      <trkpt lat="44.87544" lon="1.74568">
+        <ele>317</ele>
+      </trkpt>
+      <trkpt lat="44.87515" lon="1.7454">
+        <ele>315.2</ele>
+      </trkpt>
+      <trkpt lat="44.87488" lon="1.7451">
+        <ele>313.8</ele>
+      </trkpt>
+      <trkpt lat="44.87475" lon="1.74493">
+        <ele>313.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>11</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.87452" lon="1.7446">
+        <ele>313.3</ele>
+      </trkpt>
+      <trkpt lat="44.87369" lon="1.74333">
+        <ele>312.4</ele>
+      </trkpt>
+      <trkpt lat="44.87333" lon="1.74269">
+        <ele>311.7</ele>
+      </trkpt>
+      <trkpt lat="44.87294" lon="1.74192">
+        <ele>311.4</ele>
+      </trkpt>
+      <trkpt lat="44.8728" lon="1.74171">
+        <ele>312.6</ele>
+      </trkpt>
+      <trkpt lat="44.87261" lon="1.74154">
+        <ele>314.2</ele>
+      </trkpt>
+      <trkpt lat="44.87221" lon="1.74125">
+        <ele>318.6</ele>
+      </trkpt>
+      <trkpt lat="44.87124" lon="1.7405">
+        <ele>320.6</ele>
+      </trkpt>
+      <trkpt lat="44.87117" lon="1.74045">
+        <ele>320.5</ele>
+      </trkpt>
+      <trkpt lat="44.87105" lon="1.7404">
+        <ele>320.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>12</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.87084" lon="1.74037">
+        <ele>319</ele>
+      </trkpt>
+      <trkpt lat="44.86849" lon="1.74031">
+        <ele>320.5</ele>
+      </trkpt>
+      <trkpt lat="44.86808" lon="1.74032">
+        <ele>322.2</ele>
+      </trkpt>
+      <trkpt lat="44.86792" lon="1.74034">
+        <ele>322.9</ele>
+      </trkpt>
+      <trkpt lat="44.86428" lon="1.74107">
+        <ele>329.9</ele>
+      </trkpt>
+      <trkpt lat="44.864" lon="1.74118">
+        <ele>331.9</ele>
+      </trkpt>
+      <trkpt lat="44.8637" lon="1.74137">
+        <ele>334.5</ele>
+      </trkpt>
+      <trkpt lat="44.86345" lon="1.74162">
+        <ele>336.7</ele>
+      </trkpt>
+      <trkpt lat="44.8633" lon="1.74182">
+        <ele>337.5</ele>
+      </trkpt>
+      <trkpt lat="44.8632" lon="1.74197">
+        <ele>338.1</ele>
+      </trkpt>
+      <trkpt lat="44.86303" lon="1.74231">
+        <ele>339.2</ele>
+      </trkpt>
+      <trkpt lat="44.86296" lon="1.7425">
+        <ele>339.7</ele>
+      </trkpt>
+      <trkpt lat="44.86283" lon="1.74295">
+        <ele>341</ele>
+      </trkpt>
+      <trkpt lat="44.8623" lon="1.74511">
+        <ele>345.5</ele>
+      </trkpt>
+      <trkpt lat="44.86204" lon="1.74603">
+        <ele>346.5</ele>
+      </trkpt>
+      <trkpt lat="44.8618" lon="1.74676">
+        <ele>347.8</ele>
+      </trkpt>
+      <trkpt lat="44.86164" lon="1.74717">
+        <ele>348.2</ele>
+      </trkpt>
+      <trkpt lat="44.86145" lon="1.74757">
+        <ele>349.1</ele>
+      </trkpt>
+      <trkpt lat="44.86127" lon="1.74786">
+        <ele>348.7</ele>
+      </trkpt>
+      <trkpt lat="44.86093" lon="1.74828">
+        <ele>348.2</ele>
+      </trkpt>
+      <trkpt lat="44.85962" lon="1.74961">
+        <ele>347.5</ele>
+      </trkpt>
+      <trkpt lat="44.85867" lon="1.7506">
+        <ele>346.1</ele>
+      </trkpt>
+      <trkpt lat="44.85839" lon="1.75085">
+        <ele>345.8</ele>
+      </trkpt>
+      <trkpt lat="44.85829" lon="1.75091">
+        <ele>345.6</ele>
+      </trkpt>
+      <trkpt lat="44.85811" lon="1.75097">
+        <ele>345.3</ele>
+      </trkpt>
+      <trkpt lat="44.85792" lon="1.75098">
+        <ele>344.1</ele>
+      </trkpt>
+      <trkpt lat="44.85782" lon="1.75096">
+        <ele>343.2</ele>
+      </trkpt>
+      <trkpt lat="44.85764" lon="1.7509">
+        <ele>341.6</ele>
+      </trkpt>
+      <trkpt lat="44.85745" lon="1.75079">
+        <ele>339.5</ele>
+      </trkpt>
+      <trkpt lat="44.85746" lon="1.7507">
+        <ele>338.9</ele>
+      </trkpt>
+      <trkpt lat="44.85745" lon="1.75066">
+        <ele>338.6</ele>
+      </trkpt>
+      <trkpt lat="44.85742" lon="1.75063">
+        <ele>338.2</ele>
+      </trkpt>
+      <trkpt lat="44.85733" lon="1.7506">
+        <ele>337.7</ele>
+      </trkpt>
+      <trkpt lat="44.85727" lon="1.75061">
+        <ele>337.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>13</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.85687" lon="1.75058">
+        <ele>337.9</ele>
+      </trkpt>
+      <trkpt lat="44.85591" lon="1.75011">
+        <ele>341.7</ele>
+      </trkpt>
+      <trkpt lat="44.85536" lon="1.74989">
+        <ele>343.7</ele>
+      </trkpt>
+      <trkpt lat="44.85513" lon="1.74974">
+        <ele>344.5</ele>
+      </trkpt>
+      <trkpt lat="44.85494" lon="1.74953">
+        <ele>345.4</ele>
+      </trkpt>
+      <trkpt lat="44.85455" lon="1.74883">
+        <ele>350.5</ele>
+      </trkpt>
+      <trkpt lat="44.85436" lon="1.74854">
+        <ele>352.6</ele>
+      </trkpt>
+      <trkpt lat="44.85414" lon="1.74831">
+        <ele>354.2</ele>
+      </trkpt>
+      <trkpt lat="44.85392" lon="1.74811">
+        <ele>355</ele>
+      </trkpt>
+      <trkpt lat="44.85332" lon="1.7476">
+        <ele>353.9</ele>
+      </trkpt>
+      <trkpt lat="44.85293" lon="1.74732">
+        <ele>354.4</ele>
+      </trkpt>
+      <trkpt lat="44.85244" lon="1.74709">
+        <ele>352.5</ele>
+      </trkpt>
+      <trkpt lat="44.85151" lon="1.74669">
+        <ele>356.2</ele>
+      </trkpt>
+      <trkpt lat="44.8514" lon="1.74663">
+        <ele>356.7</ele>
+      </trkpt>
+      <trkpt lat="44.85123" lon="1.74649">
+        <ele>356.3</ele>
+      </trkpt>
+      <trkpt lat="44.85115" lon="1.74635">
+        <ele>355.7</ele>
+      </trkpt>
+      <trkpt lat="44.85111" lon="1.74622">
+        <ele>355.4</ele>
+      </trkpt>
+      <trkpt lat="44.85109" lon="1.74609">
+        <ele>355</ele>
+      </trkpt>
+      <trkpt lat="44.85108" lon="1.74577">
+        <ele>354.7</ele>
+      </trkpt>
+      <trkpt lat="44.85103" lon="1.74548">
+        <ele>354.9</ele>
+      </trkpt>
+      <trkpt lat="44.85098" lon="1.74535">
+        <ele>355.3</ele>
+      </trkpt>
+      <trkpt lat="44.85091" lon="1.74523">
+        <ele>355.5</ele>
+      </trkpt>
+      <trkpt lat="44.85084" lon="1.74513">
+        <ele>355.8</ele>
+      </trkpt>
+      <trkpt lat="44.85073" lon="1.74502">
+        <ele>355.4</ele>
+      </trkpt>
+      <trkpt lat="44.85041" lon="1.74482">
+        <ele>352.8</ele>
+      </trkpt>
+      <trkpt lat="44.84943" lon="1.74434">
+        <ele>349.5</ele>
+      </trkpt>
+      <trkpt lat="44.8491" lon="1.74416">
+        <ele>349.8</ele>
+      </trkpt>
+      <trkpt lat="44.84878" lon="1.74394">
+        <ele>350.6</ele>
+      </trkpt>
+      <trkpt lat="44.84826" lon="1.74354">
+        <ele>354.7</ele>
+      </trkpt>
+      <trkpt lat="44.84814" lon="1.74346">
+        <ele>355.3</ele>
+      </trkpt>
+      <trkpt lat="44.84799" lon="1.74339">
+        <ele>355.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>14</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.84775" lon="1.7434">
+        <ele>355.3</ele>
+      </trkpt>
+      <trkpt lat="44.84758" lon="1.74344">
+        <ele>355.1</ele>
+      </trkpt>
+      <trkpt lat="44.84746" lon="1.74349">
+        <ele>354.9</ele>
+      </trkpt>
+      <trkpt lat="44.84733" lon="1.74356">
+        <ele>354.8</ele>
+      </trkpt>
+      <trkpt lat="44.8472" lon="1.74367">
+        <ele>354.5</ele>
+      </trkpt>
+      <trkpt lat="44.84711" lon="1.74379">
+        <ele>353.8</ele>
+      </trkpt>
+      <trkpt lat="44.84702" lon="1.74394">
+        <ele>353.6</ele>
+      </trkpt>
+      <trkpt lat="44.84684" lon="1.74432">
+        <ele>353</ele>
+      </trkpt>
+      <trkpt lat="44.84669" lon="1.7447">
+        <ele>352.1</ele>
+      </trkpt>
+      <trkpt lat="44.84659" lon="1.74518">
+        <ele>351.7</ele>
+      </trkpt>
+      <trkpt lat="44.84656" lon="1.74579">
+        <ele>351.6</ele>
+      </trkpt>
+      <trkpt lat="44.84651" lon="1.74601">
+        <ele>352.1</ele>
+      </trkpt>
+      <trkpt lat="44.84641" lon="1.74626">
+        <ele>352.7</ele>
+      </trkpt>
+      <trkpt lat="44.84625" lon="1.74656">
+        <ele>352.5</ele>
+      </trkpt>
+      <trkpt lat="44.8461" lon="1.74676">
+        <ele>353</ele>
+      </trkpt>
+      <trkpt lat="44.84539" lon="1.74752">
+        <ele>354.7</ele>
+      </trkpt>
+      <trkpt lat="44.84504" lon="1.74805">
+        <ele>356.8</ele>
+      </trkpt>
+      <trkpt lat="44.84482" lon="1.74849">
+        <ele>357.9</ele>
+      </trkpt>
+      <trkpt lat="44.84427" lon="1.74973">
+        <ele>359.6</ele>
+      </trkpt>
+      <trkpt lat="44.84387" lon="1.7508">
+        <ele>356.3</ele>
+      </trkpt>
+      <trkpt lat="44.84369" lon="1.75122">
+        <ele>355.4</ele>
+      </trkpt>
+      <trkpt lat="44.84361" lon="1.75137">
+        <ele>356</ele>
+      </trkpt>
+      <trkpt lat="44.84353" lon="1.75149">
+        <ele>355.7</ele>
+      </trkpt>
+      <trkpt lat="44.84318" lon="1.75191">
+        <ele>356</ele>
+      </trkpt>
+      <trkpt lat="44.84267" lon="1.75247">
+        <ele>357.9</ele>
+      </trkpt>
+      <trkpt lat="44.8425" lon="1.75259">
+        <ele>358</ele>
+      </trkpt>
+      <trkpt lat="44.84212" lon="1.75277">
+        <ele>359</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>15</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.84221" lon="1.75272">
+        <ele>359</ele>
+      </trkpt>
+      <trkpt lat="44.84198" lon="1.75244">
+        <ele>358.8</ele>
+      </trkpt>
+      <trkpt lat="44.8419" lon="1.75231">
+        <ele>358.2</ele>
+      </trkpt>
+      <trkpt lat="44.84164" lon="1.75172">
+        <ele>357</ele>
+      </trkpt>
+      <trkpt lat="44.84098" lon="1.75031">
+        <ele>356.5</ele>
+      </trkpt>
+      <trkpt lat="44.8405" lon="1.74916">
+        <ele>362.4</ele>
+      </trkpt>
+      <trkpt lat="44.8404" lon="1.74899">
+        <ele>363.5</ele>
+      </trkpt>
+      <trkpt lat="44.84027" lon="1.74884">
+        <ele>365</ele>
+      </trkpt>
+      <trkpt lat="44.83992" lon="1.74851">
+        <ele>366.4</ele>
+      </trkpt>
+      <trkpt lat="44.83974" lon="1.74831">
+        <ele>368</ele>
+      </trkpt>
+      <trkpt lat="44.8395" lon="1.748">
+        <ele>371.4</ele>
+      </trkpt>
+      <trkpt lat="44.83914" lon="1.74748">
+        <ele>373.5</ele>
+      </trkpt>
+      <trkpt lat="44.83901" lon="1.74726">
+        <ele>375.2</ele>
+      </trkpt>
+      <trkpt lat="44.83885" lon="1.74694">
+        <ele>377.5</ele>
+      </trkpt>
+      <trkpt lat="44.83878" lon="1.74687">
+        <ele>377.3</ele>
+      </trkpt>
+      <trkpt lat="44.8386" lon="1.74677">
+        <ele>378.6</ele>
+      </trkpt>
+      <trkpt lat="44.83827" lon="1.74664">
+        <ele>380.7</ele>
+      </trkpt>
+      <trkpt lat="44.8382" lon="1.74659">
+        <ele>381.4</ele>
+      </trkpt>
+      <trkpt lat="44.83815" lon="1.74653">
+        <ele>381.8</ele>
+      </trkpt>
+      <trkpt lat="44.83812" lon="1.74647">
+        <ele>382</ele>
+      </trkpt>
+      <trkpt lat="44.8381" lon="1.74637">
+        <ele>382.2</ele>
+      </trkpt>
+      <trkpt lat="44.83811" lon="1.7459">
+        <ele>384.7</ele>
+      </trkpt>
+      <trkpt lat="44.83808" lon="1.74561">
+        <ele>386.4</ele>
+      </trkpt>
+      <trkpt lat="44.83801" lon="1.74518">
+        <ele>389.8</ele>
+      </trkpt>
+      <trkpt lat="44.83802" lon="1.745">
+        <ele>389.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>16</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.83807" lon="1.7448">
+        <ele>390.2</ele>
+      </trkpt>
+      <trkpt lat="44.83816" lon="1.74463">
+        <ele>391.4</ele>
+      </trkpt>
+      <trkpt lat="44.83858" lon="1.74407">
+        <ele>395.5</ele>
+      </trkpt>
+      <trkpt lat="44.83866" lon="1.74394">
+        <ele>397.1</ele>
+      </trkpt>
+      <trkpt lat="44.8387" lon="1.74385">
+        <ele>397.4</ele>
+      </trkpt>
+      <trkpt lat="44.83873" lon="1.74366">
+        <ele>397.8</ele>
+      </trkpt>
+      <trkpt lat="44.83868" lon="1.74341">
+        <ele>398.7</ele>
+      </trkpt>
+      <trkpt lat="44.83861" lon="1.74327">
+        <ele>399.1</ele>
+      </trkpt>
+      <trkpt lat="44.83833" lon="1.74294">
+        <ele>402</ele>
+      </trkpt>
+      <trkpt lat="44.83818" lon="1.74272">
+        <ele>404.2</ele>
+      </trkpt>
+      <trkpt lat="44.83811" lon="1.74257">
+        <ele>404.9</ele>
+      </trkpt>
+      <trkpt lat="44.83809" lon="1.74244">
+        <ele>404.8</ele>
+      </trkpt>
+      <trkpt lat="44.83809" lon="1.7423">
+        <ele>405.3</ele>
+      </trkpt>
+      <trkpt lat="44.83817" lon="1.74193">
+        <ele>406.8</ele>
+      </trkpt>
+      <trkpt lat="44.83819" lon="1.74172">
+        <ele>408.9</ele>
+      </trkpt>
+      <trkpt lat="44.83818" lon="1.74158">
+        <ele>409.4</ele>
+      </trkpt>
+      <trkpt lat="44.83814" lon="1.74144">
+        <ele>410</ele>
+      </trkpt>
+      <trkpt lat="44.838" lon="1.74119">
+        <ele>411.2</ele>
+      </trkpt>
+      <trkpt lat="44.83756" lon="1.74061">
+        <ele>414.6</ele>
+      </trkpt>
+      <trkpt lat="44.83641" lon="1.73897">
+        <ele>416.7</ele>
+      </trkpt>
+      <trkpt lat="44.83596" lon="1.73844">
+        <ele>415.8</ele>
+      </trkpt>
+      <trkpt lat="44.83562" lon="1.738">
+        <ele>414.4</ele>
+      </trkpt>
+      <trkpt lat="44.83532" lon="1.73758">
+        <ele>411.6</ele>
+      </trkpt>
+      <trkpt lat="44.8346" lon="1.73627">
+        <ele>402.9</ele>
+      </trkpt>
+      <trkpt lat="44.8343" lon="1.73597">
+        <ele>400.5</ele>
+      </trkpt>
+      <trkpt lat="44.83407" lon="1.73579">
+        <ele>398.7</ele>
+      </trkpt>
+      <trkpt lat="44.83373" lon="1.73555">
+        <ele>396.8</ele>
+      </trkpt>
+      <trkpt lat="44.83282" lon="1.735">
+        <ele>392</ele>
+      </trkpt>
+      <trkpt lat="44.83261" lon="1.73485">
+        <ele>391</ele>
+      </trkpt>
+      <trkpt lat="44.8324" lon="1.73465">
+        <ele>390.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>17</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.83152" lon="1.7335">
+        <ele>389.6</ele>
+      </trkpt>
+      <trkpt lat="44.83123" lon="1.7331">
+        <ele>389</ele>
+      </trkpt>
+      <trkpt lat="44.83115" lon="1.73298">
+        <ele>388.7</ele>
+      </trkpt>
+      <trkpt lat="44.8311" lon="1.73287">
+        <ele>388.3</ele>
+      </trkpt>
+      <trkpt lat="44.83104" lon="1.73268">
+        <ele>387.7</ele>
+      </trkpt>
+      <trkpt lat="44.83102" lon="1.73244">
+        <ele>387.5</ele>
+      </trkpt>
+      <trkpt lat="44.83106" lon="1.73188">
+        <ele>386.2</ele>
+      </trkpt>
+      <trkpt lat="44.83113" lon="1.73143">
+        <ele>386.6</ele>
+      </trkpt>
+      <trkpt lat="44.83135" lon="1.73049">
+        <ele>387.5</ele>
+      </trkpt>
+      <trkpt lat="44.83139" lon="1.73025">
+        <ele>388</ele>
+      </trkpt>
+      <trkpt lat="44.83141" lon="1.72988">
+        <ele>387.9</ele>
+      </trkpt>
+      <trkpt lat="44.8314" lon="1.72902">
+        <ele>386.8</ele>
+      </trkpt>
+      <trkpt lat="44.83135" lon="1.72866">
+        <ele>387.5</ele>
+      </trkpt>
+      <trkpt lat="44.8313" lon="1.7285">
+        <ele>386.9</ele>
+      </trkpt>
+      <trkpt lat="44.83122" lon="1.72837">
+        <ele>386</ele>
+      </trkpt>
+      <trkpt lat="44.83111" lon="1.72825">
+        <ele>385.1</ele>
+      </trkpt>
+      <trkpt lat="44.83095" lon="1.72812">
+        <ele>383.6</ele>
+      </trkpt>
+      <trkpt lat="44.83043" lon="1.72782">
+        <ele>381.5</ele>
+      </trkpt>
+      <trkpt lat="44.8302" lon="1.72773">
+        <ele>380.7</ele>
+      </trkpt>
+      <trkpt lat="44.8298" lon="1.72777">
+        <ele>379.4</ele>
+      </trkpt>
+      <trkpt lat="44.82968" lon="1.72777">
+        <ele>378.9</ele>
+      </trkpt>
+      <trkpt lat="44.82955" lon="1.72774">
+        <ele>378.6</ele>
+      </trkpt>
+      <trkpt lat="44.8294" lon="1.72766">
+        <ele>378.2</ele>
+      </trkpt>
+      <trkpt lat="44.82922" lon="1.72753">
+        <ele>377.2</ele>
+      </trkpt>
+      <trkpt lat="44.82879" lon="1.72716">
+        <ele>374.7</ele>
+      </trkpt>
+      <trkpt lat="44.82869" lon="1.72709">
+        <ele>374.3</ele>
+      </trkpt>
+      <trkpt lat="44.82859" lon="1.72706">
+        <ele>374.1</ele>
+      </trkpt>
+      <trkpt lat="44.82849" lon="1.72705">
+        <ele>373.3</ele>
+      </trkpt>
+      <trkpt lat="44.82839" lon="1.72707">
+        <ele>372.8</ele>
+      </trkpt>
+      <trkpt lat="44.82828" lon="1.72713">
+        <ele>372.4</ele>
+      </trkpt>
+      <trkpt lat="44.8281" lon="1.72729">
+        <ele>372.2</ele>
+      </trkpt>
+      <trkpt lat="44.82789" lon="1.72753">
+        <ele>371.8</ele>
+      </trkpt>
+      <trkpt lat="44.82767" lon="1.7277">
+        <ele>370.8</ele>
+      </trkpt>
+      <trkpt lat="44.82757" lon="1.72774">
+        <ele>370.8</ele>
+      </trkpt>
+      <trkpt lat="44.82746" lon="1.72776">
+        <ele>370.9</ele>
+      </trkpt>
+      <trkpt lat="44.82733" lon="1.72775">
+        <ele>371.3</ele>
+      </trkpt>
+      <trkpt lat="44.8272" lon="1.72771">
+        <ele>371.5</ele>
+      </trkpt>
+      <trkpt lat="44.82703" lon="1.7276">
+        <ele>371.2</ele>
+      </trkpt>
+      <trkpt lat="44.82643" lon="1.72683">
+        <ele>374.6</ele>
+      </trkpt>
+      <trkpt lat="44.82629" lon="1.72661">
+        <ele>374.9</ele>
+      </trkpt>
+      <trkpt lat="44.82623" lon="1.72645">
+        <ele>375.5</ele>
+      </trkpt>
+      <trkpt lat="44.82619" lon="1.72612">
+        <ele>376.3</ele>
+      </trkpt>
+      <trkpt lat="44.82622" lon="1.72594">
+        <ele>376</ele>
+      </trkpt>
+      <trkpt lat="44.82629" lon="1.72571">
+        <ele>376.2</ele>
+      </trkpt>
+      <trkpt lat="44.82646" lon="1.72535">
+        <ele>378.3</ele>
+      </trkpt>
+      <trkpt lat="44.82651" lon="1.72519">
+        <ele>379</ele>
+      </trkpt>
+      <trkpt lat="44.82653" lon="1.72507">
+        <ele>379.8</ele>
+      </trkpt>
+      <trkpt lat="44.82652" lon="1.72493">
+        <ele>380.1</ele>
+      </trkpt>
+      <trkpt lat="44.82647" lon="1.72478">
+        <ele>379.5</ele>
+      </trkpt>
+      <trkpt lat="44.82624" lon="1.72432">
+        <ele>378.7</ele>
+      </trkpt>
+      <trkpt lat="44.82602" lon="1.72366">
+        <ele>381.1</ele>
+      </trkpt>
+      <trkpt lat="44.82576" lon="1.72304">
+        <ele>380.2</ele>
+      </trkpt>
+      <trkpt lat="44.82566" lon="1.72285">
+        <ele>380.6</ele>
+      </trkpt>
+      <trkpt lat="44.82553" lon="1.72267">
+        <ele>381.1</ele>
+      </trkpt>
+      <trkpt lat="44.82545" lon="1.72259">
+        <ele>381</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>18</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.8252" lon="1.72237">
+        <ele>381.5</ele>
+      </trkpt>
+      <trkpt lat="44.82507" lon="1.72223">
+        <ele>381.9</ele>
+      </trkpt>
+      <trkpt lat="44.82496" lon="1.72205">
+        <ele>382.2</ele>
+      </trkpt>
+      <trkpt lat="44.82489" lon="1.72183">
+        <ele>381.2</ele>
+      </trkpt>
+      <trkpt lat="44.82483" lon="1.72143">
+        <ele>381.3</ele>
+      </trkpt>
+      <trkpt lat="44.82482" lon="1.72118">
+        <ele>381.5</ele>
+      </trkpt>
+      <trkpt lat="44.82486" lon="1.72097">
+        <ele>380.5</ele>
+      </trkpt>
+      <trkpt lat="44.82494" lon="1.72077">
+        <ele>379.5</ele>
+      </trkpt>
+      <trkpt lat="44.82512" lon="1.72051">
+        <ele>378.9</ele>
+      </trkpt>
+      <trkpt lat="44.82542" lon="1.72015">
+        <ele>378.6</ele>
+      </trkpt>
+      <trkpt lat="44.82597" lon="1.71911">
+        <ele>375.6</ele>
+      </trkpt>
+      <trkpt lat="44.82608" lon="1.71892">
+        <ele>375.2</ele>
+      </trkpt>
+      <trkpt lat="44.82633" lon="1.71857">
+        <ele>374</ele>
+      </trkpt>
+      <trkpt lat="44.82643" lon="1.71837">
+        <ele>373</ele>
+      </trkpt>
+      <trkpt lat="44.82658" lon="1.71795">
+        <ele>371.8</ele>
+      </trkpt>
+      <trkpt lat="44.82665" lon="1.7178">
+        <ele>372</ele>
+      </trkpt>
+      <trkpt lat="44.82709" lon="1.71717">
+        <ele>372.1</ele>
+      </trkpt>
+      <trkpt lat="44.82714" lon="1.71705">
+        <ele>371.8</ele>
+      </trkpt>
+      <trkpt lat="44.82717" lon="1.71686">
+        <ele>371.4</ele>
+      </trkpt>
+      <trkpt lat="44.82713" lon="1.7162">
+        <ele>368.9</ele>
+      </trkpt>
+      <trkpt lat="44.82719" lon="1.71518">
+        <ele>367</ele>
+      </trkpt>
+      <trkpt lat="44.82714" lon="1.71347">
+        <ele>360.7</ele>
+      </trkpt>
+      <trkpt lat="44.82711" lon="1.71325">
+        <ele>361.4</ele>
+      </trkpt>
+      <trkpt lat="44.82705" lon="1.71301">
+        <ele>362.1</ele>
+      </trkpt>
+      <trkpt lat="44.82688" lon="1.71265">
+        <ele>360.8</ele>
+      </trkpt>
+      <trkpt lat="44.82672" lon="1.71241">
+        <ele>359.8</ele>
+      </trkpt>
+      <trkpt lat="44.82631" lon="1.7119">
+        <ele>357.7</ele>
+      </trkpt>
+      <trkpt lat="44.82601" lon="1.71148">
+        <ele>355.8</ele>
+      </trkpt>
+      <trkpt lat="44.82561" lon="1.71065">
+        <ele>354.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>19</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.82517" lon="1.7097">
+        <ele>353.2</ele>
+      </trkpt>
+      <trkpt lat="44.82511" lon="1.70949">
+        <ele>354.6</ele>
+      </trkpt>
+      <trkpt lat="44.82507" lon="1.70924">
+        <ele>355.2</ele>
+      </trkpt>
+      <trkpt lat="44.82505" lon="1.70897">
+        <ele>354.8</ele>
+      </trkpt>
+      <trkpt lat="44.8251" lon="1.70754">
+        <ele>357.4</ele>
+      </trkpt>
+      <trkpt lat="44.82509" lon="1.70694">
+        <ele>358.6</ele>
+      </trkpt>
+      <trkpt lat="44.82504" lon="1.70669">
+        <ele>357</ele>
+      </trkpt>
+      <trkpt lat="44.82445" lon="1.70472">
+        <ele>357.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>20</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.82438" lon="1.70455">
+        <ele>358.6</ele>
+      </trkpt>
+      <trkpt lat="44.82431" lon="1.70445">
+        <ele>359</ele>
+      </trkpt>
+      <trkpt lat="44.82424" lon="1.70439">
+        <ele>359.1</ele>
+      </trkpt>
+      <trkpt lat="44.82414" lon="1.70434">
+        <ele>359.4</ele>
+      </trkpt>
+      <trkpt lat="44.82374" lon="1.70425">
+        <ele>361</ele>
+      </trkpt>
+      <trkpt lat="44.82353" lon="1.70418">
+        <ele>361.7</ele>
+      </trkpt>
+      <trkpt lat="44.82339" lon="1.70411">
+        <ele>362</ele>
+      </trkpt>
+      <trkpt lat="44.82308" lon="1.70383">
+        <ele>362.3</ele>
+      </trkpt>
+      <trkpt lat="44.82294" lon="1.70373">
+        <ele>362.5</ele>
+      </trkpt>
+      <trkpt lat="44.82279" lon="1.70368">
+        <ele>362.7</ele>
+      </trkpt>
+      <trkpt lat="44.8225" lon="1.70365">
+        <ele>363.4</ele>
+      </trkpt>
+      <trkpt lat="44.82238" lon="1.70361">
+        <ele>363.9</ele>
+      </trkpt>
+      <trkpt lat="44.82224" lon="1.70352">
+        <ele>364.2</ele>
+      </trkpt>
+      <trkpt lat="44.82214" lon="1.70342">
+        <ele>364.5</ele>
+      </trkpt>
+      <trkpt lat="44.82203" lon="1.70326">
+        <ele>364.6</ele>
+      </trkpt>
+      <trkpt lat="44.82195" lon="1.70306">
+        <ele>364.9</ele>
+      </trkpt>
+      <trkpt lat="44.82191" lon="1.70287">
+        <ele>365.2</ele>
+      </trkpt>
+      <trkpt lat="44.82189" lon="1.70248">
+        <ele>366.4</ele>
+      </trkpt>
+      <trkpt lat="44.8219" lon="1.70199">
+        <ele>366.1</ele>
+      </trkpt>
+      <trkpt lat="44.82196" lon="1.70129">
+        <ele>367.7</ele>
+      </trkpt>
+      <trkpt lat="44.82197" lon="1.70083">
+        <ele>368.4</ele>
+      </trkpt>
+      <trkpt lat="44.822" lon="1.70061">
+        <ele>368.6</ele>
+      </trkpt>
+      <trkpt lat="44.82207" lon="1.7003">
+        <ele>369.5</ele>
+      </trkpt>
+      <trkpt lat="44.82217" lon="1.69997">
+        <ele>370</ele>
+      </trkpt>
+      <trkpt lat="44.82227" lon="1.69973">
+        <ele>369.4</ele>
+      </trkpt>
+      <trkpt lat="44.8224" lon="1.69953">
+        <ele>370.3</ele>
+      </trkpt>
+      <trkpt lat="44.82254" lon="1.69937">
+        <ele>371</ele>
+      </trkpt>
+      <trkpt lat="44.82343" lon="1.69853">
+        <ele>369</ele>
+      </trkpt>
+      <trkpt lat="44.82378" lon="1.69825">
+        <ele>368.3</ele>
+      </trkpt>
+      <trkpt lat="44.82503" lon="1.69739">
+        <ele>365.3</ele>
+      </trkpt>
+      <trkpt lat="44.82515" lon="1.69726">
+        <ele>364.3</ele>
+      </trkpt>
+      <trkpt lat="44.82522" lon="1.69712">
+        <ele>363.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>21</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.82535" lon="1.6964">
+        <ele>360.3</ele>
+      </trkpt>
+      <trkpt lat="44.82542" lon="1.69582">
+        <ele>358</ele>
+      </trkpt>
+      <trkpt lat="44.82544" lon="1.69551">
+        <ele>357.5</ele>
+      </trkpt>
+      <trkpt lat="44.82543" lon="1.69523">
+        <ele>357</ele>
+      </trkpt>
+      <trkpt lat="44.82548" lon="1.69454">
+        <ele>356</ele>
+      </trkpt>
+      <trkpt lat="44.82564" lon="1.69389">
+        <ele>355.6</ele>
+      </trkpt>
+      <trkpt lat="44.82605" lon="1.69204">
+        <ele>353.4</ele>
+      </trkpt>
+      <trkpt lat="44.82616" lon="1.69123">
+        <ele>352.5</ele>
+      </trkpt>
+      <trkpt lat="44.82617" lon="1.68995">
+        <ele>352.2</ele>
+      </trkpt>
+      <trkpt lat="44.82606" lon="1.68842">
+        <ele>344.8</ele>
+      </trkpt>
+      <trkpt lat="44.82608" lon="1.68817">
+        <ele>343.4</ele>
+      </trkpt>
+      <trkpt lat="44.82613" lon="1.68789">
+        <ele>341.4</ele>
+      </trkpt>
+      <trkpt lat="44.82669" lon="1.68603">
+        <ele>330.6</ele>
+      </trkpt>
+      <trkpt lat="44.82674" lon="1.68562">
+        <ele>327.3</ele>
+      </trkpt>
+      <trkpt lat="44.82674" lon="1.68544">
+        <ele>326.5</ele>
+      </trkpt>
+      <trkpt lat="44.82669" lon="1.68509">
+        <ele>324.7</ele>
+      </trkpt>
+      <trkpt lat="44.82638" lon="1.68343">
+        <ele>314.6</ele>
+      </trkpt>
+      <trkpt lat="44.82622" lon="1.68278">
+        <ele>311.6</ele>
+      </trkpt>
+      <trkpt lat="44.82605" lon="1.68222">
+        <ele>312.5</ele>
+      </trkpt>
+      <trkpt lat="44.82597" lon="1.68188">
+        <ele>313.1</ele>
+      </trkpt>
+      <trkpt lat="44.82591" lon="1.68153">
+        <ele>312.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>22</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.82587" lon="1.68114">
+        <ele>311.7</ele>
+      </trkpt>
+      <trkpt lat="44.82574" lon="1.67943">
+        <ele>309.3</ele>
+      </trkpt>
+      <trkpt lat="44.82573" lon="1.67916">
+        <ele>309.2</ele>
+      </trkpt>
+      <trkpt lat="44.82574" lon="1.67873">
+        <ele>308</ele>
+      </trkpt>
+      <trkpt lat="44.82578" lon="1.67827">
+        <ele>306.7</ele>
+      </trkpt>
+      <trkpt lat="44.82578" lon="1.67801">
+        <ele>306.4</ele>
+      </trkpt>
+      <trkpt lat="44.82575" lon="1.67767">
+        <ele>305.5</ele>
+      </trkpt>
+      <trkpt lat="44.82571" lon="1.67745">
+        <ele>305</ele>
+      </trkpt>
+      <trkpt lat="44.82564" lon="1.67721">
+        <ele>304</ele>
+      </trkpt>
+      <trkpt lat="44.82543" lon="1.67664">
+        <ele>300.9</ele>
+      </trkpt>
+      <trkpt lat="44.82532" lon="1.67625">
+        <ele>300.8</ele>
+      </trkpt>
+      <trkpt lat="44.82517" lon="1.6756">
+        <ele>299.9</ele>
+      </trkpt>
+      <trkpt lat="44.82515" lon="1.67542">
+        <ele>299.7</ele>
+      </trkpt>
+      <trkpt lat="44.82515" lon="1.67521">
+        <ele>299.5</ele>
+      </trkpt>
+      <trkpt lat="44.82532" lon="1.67402">
+        <ele>298.7</ele>
+      </trkpt>
+      <trkpt lat="44.82534" lon="1.67367">
+        <ele>298.4</ele>
+      </trkpt>
+      <trkpt lat="44.82533" lon="1.67347">
+        <ele>298.8</ele>
+      </trkpt>
+      <trkpt lat="44.82529" lon="1.67319">
+        <ele>299.4</ele>
+      </trkpt>
+      <trkpt lat="44.82508" lon="1.67223">
+        <ele>297.3</ele>
+      </trkpt>
+      <trkpt lat="44.82493" lon="1.67127">
+        <ele>302.9</ele>
+      </trkpt>
+      <trkpt lat="44.82481" lon="1.67039">
+        <ele>300.6</ele>
+      </trkpt>
+      <trkpt lat="44.82475" lon="1.66971">
+        <ele>303.7</ele>
+      </trkpt>
+      <trkpt lat="44.82474" lon="1.66908">
+        <ele>304.1</ele>
+      </trkpt>
+      <trkpt lat="44.82483" lon="1.66745">
+        <ele>307.8</ele>
+      </trkpt>
+      <trkpt lat="44.82483" lon="1.66708">
+        <ele>308.3</ele>
+      </trkpt>
+      <trkpt lat="44.82479" lon="1.66677">
+        <ele>309</ele>
+      </trkpt>
+      <trkpt lat="44.82474" lon="1.6665">
+        <ele>309.6</ele>
+      </trkpt>
+      <trkpt lat="44.82467" lon="1.66626">
+        <ele>309.7</ele>
+      </trkpt>
+      <trkpt lat="44.82425" lon="1.66518">
+        <ele>311</ele>
+      </trkpt>
+      <trkpt lat="44.82374" lon="1.66433">
+        <ele>310.3</ele>
+      </trkpt>
+      <trkpt lat="44.82345" lon="1.66379">
+        <ele>306.9</ele>
+      </trkpt>
+      <trkpt lat="44.8232" lon="1.66311">
+        <ele>302.9</ele>
+      </trkpt>
+      <trkpt lat="44.8226" lon="1.6613">
+        <ele>294.2</ele>
+      </trkpt>
+      <trkpt lat="44.82221" lon="1.6602">
+        <ele>290.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>23</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.82227" lon="1.66011">
+        <ele>291.1</ele>
+      </trkpt>
+      <trkpt lat="44.82232" lon="1.66">
+        <ele>291</ele>
+      </trkpt>
+      <trkpt lat="44.82233" lon="1.65993">
+        <ele>290.7</ele>
+      </trkpt>
+      <trkpt lat="44.82229" lon="1.65981">
+        <ele>290.3</ele>
+      </trkpt>
+      <trkpt lat="44.82225" lon="1.65977">
+        <ele>290.2</ele>
+      </trkpt>
+      <trkpt lat="44.82218" lon="1.65974">
+        <ele>290.1</ele>
+      </trkpt>
+      <trkpt lat="44.8221" lon="1.65947">
+        <ele>289.1</ele>
+      </trkpt>
+      <trkpt lat="44.82196" lon="1.65918">
+        <ele>288.9</ele>
+      </trkpt>
+      <trkpt lat="44.82165" lon="1.65867">
+        <ele>286.9</ele>
+      </trkpt>
+      <trkpt lat="44.82069" lon="1.65736">
+        <ele>283</ele>
+      </trkpt>
+      <trkpt lat="44.82026" lon="1.65667">
+        <ele>283.8</ele>
+      </trkpt>
+      <trkpt lat="44.81866" lon="1.65346">
+        <ele>284.6</ele>
+      </trkpt>
+      <trkpt lat="44.81851" lon="1.65313">
+        <ele>285</ele>
+      </trkpt>
+      <trkpt lat="44.8184" lon="1.65279">
+        <ele>284</ele>
+      </trkpt>
+      <trkpt lat="44.81832" lon="1.65241">
+        <ele>283.6</ele>
+      </trkpt>
+      <trkpt lat="44.81813" lon="1.65093">
+        <ele>277.6</ele>
+      </trkpt>
+      <trkpt lat="44.81807" lon="1.65069">
+        <ele>276.5</ele>
+      </trkpt>
+      <trkpt lat="44.81793" lon="1.6503">
+        <ele>273.7</ele>
+      </trkpt>
+      <trkpt lat="44.81694" lon="1.6481">
+        <ele>267.8</ele>
+      </trkpt>
+      <trkpt lat="44.81675" lon="1.6478">
+        <ele>267.2</ele>
+      </trkpt>
+      <trkpt lat="44.81663" lon="1.64767">
+        <ele>267.3</ele>
+      </trkpt>
+      <trkpt lat="44.81591" lon="1.64702">
+        <ele>269.7</ele>
+      </trkpt>
+      <trkpt lat="44.81577" lon="1.64687">
+        <ele>269.8</ele>
+      </trkpt>
+      <trkpt lat="44.81559" lon="1.64661">
+        <ele>269.5</ele>
+      </trkpt>
+      <trkpt lat="44.81462" lon="1.64508">
+        <ele>270.2</ele>
+      </trkpt>
+      <trkpt lat="44.81446" lon="1.64479">
+        <ele>270.8</ele>
+      </trkpt>
+      <trkpt lat="44.81436" lon="1.64456">
+        <ele>271.2</ele>
+      </trkpt>
+      <trkpt lat="44.81429" lon="1.64429">
+        <ele>270.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>24</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.81369" lon="1.64123">
+        <ele>271.3</ele>
+      </trkpt>
+      <trkpt lat="44.81357" lon="1.64085">
+        <ele>270.7</ele>
+      </trkpt>
+      <trkpt lat="44.81338" lon="1.64037">
+        <ele>271.7</ele>
+      </trkpt>
+      <trkpt lat="44.81308" lon="1.63973">
+        <ele>272.1</ele>
+      </trkpt>
+      <trkpt lat="44.81289" lon="1.63941">
+        <ele>271.9</ele>
+      </trkpt>
+      <trkpt lat="44.81268" lon="1.63912">
+        <ele>270.8</ele>
+      </trkpt>
+      <trkpt lat="44.8124" lon="1.63883">
+        <ele>269.7</ele>
+      </trkpt>
+      <trkpt lat="44.8123" lon="1.63875">
+        <ele>269.4</ele>
+      </trkpt>
+      <trkpt lat="44.81212" lon="1.63866">
+        <ele>268.9</ele>
+      </trkpt>
+      <trkpt lat="44.81162" lon="1.63851">
+        <ele>265.9</ele>
+      </trkpt>
+      <trkpt lat="44.81143" lon="1.63843">
+        <ele>265</ele>
+      </trkpt>
+      <trkpt lat="44.81128" lon="1.63834">
+        <ele>264.8</ele>
+      </trkpt>
+      <trkpt lat="44.81115" lon="1.6382">
+        <ele>265.2</ele>
+      </trkpt>
+      <trkpt lat="44.81086" lon="1.63771">
+        <ele>264.5</ele>
+      </trkpt>
+      <trkpt lat="44.81034" lon="1.63662">
+        <ele>261.8</ele>
+      </trkpt>
+      <trkpt lat="44.81009" lon="1.63603">
+        <ele>261.5</ele>
+      </trkpt>
+      <trkpt lat="44.80992" lon="1.63553">
+        <ele>259.7</ele>
+      </trkpt>
+      <trkpt lat="44.80986" lon="1.63532">
+        <ele>259.2</ele>
+      </trkpt>
+      <trkpt lat="44.80982" lon="1.63509">
+        <ele>259.2</ele>
+      </trkpt>
+      <trkpt lat="44.80983" lon="1.63483">
+        <ele>258.8</ele>
+      </trkpt>
+      <trkpt lat="44.80986" lon="1.63469">
+        <ele>258.5</ele>
+      </trkpt>
+      <trkpt lat="44.81043" lon="1.63352">
+        <ele>256</ele>
+      </trkpt>
+      <trkpt lat="44.81049" lon="1.63336">
+        <ele>256</ele>
+      </trkpt>
+      <trkpt lat="44.81052" lon="1.63316">
+        <ele>255.4</ele>
+      </trkpt>
+      <trkpt lat="44.81052" lon="1.63303">
+        <ele>254.9</ele>
+      </trkpt>
+      <trkpt lat="44.8105" lon="1.63292">
+        <ele>254.5</ele>
+      </trkpt>
+      <trkpt lat="44.81035" lon="1.63265">
+        <ele>253.1</ele>
+      </trkpt>
+      <trkpt lat="44.80987" lon="1.63211">
+        <ele>250.2</ele>
+      </trkpt>
+      <trkpt lat="44.80974" lon="1.63201">
+        <ele>249.5</ele>
+      </trkpt>
+      <trkpt lat="44.80961" lon="1.63195">
+        <ele>249</ele>
+      </trkpt>
+      <trkpt lat="44.80914" lon="1.63187">
+        <ele>246.6</ele>
+      </trkpt>
+      <trkpt lat="44.809" lon="1.63182">
+        <ele>246</ele>
+      </trkpt>
+      <trkpt lat="44.80888" lon="1.63175">
+        <ele>245.4</ele>
+      </trkpt>
+      <trkpt lat="44.80876" lon="1.63163">
+        <ele>245.9</ele>
+      </trkpt>
+      <trkpt lat="44.80864" lon="1.63147">
+        <ele>246.7</ele>
+      </trkpt>
+      <trkpt lat="44.80849" lon="1.63115">
+        <ele>247</ele>
+      </trkpt>
+      <trkpt lat="44.80767" lon="1.62907">
+        <ele>250.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>25</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.80703" lon="1.62745">
+        <ele>254.9</ele>
+      </trkpt>
+      <trkpt lat="44.8069" lon="1.62717">
+        <ele>255.9</ele>
+      </trkpt>
+      <trkpt lat="44.80675" lon="1.62694">
+        <ele>256</ele>
+      </trkpt>
+      <trkpt lat="44.80664" lon="1.62685">
+        <ele>256.6</ele>
+      </trkpt>
+      <trkpt lat="44.80654" lon="1.6268">
+        <ele>256.8</ele>
+      </trkpt>
+      <trkpt lat="44.80492" lon="1.6263">
+        <ele>258</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>26</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.80492" lon="1.62626">
+        <ele>258</ele>
+      </trkpt>
+      <trkpt lat="44.80488" lon="1.62619">
+        <ele>258</ele>
+      </trkpt>
+      <trkpt lat="44.80498" lon="1.62543">
+        <ele>259.9</ele>
+      </trkpt>
+      <trkpt lat="44.80498" lon="1.62517">
+        <ele>260.3</ele>
+      </trkpt>
+      <trkpt lat="44.80494" lon="1.62467">
+        <ele>260.7</ele>
+      </trkpt>
+      <trkpt lat="44.80489" lon="1.62428">
+        <ele>261.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>27</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.80525" lon="1.62398">
+        <ele>263</ele>
+      </trkpt>
+      <trkpt lat="44.80536" lon="1.62394">
+        <ele>263</ele>
+      </trkpt>
+      <trkpt lat="44.80551" lon="1.62393">
+        <ele>263</ele>
+      </trkpt>
+      <trkpt lat="44.80589" lon="1.62397">
+        <ele>264.2</ele>
+      </trkpt>
+      <trkpt lat="44.80601" lon="1.62394">
+        <ele>264.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>28</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.80613" lon="1.62381">
+        <ele>264.7</ele>
+      </trkpt>
+      <trkpt lat="44.80619" lon="1.62365">
+        <ele>264.4</ele>
+      </trkpt>
+      <trkpt lat="44.80629" lon="1.62328">
+        <ele>264.5</ele>
+      </trkpt>
+      <trkpt lat="44.80638" lon="1.62304">
+        <ele>263.9</ele>
+      </trkpt>
+      <trkpt lat="44.8065" lon="1.62282">
+        <ele>263.6</ele>
+      </trkpt>
+      <trkpt lat="44.80672" lon="1.62249">
+        <ele>263.1</ele>
+      </trkpt>
+      <trkpt lat="44.80698" lon="1.62191">
+        <ele>260.9</ele>
+      </trkpt>
+      <trkpt lat="44.80713" lon="1.62175">
+        <ele>260.8</ele>
+      </trkpt>
+      <trkpt lat="44.80722" lon="1.62169">
+        <ele>261</ele>
+      </trkpt>
+      <trkpt lat="44.80742" lon="1.62161">
+        <ele>260</ele>
+      </trkpt>
+      <trkpt lat="44.80761" lon="1.6215">
+        <ele>258.4</ele>
+      </trkpt>
+      <trkpt lat="44.80769" lon="1.62142">
+        <ele>257.7</ele>
+      </trkpt>
+      <trkpt lat="44.80776" lon="1.62131">
+        <ele>257.1</ele>
+      </trkpt>
+      <trkpt lat="44.80825" lon="1.62002">
+        <ele>253</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>29</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.80838" lon="1.61957">
+        <ele>252.5</ele>
+      </trkpt>
+      <trkpt lat="44.80845" lon="1.61939">
+        <ele>252.4</ele>
+      </trkpt>
+      <trkpt lat="44.8087" lon="1.6189">
+        <ele>253</ele>
+      </trkpt>
+      <trkpt lat="44.80893" lon="1.61832">
+        <ele>254</ele>
+      </trkpt>
+      <trkpt lat="44.8091" lon="1.61805">
+        <ele>254</ele>
+      </trkpt>
+      <trkpt lat="44.80918" lon="1.61788">
+        <ele>254.5</ele>
+      </trkpt>
+      <trkpt lat="44.80922" lon="1.61768">
+        <ele>255</ele>
+      </trkpt>
+      <trkpt lat="44.80923" lon="1.61749">
+        <ele>255.8</ele>
+      </trkpt>
+      <trkpt lat="44.8092" lon="1.61719">
+        <ele>256.2</ele>
+      </trkpt>
+      <trkpt lat="44.80914" lon="1.61685">
+        <ele>256.9</ele>
+      </trkpt>
+      <trkpt lat="44.80914" lon="1.61668">
+        <ele>256.8</ele>
+      </trkpt>
+      <trkpt lat="44.80916" lon="1.61652">
+        <ele>257</ele>
+      </trkpt>
+      <trkpt lat="44.80925" lon="1.6162">
+        <ele>256.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>30</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.80944" lon="1.61552">
+        <ele>256.8</ele>
+      </trkpt>
+      <trkpt lat="44.8096" lon="1.61482">
+        <ele>255.8</ele>
+      </trkpt>
+      <trkpt lat="44.80978" lon="1.61372">
+        <ele>254.6</ele>
+      </trkpt>
+      <trkpt lat="44.81001" lon="1.61269">
+        <ele>254</ele>
+      </trkpt>
+      <trkpt lat="44.81019" lon="1.61176">
+        <ele>254</ele>
+      </trkpt>
+      <trkpt lat="44.81024" lon="1.61156">
+        <ele>254.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>31</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.8105" lon="1.61092">
+        <ele>257.3</ele>
+      </trkpt>
+      <trkpt lat="44.81074" lon="1.61015">
+        <ele>259.7</ele>
+      </trkpt>
+      <trkpt lat="44.81084" lon="1.60954">
+        <ele>260</ele>
+      </trkpt>
+      <trkpt lat="44.81096" lon="1.6085">
+        <ele>258.4</ele>
+      </trkpt>
+      <trkpt lat="44.81104" lon="1.6082">
+        <ele>259.5</ele>
+      </trkpt>
+      <trkpt lat="44.81128" lon="1.60773">
+        <ele>261.6</ele>
+      </trkpt>
+      <trkpt lat="44.81148" lon="1.60722">
+        <ele>262.7</ele>
+      </trkpt>
+      <trkpt lat="44.81164" lon="1.60652">
+        <ele>263.2</ele>
+      </trkpt>
+      <trkpt lat="44.81192" lon="1.60494">
+        <ele>268.3</ele>
+      </trkpt>
+      <trkpt lat="44.81202" lon="1.60475">
+        <ele>269.8</ele>
+      </trkpt>
+      <trkpt lat="44.81275" lon="1.60398">
+        <ele>274.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>32</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.8136" lon="1.60312">
+        <ele>279.9</ele>
+      </trkpt>
+      <trkpt lat="44.81387" lon="1.60293">
+        <ele>281.4</ele>
+      </trkpt>
+      <trkpt lat="44.81409" lon="1.60283">
+        <ele>282.5</ele>
+      </trkpt>
+      <trkpt lat="44.81431" lon="1.60276">
+        <ele>283.5</ele>
+      </trkpt>
+      <trkpt lat="44.81572" lon="1.60235">
+        <ele>290.6</ele>
+      </trkpt>
+      <trkpt lat="44.81598" lon="1.60231">
+        <ele>291.4</ele>
+      </trkpt>
+      <trkpt lat="44.8164" lon="1.60234">
+        <ele>291.6</ele>
+      </trkpt>
+      <trkpt lat="44.81715" lon="1.60246">
+        <ele>294.8</ele>
+      </trkpt>
+      <trkpt lat="44.81743" lon="1.60251">
+        <ele>295.7</ele>
+      </trkpt>
+      <trkpt lat="44.81779" lon="1.6026">
+        <ele>296.6</ele>
+      </trkpt>
+      <trkpt lat="44.81808" lon="1.60273">
+        <ele>296.2</ele>
+      </trkpt>
+      <trkpt lat="44.81835" lon="1.60288">
+        <ele>295.6</ele>
+      </trkpt>
+      <trkpt lat="44.81862" lon="1.60306">
+        <ele>295</ele>
+      </trkpt>
+      <trkpt lat="44.81924" lon="1.60342">
+        <ele>295</ele>
+      </trkpt>
+      <trkpt lat="44.81956" lon="1.60363">
+        <ele>294.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>33</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.8199" lon="1.60384">
+        <ele>293.4</ele>
+      </trkpt>
+      <trkpt lat="44.82045" lon="1.60412">
+        <ele>291.4</ele>
+      </trkpt>
+      <trkpt lat="44.82064" lon="1.60416">
+        <ele>290.4</ele>
+      </trkpt>
+      <trkpt lat="44.82073" lon="1.60415">
+        <ele>289.7</ele>
+      </trkpt>
+      <trkpt lat="44.8208" lon="1.60412">
+        <ele>289.1</ele>
+      </trkpt>
+      <trkpt lat="44.82088" lon="1.60406">
+        <ele>288.6</ele>
+      </trkpt>
+      <trkpt lat="44.82099" lon="1.60393">
+        <ele>288.5</ele>
+      </trkpt>
+      <trkpt lat="44.82106" lon="1.60381">
+        <ele>289.1</ele>
+      </trkpt>
+      <trkpt lat="44.82129" lon="1.60333">
+        <ele>292.3</ele>
+      </trkpt>
+      <trkpt lat="44.82229" lon="1.60154">
+        <ele>298.5</ele>
+      </trkpt>
+      <trkpt lat="44.82273" lon="1.6007">
+        <ele>301.3</ele>
+      </trkpt>
+      <trkpt lat="44.82282" lon="1.60056">
+        <ele>301.3</ele>
+      </trkpt>
+      <trkpt lat="44.82291" lon="1.60046">
+        <ele>302</ele>
+      </trkpt>
+      <trkpt lat="44.82299" lon="1.6004">
+        <ele>302.5</ele>
+      </trkpt>
+      <trkpt lat="44.82308" lon="1.60036">
+        <ele>303.1</ele>
+      </trkpt>
+      <trkpt lat="44.8235" lon="1.60027">
+        <ele>305.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>34</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.82394" lon="1.60018">
+        <ele>308</ele>
+      </trkpt>
+      <trkpt lat="44.82445" lon="1.59994">
+        <ele>309.6</ele>
+      </trkpt>
+      <trkpt lat="44.82481" lon="1.59984">
+        <ele>310.2</ele>
+      </trkpt>
+      <trkpt lat="44.82497" lon="1.59974">
+        <ele>310</ele>
+      </trkpt>
+      <trkpt lat="44.82504" lon="1.59966">
+        <ele>310</ele>
+      </trkpt>
+      <trkpt lat="44.82509" lon="1.59955">
+        <ele>309.9</ele>
+      </trkpt>
+      <trkpt lat="44.82513" lon="1.59937">
+        <ele>310.2</ele>
+      </trkpt>
+      <trkpt lat="44.82526" lon="1.59842">
+        <ele>310.9</ele>
+      </trkpt>
+      <trkpt lat="44.82536" lon="1.59799">
+        <ele>312.8</ele>
+      </trkpt>
+      <trkpt lat="44.82543" lon="1.59778">
+        <ele>314.1</ele>
+      </trkpt>
+      <trkpt lat="44.82578" lon="1.59699">
+        <ele>315.7</ele>
+      </trkpt>
+      <trkpt lat="44.826" lon="1.59665">
+        <ele>317.1</ele>
+      </trkpt>
+      <trkpt lat="44.82633" lon="1.59622">
+        <ele>318.1</ele>
+      </trkpt>
+      <trkpt lat="44.82643" lon="1.59607">
+        <ele>318.1</ele>
+      </trkpt>
+      <trkpt lat="44.82649" lon="1.59593">
+        <ele>318.1</ele>
+      </trkpt>
+      <trkpt lat="44.82654" lon="1.59575">
+        <ele>317.8</ele>
+      </trkpt>
+      <trkpt lat="44.82662" lon="1.59525">
+        <ele>316.3</ele>
+      </trkpt>
+      <trkpt lat="44.82669" lon="1.59455">
+        <ele>315.8</ele>
+      </trkpt>
+      <trkpt lat="44.8267" lon="1.59439">
+        <ele>315.6</ele>
+      </trkpt>
+      <trkpt lat="44.82669" lon="1.59425">
+        <ele>315.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>35</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.82664" lon="1.594">
+        <ele>315.8</ele>
+      </trkpt>
+      <trkpt lat="44.82656" lon="1.59381">
+        <ele>316.2</ele>
+      </trkpt>
+      <trkpt lat="44.82603" lon="1.59303">
+        <ele>313.1</ele>
+      </trkpt>
+      <trkpt lat="44.82583" lon="1.59263">
+        <ele>310.9</ele>
+      </trkpt>
+      <trkpt lat="44.82528" lon="1.59111">
+        <ele>306</ele>
+      </trkpt>
+      <trkpt lat="44.82518" lon="1.59089">
+        <ele>305.6</ele>
+      </trkpt>
+      <trkpt lat="44.82495" lon="1.5905">
+        <ele>304.8</ele>
+      </trkpt>
+      <trkpt lat="44.82475" lon="1.59006">
+        <ele>304.8</ele>
+      </trkpt>
+      <trkpt lat="44.82468" lon="1.58974">
+        <ele>304.5</ele>
+      </trkpt>
+      <trkpt lat="44.82463" lon="1.58943">
+        <ele>306</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>36</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.82452" lon="1.5887">
+        <ele>308.2</ele>
+      </trkpt>
+      <trkpt lat="44.82428" lon="1.58764">
+        <ele>309.5</ele>
+      </trkpt>
+      <trkpt lat="44.8241" lon="1.58712">
+        <ele>308.9</ele>
+      </trkpt>
+      <trkpt lat="44.82374" lon="1.58629">
+        <ele>306.6</ele>
+      </trkpt>
+      <trkpt lat="44.82365" lon="1.58611">
+        <ele>306</ele>
+      </trkpt>
+      <trkpt lat="44.82346" lon="1.58582">
+        <ele>304.4</ele>
+      </trkpt>
+      <trkpt lat="44.82204" lon="1.58411">
+        <ele>293.2</ele>
+      </trkpt>
+      <trkpt lat="44.82181" lon="1.58379">
+        <ele>291.2</ele>
+      </trkpt>
+      <trkpt lat="44.82165" lon="1.58346">
+        <ele>289.3</ele>
+      </trkpt>
+      <trkpt lat="44.82159" lon="1.58329">
+        <ele>288.2</ele>
+      </trkpt>
+      <trkpt lat="44.82152" lon="1.58296">
+        <ele>286</ele>
+      </trkpt>
+      <trkpt lat="44.82151" lon="1.58258">
+        <ele>284</ele>
+      </trkpt>
+      <trkpt lat="44.82161" lon="1.58178">
+        <ele>280.3</ele>
+      </trkpt>
+      <trkpt lat="44.82167" lon="1.58111">
+        <ele>279</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>37</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.82165" lon="1.58073">
+        <ele>278</ele>
+      </trkpt>
+      <trkpt lat="44.8216" lon="1.58025">
+        <ele>277.2</ele>
+      </trkpt>
+      <trkpt lat="44.8216" lon="1.58002">
+        <ele>277</ele>
+      </trkpt>
+      <trkpt lat="44.82161" lon="1.57983">
+        <ele>277.1</ele>
+      </trkpt>
+      <trkpt lat="44.82168" lon="1.57948">
+        <ele>277.8</ele>
+      </trkpt>
+      <trkpt lat="44.82239" lon="1.57728">
+        <ele>277.1</ele>
+      </trkpt>
+      <trkpt lat="44.82294" lon="1.57599">
+        <ele>275.2</ele>
+      </trkpt>
+      <trkpt lat="44.82315" lon="1.57544">
+        <ele>273.2</ele>
+      </trkpt>
+      <trkpt lat="44.82333" lon="1.57489">
+        <ele>272</ele>
+      </trkpt>
+      <trkpt lat="44.8236" lon="1.57389">
+        <ele>269</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>38</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.82387" lon="1.5729">
+        <ele>264.7</ele>
+      </trkpt>
+      <trkpt lat="44.82397" lon="1.57264">
+        <ele>264</ele>
+      </trkpt>
+      <trkpt lat="44.8241" lon="1.57239">
+        <ele>262.9</ele>
+      </trkpt>
+      <trkpt lat="44.8244" lon="1.57197">
+        <ele>262.2</ele>
+      </trkpt>
+      <trkpt lat="44.82508" lon="1.57124">
+        <ele>261.3</ele>
+      </trkpt>
+      <trkpt lat="44.82536" lon="1.57091">
+        <ele>260.6</ele>
+      </trkpt>
+      <trkpt lat="44.82589" lon="1.57019">
+        <ele>259.5</ele>
+      </trkpt>
+      <trkpt lat="44.82613" lon="1.5699">
+        <ele>258.7</ele>
+      </trkpt>
+      <trkpt lat="44.82658" lon="1.56944">
+        <ele>256.3</ele>
+      </trkpt>
+      <trkpt lat="44.827" lon="1.56906">
+        <ele>253.2</ele>
+      </trkpt>
+      <trkpt lat="44.82806" lon="1.56828">
+        <ele>249</ele>
+      </trkpt>
+      <trkpt lat="44.82956" lon="1.56711">
+        <ele>243.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>39</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.8315" lon="1.56557">
+        <ele>242.1</ele>
+      </trkpt>
+      <trkpt lat="44.83185" lon="1.56524">
+        <ele>241.4</ele>
+      </trkpt>
+      <trkpt lat="44.83219" lon="1.56483">
+        <ele>241.2</ele>
+      </trkpt>
+      <trkpt lat="44.83287" lon="1.56388">
+        <ele>238.1</ele>
+      </trkpt>
+      <trkpt lat="44.83321" lon="1.56335">
+        <ele>235.5</ele>
+      </trkpt>
+      <trkpt lat="44.8337" lon="1.56244">
+        <ele>231.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>40</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.83427" lon="1.56145">
+        <ele>225.5</ele>
+      </trkpt>
+      <trkpt lat="44.83506" lon="1.56018">
+        <ele>216.8</ele>
+      </trkpt>
+      <trkpt lat="44.8352" lon="1.56">
+        <ele>215.3</ele>
+      </trkpt>
+      <trkpt lat="44.83536" lon="1.55985">
+        <ele>214</ele>
+      </trkpt>
+      <trkpt lat="44.8356" lon="1.55968">
+        <ele>212.9</ele>
+      </trkpt>
+      <trkpt lat="44.83578" lon="1.55958">
+        <ele>212.6</ele>
+      </trkpt>
+      <trkpt lat="44.83661" lon="1.55914">
+        <ele>212.4</ele>
+      </trkpt>
+      <trkpt lat="44.837" lon="1.559">
+        <ele>211.3</ele>
+      </trkpt>
+      <trkpt lat="44.83729" lon="1.55895">
+        <ele>211.2</ele>
+      </trkpt>
+      <trkpt lat="44.83751" lon="1.55895">
+        <ele>210.2</ele>
+      </trkpt>
+      <trkpt lat="44.83834" lon="1.5591">
+        <ele>205.2</ele>
+      </trkpt>
+      <trkpt lat="44.83864" lon="1.5592">
+        <ele>203.1</ele>
+      </trkpt>
+      <trkpt lat="44.83891" lon="1.55926">
+        <ele>201.1</ele>
+      </trkpt>
+      <trkpt lat="44.8391" lon="1.55928">
+        <ele>199.3</ele>
+      </trkpt>
+      <trkpt lat="44.83946" lon="1.55923">
+        <ele>196.1</ele>
+      </trkpt>
+      <trkpt lat="44.83971" lon="1.55912">
+        <ele>193.3</ele>
+      </trkpt>
+      <trkpt lat="44.83983" lon="1.55904">
+        <ele>191.9</ele>
+      </trkpt>
+      <trkpt lat="44.84007" lon="1.55882">
+        <ele>188.9</ele>
+      </trkpt>
+      <trkpt lat="44.84086" lon="1.55803">
+        <ele>179.5</ele>
+      </trkpt>
+      <trkpt lat="44.84107" lon="1.55786">
+        <ele>177.1</ele>
+      </trkpt>
+      <trkpt lat="44.8413" lon="1.55772">
+        <ele>174.8</ele>
+      </trkpt>
+      <trkpt lat="44.84141" lon="1.55768">
+        <ele>173.4</ele>
+      </trkpt>
+      <trkpt lat="44.84154" lon="1.55766">
+        <ele>171.9</ele>
+      </trkpt>
+      <trkpt lat="44.84219" lon="1.55774">
+        <ele>167.3</ele>
+      </trkpt>
+      <trkpt lat="44.84233" lon="1.55767">
+        <ele>164.5</ele>
+      </trkpt>
+      <trkpt lat="44.84246" lon="1.55749">
+        <ele>163.7</ele>
+      </trkpt>
+      <trkpt lat="44.8427" lon="1.55701">
+        <ele>159.5</ele>
+      </trkpt>
+      <trkpt lat="44.84275" lon="1.55686">
+        <ele>158.1</ele>
+      </trkpt>
+      <trkpt lat="44.84279" lon="1.55659">
+        <ele>155.9</ele>
+      </trkpt>
+      <trkpt lat="44.84275" lon="1.55634">
+        <ele>153.7</ele>
+      </trkpt>
+      <trkpt lat="44.8426" lon="1.55588">
+        <ele>150.2</ele>
+      </trkpt>
+      <trkpt lat="44.84252" lon="1.5555">
+        <ele>147.2</ele>
+      </trkpt>
+      <trkpt lat="44.8425" lon="1.55531">
+        <ele>146.2</ele>
+      </trkpt>
+      <trkpt lat="44.8425" lon="1.55507">
+        <ele>144.5</ele>
+      </trkpt>
+      <trkpt lat="44.84253" lon="1.5548">
+        <ele>141.7</ele>
+      </trkpt>
+      <trkpt lat="44.84282" lon="1.55333">
+        <ele>131.7</ele>
+      </trkpt>
+      <trkpt lat="44.84293" lon="1.55306">
+        <ele>130.3</ele>
+      </trkpt>
+      <trkpt lat="44.843" lon="1.55295">
+        <ele>129.9</ele>
+      </trkpt>
+      <trkpt lat="44.84306" lon="1.55288">
+        <ele>129.8</ele>
+      </trkpt>
+      <trkpt lat="44.84321" lon="1.55279">
+        <ele>127.6</ele>
+      </trkpt>
+      <trkpt lat="44.84328" lon="1.55278">
+        <ele>127.2</ele>
+      </trkpt>
+      <trkpt lat="44.84334" lon="1.55281">
+        <ele>127.1</ele>
+      </trkpt>
+      <trkpt lat="44.84338" lon="1.55286">
+        <ele>126.3</ele>
+      </trkpt>
+      <trkpt lat="44.84341" lon="1.55294">
+        <ele>125.8</ele>
+      </trkpt>
+      <trkpt lat="44.84343" lon="1.55308">
+        <ele>125.4</ele>
+      </trkpt>
+      <trkpt lat="44.84344" lon="1.55339">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.84339" lon="1.55429">
+        <ele>118.9</ele>
+      </trkpt>
+      <trkpt lat="44.84345" lon="1.5552">
+        <ele>114.8</ele>
+      </trkpt>
+      <trkpt lat="44.84352" lon="1.55571">
+        <ele>114.7</ele>
+      </trkpt>
+      <trkpt lat="44.84359" lon="1.55597">
+        <ele>112.4</ele>
+      </trkpt>
+      <trkpt lat="44.84378" lon="1.55651">
+        <ele>110.4</ele>
+      </trkpt>
+      <trkpt lat="44.84388" lon="1.55676">
+        <ele>105.7</ele>
+      </trkpt>
+      <trkpt lat="44.84394" lon="1.55684">
+        <ele>104.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>41</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.84399" lon="1.55685">
+        <ele>104.1</ele>
+      </trkpt>
+      <trkpt lat="44.84406" lon="1.55678">
+        <ele>103.4</ele>
+      </trkpt>
+      <trkpt lat="44.84413" lon="1.55687">
+        <ele>103</ele>
+      </trkpt>
+      <trkpt lat="44.84422" lon="1.5569">
+        <ele>102.8</ele>
+      </trkpt>
+      <trkpt lat="44.8447" lon="1.55681">
+        <ele>102</ele>
+      </trkpt>
+      <trkpt lat="44.84486" lon="1.55683">
+        <ele>101.7</ele>
+      </trkpt>
+      <trkpt lat="44.84494" lon="1.55687">
+        <ele>101.7</ele>
+      </trkpt>
+      <trkpt lat="44.84529" lon="1.55711">
+        <ele>101.7</ele>
+      </trkpt>
+      <trkpt lat="44.84548" lon="1.5573">
+        <ele>104.7</ele>
+      </trkpt>
+      <trkpt lat="44.84569" lon="1.55761">
+        <ele>110.8</ele>
+      </trkpt>
+      <trkpt lat="44.84593" lon="1.55791">
+        <ele>102.1</ele>
+      </trkpt>
+      <trkpt lat="44.84605" lon="1.55811">
+        <ele>103.8</ele>
+      </trkpt>
+      <trkpt lat="44.84614" lon="1.55834">
+        <ele>102.6</ele>
+      </trkpt>
+      <trkpt lat="44.84617" lon="1.55847">
+        <ele>102.9</ele>
+      </trkpt>
+      <trkpt lat="44.84624" lon="1.55917">
+        <ele>104.4</ele>
+      </trkpt>
+      <trkpt lat="44.84647" lon="1.56008">
+        <ele>103.9</ele>
+      </trkpt>
+      <trkpt lat="44.84659" lon="1.56046">
+        <ele>105</ele>
+      </trkpt>
+      <trkpt lat="44.8469" lon="1.56128">
+        <ele>104.6</ele>
+      </trkpt>
+      <trkpt lat="44.8471" lon="1.5619">
+        <ele>109.7</ele>
+      </trkpt>
+      <trkpt lat="44.8473" lon="1.5624">
+        <ele>108.5</ele>
+      </trkpt>
+      <trkpt lat="44.84733" lon="1.5627">
+        <ele>107.5</ele>
+      </trkpt>
+      <trkpt lat="44.84729" lon="1.56294">
+        <ele>107</ele>
+      </trkpt>
+      <trkpt lat="44.84729" lon="1.56304">
+        <ele>107</ele>
+      </trkpt>
+      <trkpt lat="44.84734" lon="1.56317">
+        <ele>107.1</ele>
+      </trkpt>
+      <trkpt lat="44.84742" lon="1.56325">
+        <ele>106.8</ele>
+      </trkpt>
+      <trkpt lat="44.84747" lon="1.56326">
+        <ele>106.5</ele>
+      </trkpt>
+      <trkpt lat="44.84781" lon="1.56315">
+        <ele>108.3</ele>
+      </trkpt>
+      <trkpt lat="44.84807" lon="1.56315">
+        <ele>109.8</ele>
+      </trkpt>
+      <trkpt lat="44.84837" lon="1.56323">
+        <ele>106.8</ele>
+      </trkpt>
+      <trkpt lat="44.84881" lon="1.5634">
+        <ele>106.5</ele>
+      </trkpt>
+      <trkpt lat="44.84916" lon="1.56356">
+        <ele>103.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>42</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.84997" lon="1.56396">
+        <ele>104.1</ele>
+      </trkpt>
+      <trkpt lat="44.85031" lon="1.56416">
+        <ele>101.8</ele>
+      </trkpt>
+      <trkpt lat="44.85091" lon="1.56453">
+        <ele>104.1</ele>
+      </trkpt>
+      <trkpt lat="44.85153" lon="1.565">
+        <ele>102</ele>
+      </trkpt>
+      <trkpt lat="44.85199" lon="1.56527">
+        <ele>101.8</ele>
+      </trkpt>
+      <trkpt lat="44.85238" lon="1.56546">
+        <ele>102.8</ele>
+      </trkpt>
+      <trkpt lat="44.85256" lon="1.56553">
+        <ele>102.7</ele>
+      </trkpt>
+      <trkpt lat="44.85284" lon="1.56561">
+        <ele>103.1</ele>
+      </trkpt>
+      <trkpt lat="44.85446" lon="1.5659">
+        <ele>103.1</ele>
+      </trkpt>
+      <trkpt lat="44.85524" lon="1.56601">
+        <ele>104</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>43</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.8574" lon="1.56624">
+        <ele>104.1</ele>
+      </trkpt>
+      <trkpt lat="44.85783" lon="1.56627">
+        <ele>104.6</ele>
+      </trkpt>
+      <trkpt lat="44.85808" lon="1.56626">
+        <ele>104.9</ele>
+      </trkpt>
+      <trkpt lat="44.85841" lon="1.56622">
+        <ele>104.7</ele>
+      </trkpt>
+      <trkpt lat="44.85943" lon="1.56606">
+        <ele>104</ele>
+      </trkpt>
+      <trkpt lat="44.8598" lon="1.56594">
+        <ele>104.1</ele>
+      </trkpt>
+      <trkpt lat="44.85996" lon="1.56585">
+        <ele>103.2</ele>
+      </trkpt>
+      <trkpt lat="44.86011" lon="1.56574">
+        <ele>104.8</ele>
+      </trkpt>
+      <trkpt lat="44.86091" lon="1.56492">
+        <ele>102.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>44</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.86121" lon="1.56457">
+        <ele>103.4</ele>
+      </trkpt>
+      <trkpt lat="44.86157" lon="1.56427">
+        <ele>104</ele>
+      </trkpt>
+      <trkpt lat="44.86187" lon="1.56407">
+        <ele>102.9</ele>
+      </trkpt>
+      <trkpt lat="44.86233" lon="1.56387">
+        <ele>102.9</ele>
+      </trkpt>
+      <trkpt lat="44.86243" lon="1.56381">
+        <ele>102.7</ele>
+      </trkpt>
+      <trkpt lat="44.8626" lon="1.56367">
+        <ele>102.6</ele>
+      </trkpt>
+      <trkpt lat="44.86278" lon="1.56345">
+        <ele>102.4</ele>
+      </trkpt>
+      <trkpt lat="44.86285" lon="1.56334">
+        <ele>103.1</ele>
+      </trkpt>
+      <trkpt lat="44.86331" lon="1.56246">
+        <ele>104.6</ele>
+      </trkpt>
+      <trkpt lat="44.86343" lon="1.56226">
+        <ele>105.6</ele>
+      </trkpt>
+      <trkpt lat="44.86355" lon="1.56211">
+        <ele>105.7</ele>
+      </trkpt>
+      <trkpt lat="44.86363" lon="1.56204">
+        <ele>105.6</ele>
+      </trkpt>
+      <trkpt lat="44.8638" lon="1.56194">
+        <ele>106</ele>
+      </trkpt>
+      <trkpt lat="44.86399" lon="1.56188">
+        <ele>106.7</ele>
+      </trkpt>
+      <trkpt lat="44.86434" lon="1.56182">
+        <ele>107.3</ele>
+      </trkpt>
+      <trkpt lat="44.86469" lon="1.5618">
+        <ele>107.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>45</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.86503" lon="1.56185">
+        <ele>107.5</ele>
+      </trkpt>
+      <trkpt lat="44.86531" lon="1.56194">
+        <ele>106.9</ele>
+      </trkpt>
+      <trkpt lat="44.86554" lon="1.56206">
+        <ele>107.8</ele>
+      </trkpt>
+      <trkpt lat="44.86578" lon="1.56223">
+        <ele>106.2</ele>
+      </trkpt>
+      <trkpt lat="44.86597" lon="1.56241">
+        <ele>107.6</ele>
+      </trkpt>
+      <trkpt lat="44.86608" lon="1.56254">
+        <ele>107</ele>
+      </trkpt>
+      <trkpt lat="44.86638" lon="1.56292">
+        <ele>105.9</ele>
+      </trkpt>
+      <trkpt lat="44.86668" lon="1.56334">
+        <ele>105.1</ele>
+      </trkpt>
+      <trkpt lat="44.867" lon="1.56386">
+        <ele>106.5</ele>
+      </trkpt>
+      <trkpt lat="44.86738" lon="1.56455">
+        <ele>107.6</ele>
+      </trkpt>
+      <trkpt lat="44.86776" lon="1.56536">
+        <ele>105.9</ele>
+      </trkpt>
+      <trkpt lat="44.86806" lon="1.56611">
+        <ele>103.9</ele>
+      </trkpt>
+      <trkpt lat="44.86842" lon="1.5673">
+        <ele>108.2</ele>
+      </trkpt>
+      <trkpt lat="44.86857" lon="1.56794">
+        <ele>105.7</ele>
+      </trkpt>
+      <trkpt lat="44.86859" lon="1.56809">
+        <ele>104.8</ele>
+      </trkpt>
+      <trkpt lat="44.8686" lon="1.56841">
+        <ele>104.2</ele>
+      </trkpt>
+      <trkpt lat="44.86849" lon="1.57052">
+        <ele>113.6</ele>
+      </trkpt>
+      <trkpt lat="44.86848" lon="1.57305">
+        <ele>111.9</ele>
+      </trkpt>
+      <trkpt lat="44.86852" lon="1.57381">
+        <ele>109.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>46</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.86834" lon="1.5753">
+        <ele>106.6</ele>
+      </trkpt>
+      <trkpt lat="44.86817" lon="1.57609">
+        <ele>108.2</ele>
+      </trkpt>
+      <trkpt lat="44.86806" lon="1.57648">
+        <ele>106.6</ele>
+      </trkpt>
+      <trkpt lat="44.86789" lon="1.57695">
+        <ele>107.1</ele>
+      </trkpt>
+      <trkpt lat="44.86765" lon="1.57785">
+        <ele>106.7</ele>
+      </trkpt>
+      <trkpt lat="44.86702" lon="1.57967">
+        <ele>105.5</ele>
+      </trkpt>
+      <trkpt lat="44.86697" lon="1.57986">
+        <ele>105.1</ele>
+      </trkpt>
+      <trkpt lat="44.86696" lon="1.57995">
+        <ele>104.9</ele>
+      </trkpt>
+      <trkpt lat="44.86697" lon="1.58012">
+        <ele>104.6</ele>
+      </trkpt>
+      <trkpt lat="44.867" lon="1.58023">
+        <ele>104.2</ele>
+      </trkpt>
+      <trkpt lat="44.86707" lon="1.58038">
+        <ele>102.4</ele>
+      </trkpt>
+      <trkpt lat="44.86719" lon="1.5805">
+        <ele>100.5</ele>
+      </trkpt>
+      <trkpt lat="44.86744" lon="1.58065">
+        <ele>101.9</ele>
+      </trkpt>
+      <trkpt lat="44.86892" lon="1.58173">
+        <ele>103.7</ele>
+      </trkpt>
+      <trkpt lat="44.87001" lon="1.58249">
+        <ele>104.9</ele>
+      </trkpt>
+      <trkpt lat="44.87018" lon="1.58257">
+        <ele>104.5</ele>
+      </trkpt>
+      <trkpt lat="44.87035" lon="1.58258">
+        <ele>105</ele>
+      </trkpt>
+      <trkpt lat="44.87047" lon="1.58253">
+        <ele>106.1</ele>
+      </trkpt>
+      <trkpt lat="44.87143" lon="1.58165">
+        <ele>109.1</ele>
+      </trkpt>
+      <trkpt lat="44.87169" lon="1.58146">
+        <ele>108.6</ele>
+      </trkpt>
+      <trkpt lat="44.87191" lon="1.58137">
+        <ele>109.5</ele>
+      </trkpt>
+      <trkpt lat="44.87216" lon="1.58132">
+        <ele>109.2</ele>
+      </trkpt>
+      <trkpt lat="44.87228" lon="1.58132">
+        <ele>109.5</ele>
+      </trkpt>
+      <trkpt lat="44.87239" lon="1.58134">
+        <ele>110.2</ele>
+      </trkpt>
+      <trkpt lat="44.87248" lon="1.58139">
+        <ele>110.9</ele>
+      </trkpt>
+      <trkpt lat="44.87358" lon="1.58236">
+        <ele>110.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>47</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.87512" lon="1.57923">
+        <ele>111.1</ele>
+      </trkpt>
+      <trkpt lat="44.87565" lon="1.57832">
+        <ele>106.9</ele>
+      </trkpt>
+      <trkpt lat="44.87655" lon="1.57684">
+        <ele>107.2</ele>
+      </trkpt>
+      <trkpt lat="44.87671" lon="1.57653">
+        <ele>107.9</ele>
+      </trkpt>
+      <trkpt lat="44.87676" lon="1.57632">
+        <ele>106.8</ele>
+      </trkpt>
+      <trkpt lat="44.87677" lon="1.57619">
+        <ele>106</ele>
+      </trkpt>
+      <trkpt lat="44.87671" lon="1.57391">
+        <ele>105.9</ele>
+      </trkpt>
+      <trkpt lat="44.87673" lon="1.57359">
+        <ele>105.8</ele>
+      </trkpt>
+      <trkpt lat="44.87679" lon="1.57328">
+        <ele>104.3</ele>
+      </trkpt>
+      <trkpt lat="44.87688" lon="1.57299">
+        <ele>104</ele>
+      </trkpt>
+      <trkpt lat="44.87705" lon="1.57257">
+        <ele>104.3</ele>
+      </trkpt>
+      <trkpt lat="44.87723" lon="1.57206">
+        <ele>106</ele>
+      </trkpt>
+      <trkpt lat="44.87873" lon="1.56811">
+        <ele>108.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>48</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.87937" lon="1.56832">
+        <ele>109</ele>
+      </trkpt>
+      <trkpt lat="44.88003" lon="1.56845">
+        <ele>110.1</ele>
+      </trkpt>
+      <trkpt lat="44.8801" lon="1.56855">
+        <ele>110.4</ele>
+      </trkpt>
+      <trkpt lat="44.88024" lon="1.5692">
+        <ele>111.7</ele>
+      </trkpt>
+      <trkpt lat="44.88031" lon="1.56934">
+        <ele>112.6</ele>
+      </trkpt>
+      <trkpt lat="44.88044" lon="1.56945">
+        <ele>113</ele>
+      </trkpt>
+      <trkpt lat="44.88072" lon="1.56962">
+        <ele>115</ele>
+      </trkpt>
+      <trkpt lat="44.88102" lon="1.57">
+        <ele>118.7</ele>
+      </trkpt>
+      <trkpt lat="44.88118" lon="1.57014">
+        <ele>120.8</ele>
+      </trkpt>
+      <trkpt lat="44.8813" lon="1.57022">
+        <ele>121.7</ele>
+      </trkpt>
+      <trkpt lat="44.88208" lon="1.57061">
+        <ele>126.8</ele>
+      </trkpt>
+      <trkpt lat="44.88234" lon="1.57077">
+        <ele>128.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>49</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.88319" lon="1.57125">
+        <ele>133.2</ele>
+      </trkpt>
+      <trkpt lat="44.88343" lon="1.57131">
+        <ele>133.6</ele>
+      </trkpt>
+      <trkpt lat="44.88406" lon="1.57127">
+        <ele>135.3</ele>
+      </trkpt>
+      <trkpt lat="44.88485" lon="1.57114">
+        <ele>136.7</ele>
+      </trkpt>
+      <trkpt lat="44.88505" lon="1.57108">
+        <ele>137</ele>
+      </trkpt>
+      <trkpt lat="44.88533" lon="1.57094">
+        <ele>137.2</ele>
+      </trkpt>
+      <trkpt lat="44.88553" lon="1.57086">
+        <ele>137.7</ele>
+      </trkpt>
+      <trkpt lat="44.88577" lon="1.57086">
+        <ele>137.7</ele>
+      </trkpt>
+      <trkpt lat="44.88595" lon="1.57095">
+        <ele>137.1</ele>
+      </trkpt>
+      <trkpt lat="44.88604" lon="1.57102">
+        <ele>137</ele>
+      </trkpt>
+      <trkpt lat="44.88654" lon="1.5715">
+        <ele>135.5</ele>
+      </trkpt>
+      <trkpt lat="44.88694" lon="1.57199">
+        <ele>133.3</ele>
+      </trkpt>
+      <trkpt lat="44.8871" lon="1.57212">
+        <ele>132</ele>
+      </trkpt>
+      <trkpt lat="44.88728" lon="1.57224">
+        <ele>131.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>50</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.88752" lon="1.57243">
+        <ele>131.1</ele>
+      </trkpt>
+      <trkpt lat="44.88767" lon="1.57258">
+        <ele>129.9</ele>
+      </trkpt>
+      <trkpt lat="44.888" lon="1.57307">
+        <ele>127.5</ele>
+      </trkpt>
+      <trkpt lat="44.88809" lon="1.57314">
+        <ele>125.4</ele>
+      </trkpt>
+      <trkpt lat="44.88854" lon="1.57325">
+        <ele>124.3</ele>
+      </trkpt>
+      <trkpt lat="44.88887" lon="1.57348">
+        <ele>118.9</ele>
+      </trkpt>
+      <trkpt lat="44.88912" lon="1.57357">
+        <ele>119.1</ele>
+      </trkpt>
+      <trkpt lat="44.88974" lon="1.57394">
+        <ele>113.4</ele>
+      </trkpt>
+      <trkpt lat="44.8899" lon="1.57401">
+        <ele>112.6</ele>
+      </trkpt>
+      <trkpt lat="44.89" lon="1.57402">
+        <ele>114.2</ele>
+      </trkpt>
+      <trkpt lat="44.89026" lon="1.57395">
+        <ele>112</ele>
+      </trkpt>
+      <trkpt lat="44.89036" lon="1.57396">
+        <ele>110.3</ele>
+      </trkpt>
+      <trkpt lat="44.8904" lon="1.57398">
+        <ele>109.6</ele>
+      </trkpt>
+      <trkpt lat="44.89048" lon="1.57408">
+        <ele>108.9</ele>
+      </trkpt>
+      <trkpt lat="44.89068" lon="1.57452">
+        <ele>112.1</ele>
+      </trkpt>
+      <trkpt lat="44.89102" lon="1.57498">
+        <ele>110.3</ele>
+      </trkpt>
+      <trkpt lat="44.89162" lon="1.57594">
+        <ele>110.8</ele>
+      </trkpt>
+      <trkpt lat="44.89191" lon="1.57634">
+        <ele>111.1</ele>
+      </trkpt>
+      <trkpt lat="44.89198" lon="1.57642">
+        <ele>110.5</ele>
+      </trkpt>
+      <trkpt lat="44.89218" lon="1.57658">
+        <ele>112.3</ele>
+      </trkpt>
+      <trkpt lat="44.89257" lon="1.57687">
+        <ele>112.4</ele>
+      </trkpt>
+      <trkpt lat="44.89304" lon="1.57718">
+        <ele>109.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>51</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.89371" lon="1.5776">
+        <ele>107.5</ele>
+      </trkpt>
+      <trkpt lat="44.89385" lon="1.57771">
+        <ele>106.9</ele>
+      </trkpt>
+      <trkpt lat="44.89398" lon="1.57787">
+        <ele>105.8</ele>
+      </trkpt>
+      <trkpt lat="44.89409" lon="1.57811">
+        <ele>105.4</ele>
+      </trkpt>
+      <trkpt lat="44.89428" lon="1.57882">
+        <ele>105</ele>
+      </trkpt>
+      <trkpt lat="44.89431" lon="1.57905">
+        <ele>104.7</ele>
+      </trkpt>
+      <trkpt lat="44.8943" lon="1.57927">
+        <ele>104.5</ele>
+      </trkpt>
+      <trkpt lat="44.89425" lon="1.57951">
+        <ele>104.5</ele>
+      </trkpt>
+      <trkpt lat="44.89412" lon="1.57986">
+        <ele>104.8</ele>
+      </trkpt>
+      <trkpt lat="44.89406" lon="1.57998">
+        <ele>104.6</ele>
+      </trkpt>
+      <trkpt lat="44.8939" lon="1.58024">
+        <ele>104.9</ele>
+      </trkpt>
+      <trkpt lat="44.89302" lon="1.58145">
+        <ele>104.8</ele>
+      </trkpt>
+      <trkpt lat="44.89282" lon="1.58178">
+        <ele>105.4</ele>
+      </trkpt>
+      <trkpt lat="44.89275" lon="1.58194">
+        <ele>105.7</ele>
+      </trkpt>
+      <trkpt lat="44.89263" lon="1.58231">
+        <ele>105.1</ele>
+      </trkpt>
+      <trkpt lat="44.89237" lon="1.58328">
+        <ele>105</ele>
+      </trkpt>
+      <trkpt lat="44.89155" lon="1.58649">
+        <ele>107.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>52</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.89141" lon="1.58689">
+        <ele>108.2</ele>
+      </trkpt>
+      <trkpt lat="44.89116" lon="1.58742">
+        <ele>108</ele>
+      </trkpt>
+      <trkpt lat="44.89107" lon="1.58777">
+        <ele>109.6</ele>
+      </trkpt>
+      <trkpt lat="44.89105" lon="1.58792">
+        <ele>110.6</ele>
+      </trkpt>
+      <trkpt lat="44.89102" lon="1.58864">
+        <ele>111.3</ele>
+      </trkpt>
+      <trkpt lat="44.89111" lon="1.58931">
+        <ele>108.5</ele>
+      </trkpt>
+      <trkpt lat="44.89105" lon="1.58968">
+        <ele>109.4</ele>
+      </trkpt>
+      <trkpt lat="44.89097" lon="1.58991">
+        <ele>108.3</ele>
+      </trkpt>
+      <trkpt lat="44.89086" lon="1.59012">
+        <ele>106.2</ele>
+      </trkpt>
+      <trkpt lat="44.89057" lon="1.59052">
+        <ele>104.8</ele>
+      </trkpt>
+      <trkpt lat="44.89047" lon="1.59071">
+        <ele>104.6</ele>
+      </trkpt>
+      <trkpt lat="44.89007" lon="1.5918">
+        <ele>105.7</ele>
+      </trkpt>
+      <trkpt lat="44.8898" lon="1.59235">
+        <ele>106.1</ele>
+      </trkpt>
+      <trkpt lat="44.88962" lon="1.59264">
+        <ele>106.1</ele>
+      </trkpt>
+      <trkpt lat="44.88898" lon="1.59356">
+        <ele>106.4</ele>
+      </trkpt>
+      <trkpt lat="44.88871" lon="1.5939">
+        <ele>107.2</ele>
+      </trkpt>
+      <trkpt lat="44.88833" lon="1.59425">
+        <ele>106.9</ele>
+      </trkpt>
+      <trkpt lat="44.88784" lon="1.59462">
+        <ele>107</ele>
+      </trkpt>
+      <trkpt lat="44.88772" lon="1.59476">
+        <ele>107</ele>
+      </trkpt>
+      <trkpt lat="44.88765" lon="1.59498">
+        <ele>107.5</ele>
+      </trkpt>
+      <trkpt lat="44.88742" lon="1.59597">
+        <ele>107.6</ele>
+      </trkpt>
+      <trkpt lat="44.88717" lon="1.59663">
+        <ele>106.1</ele>
+      </trkpt>
+      <trkpt lat="44.88713" lon="1.59678">
+        <ele>106</ele>
+      </trkpt>
+      <trkpt lat="44.88696" lon="1.59763">
+        <ele>106</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>53</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.88777" lon="1.5981">
+        <ele>106.2</ele>
+      </trkpt>
+      <trkpt lat="44.88794" lon="1.59824">
+        <ele>106.1</ele>
+      </trkpt>
+      <trkpt lat="44.88807" lon="1.5984">
+        <ele>106.2</ele>
+      </trkpt>
+      <trkpt lat="44.88813" lon="1.5985">
+        <ele>106.4</ele>
+      </trkpt>
+      <trkpt lat="44.88827" lon="1.59881">
+        <ele>106.9</ele>
+      </trkpt>
+      <trkpt lat="44.88839" lon="1.59903">
+        <ele>107.7</ele>
+      </trkpt>
+      <trkpt lat="44.88886" lon="1.59963">
+        <ele>109.4</ele>
+      </trkpt>
+      <trkpt lat="44.88904" lon="1.59992">
+        <ele>110.9</ele>
+      </trkpt>
+      <trkpt lat="44.88918" lon="1.60008">
+        <ele>111.5</ele>
+      </trkpt>
+      <trkpt lat="44.89007" lon="1.60061">
+        <ele>110.1</ele>
+      </trkpt>
+      <trkpt lat="44.891" lon="1.60127">
+        <ele>110.7</ele>
+      </trkpt>
+      <trkpt lat="44.89126" lon="1.6015">
+        <ele>111.4</ele>
+      </trkpt>
+      <trkpt lat="44.89285" lon="1.60311">
+        <ele>117.4</ele>
+      </trkpt>
+      <trkpt lat="44.8931" lon="1.60333">
+        <ele>118.8</ele>
+      </trkpt>
+      <trkpt lat="44.89334" lon="1.6035">
+        <ele>120.4</ele>
+      </trkpt>
+      <trkpt lat="44.89405" lon="1.6039">
+        <ele>122.5</ele>
+      </trkpt>
+      <trkpt lat="44.89485" lon="1.60441">
+        <ele>126.2</ele>
+      </trkpt>
+      <trkpt lat="44.895" lon="1.60453">
+        <ele>126.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>54</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.89513" lon="1.60467">
+        <ele>126.8</ele>
+      </trkpt>
+      <trkpt lat="44.89527" lon="1.60488">
+        <ele>126.6</ele>
+      </trkpt>
+      <trkpt lat="44.89559" lon="1.60558">
+        <ele>126.7</ele>
+      </trkpt>
+      <trkpt lat="44.89578" lon="1.60584">
+        <ele>125.6</ele>
+      </trkpt>
+      <trkpt lat="44.89589" lon="1.60596">
+        <ele>125.8</ele>
+      </trkpt>
+      <trkpt lat="44.89602" lon="1.60607">
+        <ele>126.6</ele>
+      </trkpt>
+      <trkpt lat="44.89681" lon="1.60657">
+        <ele>129.2</ele>
+      </trkpt>
+      <trkpt lat="44.89697" lon="1.60672">
+        <ele>129.3</ele>
+      </trkpt>
+      <trkpt lat="44.89704" lon="1.60681">
+        <ele>129.7</ele>
+      </trkpt>
+      <trkpt lat="44.8972" lon="1.60708">
+        <ele>130</ele>
+      </trkpt>
+      <trkpt lat="44.8976" lon="1.60785">
+        <ele>131.5</ele>
+      </trkpt>
+      <trkpt lat="44.89776" lon="1.6081">
+        <ele>132</ele>
+      </trkpt>
+      <trkpt lat="44.89796" lon="1.60837">
+        <ele>132.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>55</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.89833" lon="1.60859">
+        <ele>132.9</ele>
+      </trkpt>
+      <trkpt lat="44.89997" lon="1.6094">
+        <ele>137.7</ele>
+      </trkpt>
+      <trkpt lat="44.90006" lon="1.60943">
+        <ele>137.9</ele>
+      </trkpt>
+      <trkpt lat="44.90023" lon="1.60944">
+        <ele>138</ele>
+      </trkpt>
+      <trkpt lat="44.90031" lon="1.60943">
+        <ele>138.2</ele>
+      </trkpt>
+      <trkpt lat="44.90045" lon="1.60937">
+        <ele>138.8</ele>
+      </trkpt>
+      <trkpt lat="44.90081" lon="1.60956">
+        <ele>142.7</ele>
+      </trkpt>
+      <trkpt lat="44.90105" lon="1.60975">
+        <ele>145.6</ele>
+      </trkpt>
+      <trkpt lat="44.90153" lon="1.61034">
+        <ele>149</ele>
+      </trkpt>
+      <trkpt lat="44.9016" lon="1.6104">
+        <ele>148.5</ele>
+      </trkpt>
+      <trkpt lat="44.90193" lon="1.61055">
+        <ele>147.1</ele>
+      </trkpt>
+      <trkpt lat="44.90201" lon="1.61061">
+        <ele>145.7</ele>
+      </trkpt>
+      <trkpt lat="44.90291" lon="1.61137">
+        <ele>136.4</ele>
+      </trkpt>
+      <trkpt lat="44.90311" lon="1.61161">
+        <ele>127.6</ele>
+      </trkpt>
+      <trkpt lat="44.90317" lon="1.61166">
+        <ele>127</ele>
+      </trkpt>
+      <trkpt lat="44.90346" lon="1.61181">
+        <ele>129.5</ele>
+      </trkpt>
+      <trkpt lat="44.90358" lon="1.61194">
+        <ele>125.4</ele>
+      </trkpt>
+      <trkpt lat="44.90362" lon="1.61196">
+        <ele>125.9</ele>
+      </trkpt>
+      <trkpt lat="44.90366" lon="1.61196">
+        <ele>125.7</ele>
+      </trkpt>
+      <trkpt lat="44.90375" lon="1.61191">
+        <ele>128.5</ele>
+      </trkpt>
+      <trkpt lat="44.90383" lon="1.6119">
+        <ele>128.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>56</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.90391" lon="1.61192">
+        <ele>127.6</ele>
+      </trkpt>
+      <trkpt lat="44.90415" lon="1.6121">
+        <ele>125.2</ele>
+      </trkpt>
+      <trkpt lat="44.90437" lon="1.61219">
+        <ele>122.9</ele>
+      </trkpt>
+      <trkpt lat="44.90441" lon="1.61223">
+        <ele>121.3</ele>
+      </trkpt>
+      <trkpt lat="44.90445" lon="1.61231">
+        <ele>121.1</ele>
+      </trkpt>
+      <trkpt lat="44.90453" lon="1.61262">
+        <ele>121.7</ele>
+      </trkpt>
+      <trkpt lat="44.90494" lon="1.61331">
+        <ele>116.7</ele>
+      </trkpt>
+      <trkpt lat="44.9054" lon="1.61395">
+        <ele>111.6</ele>
+      </trkpt>
+      <trkpt lat="44.90592" lon="1.61452">
+        <ele>112.4</ele>
+      </trkpt>
+      <trkpt lat="44.90603" lon="1.61466">
+        <ele>111.3</ele>
+      </trkpt>
+      <trkpt lat="44.9067" lon="1.61569">
+        <ele>131.9</ele>
+      </trkpt>
+      <trkpt lat="44.90752" lon="1.61688">
+        <ele>122.1</ele>
+      </trkpt>
+      <trkpt lat="44.90786" lon="1.61752">
+        <ele>124.1</ele>
+      </trkpt>
+      <trkpt lat="44.90833" lon="1.6183">
+        <ele>109</ele>
+      </trkpt>
+      <trkpt lat="44.90853" lon="1.61876">
+        <ele>123.1</ele>
+      </trkpt>
+      <trkpt lat="44.90891" lon="1.6193">
+        <ele>139.8</ele>
+      </trkpt>
+      <trkpt lat="44.90917" lon="1.61974">
+        <ele>132.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>57</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.90936" lon="1.62013">
+        <ele>139.2</ele>
+      </trkpt>
+      <trkpt lat="44.90943" lon="1.62033">
+        <ele>145.4</ele>
+      </trkpt>
+      <trkpt lat="44.90974" lon="1.62126">
+        <ele>137.2</ele>
+      </trkpt>
+      <trkpt lat="44.90983" lon="1.62162">
+        <ele>130.5</ele>
+      </trkpt>
+      <trkpt lat="44.90994" lon="1.62197">
+        <ele>164.2</ele>
+      </trkpt>
+      <trkpt lat="44.91022" lon="1.62257">
+        <ele>165.8</ele>
+      </trkpt>
+      <trkpt lat="44.9104" lon="1.62304">
+        <ele>163</ele>
+      </trkpt>
+      <trkpt lat="44.91054" lon="1.62364">
+        <ele>125.3</ele>
+      </trkpt>
+      <trkpt lat="44.91068" lon="1.62471">
+        <ele>124.8</ele>
+      </trkpt>
+      <trkpt lat="44.91071" lon="1.62484">
+        <ele>121.5</ele>
+      </trkpt>
+      <trkpt lat="44.91088" lon="1.62532">
+        <ele>119.6</ele>
+      </trkpt>
+      <trkpt lat="44.91093" lon="1.6255">
+        <ele>129</ele>
+      </trkpt>
+      <trkpt lat="44.91097" lon="1.62572">
+        <ele>135</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>58</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.91098" lon="1.62595">
+        <ele>134</ele>
+      </trkpt>
+      <trkpt lat="44.91105" lon="1.62615">
+        <ele>140.7</ele>
+      </trkpt>
+      <trkpt lat="44.91105" lon="1.62627">
+        <ele>142.4</ele>
+      </trkpt>
+      <trkpt lat="44.911" lon="1.62637">
+        <ele>136.8</ele>
+      </trkpt>
+      <trkpt lat="44.91106" lon="1.62644">
+        <ele>142.6</ele>
+      </trkpt>
+      <trkpt lat="44.91109" lon="1.62655">
+        <ele>139.2</ele>
+      </trkpt>
+      <trkpt lat="44.91119" lon="1.62728">
+        <ele>130.3</ele>
+      </trkpt>
+      <trkpt lat="44.91121" lon="1.62754">
+        <ele>140</ele>
+      </trkpt>
+      <trkpt lat="44.9112" lon="1.62765">
+        <ele>135.7</ele>
+      </trkpt>
+      <trkpt lat="44.91124" lon="1.62777">
+        <ele>141.3</ele>
+      </trkpt>
+      <trkpt lat="44.91125" lon="1.62814">
+        <ele>124.7</ele>
+      </trkpt>
+      <trkpt lat="44.91132" lon="1.62848">
+        <ele>127.9</ele>
+      </trkpt>
+      <trkpt lat="44.91136" lon="1.62895">
+        <ele>125.4</ele>
+      </trkpt>
+      <trkpt lat="44.91135" lon="1.62903">
+        <ele>124.1</ele>
+      </trkpt>
+      <trkpt lat="44.91132" lon="1.62909">
+        <ele>122.5</ele>
+      </trkpt>
+      <trkpt lat="44.91136" lon="1.62914">
+        <ele>122.8</ele>
+      </trkpt>
+      <trkpt lat="44.91138" lon="1.62924">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.91144" lon="1.63004">
+        <ele>127.3</ele>
+      </trkpt>
+      <trkpt lat="44.91139" lon="1.63159">
+        <ele>123.8</ele>
+      </trkpt>
+      <trkpt lat="44.91139" lon="1.63198">
+        <ele>124</ele>
+      </trkpt>
+      <trkpt lat="44.91141" lon="1.63225">
+        <ele>125.7</ele>
+      </trkpt>
+      <trkpt lat="44.91146" lon="1.63254">
+        <ele>124.4</ele>
+      </trkpt>
+      <trkpt lat="44.91158" lon="1.633">
+        <ele>119.8</ele>
+      </trkpt>
+      <trkpt lat="44.91159" lon="1.63309">
+        <ele>119.5</ele>
+      </trkpt>
+      <trkpt lat="44.91156" lon="1.63331">
+        <ele>121.1</ele>
+      </trkpt>
+      <trkpt lat="44.91142" lon="1.63359">
+        <ele>121.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>59</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.91109" lon="1.63431">
+        <ele>123.3</ele>
+      </trkpt>
+      <trkpt lat="44.9109" lon="1.6348">
+        <ele>122.6</ele>
+      </trkpt>
+      <trkpt lat="44.91072" lon="1.63532">
+        <ele>122.8</ele>
+      </trkpt>
+      <trkpt lat="44.9106" lon="1.63573">
+        <ele>124.3</ele>
+      </trkpt>
+      <trkpt lat="44.91033" lon="1.63642">
+        <ele>127.8</ele>
+      </trkpt>
+      <trkpt lat="44.91032" lon="1.63654">
+        <ele>128.5</ele>
+      </trkpt>
+      <trkpt lat="44.91033" lon="1.63667">
+        <ele>129.8</ele>
+      </trkpt>
+      <trkpt lat="44.91027" lon="1.63674">
+        <ele>129.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>60</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.91029" lon="1.63694">
+        <ele>131.2</ele>
+      </trkpt>
+      <trkpt lat="44.91025" lon="1.6371">
+        <ele>131.9</ele>
+      </trkpt>
+      <trkpt lat="44.91008" lon="1.63731">
+        <ele>134.6</ele>
+      </trkpt>
+      <trkpt lat="44.90973" lon="1.63761">
+        <ele>136</ele>
+      </trkpt>
+      <trkpt lat="44.90965" lon="1.63773">
+        <ele>136.9</ele>
+      </trkpt>
+      <trkpt lat="44.90965" lon="1.63782">
+        <ele>138.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>61</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.90967" lon="1.63791">
+        <ele>139.6</ele>
+      </trkpt>
+      <trkpt lat="44.9097" lon="1.63795">
+        <ele>140.1</ele>
+      </trkpt>
+      <trkpt lat="44.90978" lon="1.63799">
+        <ele>140.1</ele>
+      </trkpt>
+      <trkpt lat="44.90984" lon="1.63798">
+        <ele>139.6</ele>
+      </trkpt>
+      <trkpt lat="44.90994" lon="1.63791">
+        <ele>139.2</ele>
+      </trkpt>
+      <trkpt lat="44.91008" lon="1.63776">
+        <ele>138.1</ele>
+      </trkpt>
+      <trkpt lat="44.91023" lon="1.63765">
+        <ele>140</ele>
+      </trkpt>
+      <trkpt lat="44.91049" lon="1.63753">
+        <ele>141</ele>
+      </trkpt>
+      <trkpt lat="44.91077" lon="1.63745">
+        <ele>141.5</ele>
+      </trkpt>
+      <trkpt lat="44.9113" lon="1.63735">
+        <ele>143.2</ele>
+      </trkpt>
+      <trkpt lat="44.91149" lon="1.6373">
+        <ele>141.2</ele>
+      </trkpt>
+      <trkpt lat="44.91209" lon="1.63708">
+        <ele>143.9</ele>
+      </trkpt>
+      <trkpt lat="44.9124" lon="1.63701">
+        <ele>137</ele>
+      </trkpt>
+      <trkpt lat="44.91342" lon="1.63695">
+        <ele>133.2</ele>
+      </trkpt>
+      <trkpt lat="44.9142" lon="1.63696">
+        <ele>131.5</ele>
+      </trkpt>
+      <trkpt lat="44.915" lon="1.63685">
+        <ele>130.1</ele>
+      </trkpt>
+      <trkpt lat="44.91602" lon="1.63686">
+        <ele>124.5</ele>
+      </trkpt>
+      <trkpt lat="44.9163" lon="1.63688">
+        <ele>122.1</ele>
+      </trkpt>
+      <trkpt lat="44.91661" lon="1.63686">
+        <ele>126.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>62</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.91697" lon="1.6368">
+        <ele>120.4</ele>
+      </trkpt>
+      <trkpt lat="44.91736" lon="1.63682">
+        <ele>120.5</ele>
+      </trkpt>
+      <trkpt lat="44.91791" lon="1.6369">
+        <ele>118.3</ele>
+      </trkpt>
+      <trkpt lat="44.91854" lon="1.63702">
+        <ele>117.6</ele>
+      </trkpt>
+      <trkpt lat="44.91904" lon="1.63708">
+        <ele>119.4</ele>
+      </trkpt>
+      <trkpt lat="44.91933" lon="1.63716">
+        <ele>116.7</ele>
+      </trkpt>
+      <trkpt lat="44.92073" lon="1.6377">
+        <ele>117.8</ele>
+      </trkpt>
+      <trkpt lat="44.92105" lon="1.63785">
+        <ele>115.4</ele>
+      </trkpt>
+      <trkpt lat="44.92121" lon="1.63794">
+        <ele>118.3</ele>
+      </trkpt>
+      <trkpt lat="44.92133" lon="1.63803">
+        <ele>119.6</ele>
+      </trkpt>
+      <trkpt lat="44.92161" lon="1.6383">
+        <ele>118.7</ele>
+      </trkpt>
+      <trkpt lat="44.92191" lon="1.63863">
+        <ele>117.5</ele>
+      </trkpt>
+      <trkpt lat="44.9225" lon="1.63914">
+        <ele>116.9</ele>
+      </trkpt>
+      <trkpt lat="44.92288" lon="1.63952">
+        <ele>119.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>63</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.9244" lon="1.64109">
+        <ele>118.3</ele>
+      </trkpt>
+      <trkpt lat="44.92463" lon="1.6414">
+        <ele>119.5</ele>
+      </trkpt>
+      <trkpt lat="44.92473" lon="1.64159">
+        <ele>118.7</ele>
+      </trkpt>
+      <trkpt lat="44.92484" lon="1.64183">
+        <ele>118.8</ele>
+      </trkpt>
+      <trkpt lat="44.92499" lon="1.64223">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.92515" lon="1.64253">
+        <ele>118.3</ele>
+      </trkpt>
+      <trkpt lat="44.92529" lon="1.64271">
+        <ele>116.9</ele>
+      </trkpt>
+      <trkpt lat="44.92571" lon="1.64315">
+        <ele>118.8</ele>
+      </trkpt>
+      <trkpt lat="44.92674" lon="1.64433">
+        <ele>116.7</ele>
+      </trkpt>
+      <trkpt lat="44.92708" lon="1.64465">
+        <ele>117.4</ele>
+      </trkpt>
+      <trkpt lat="44.92758" lon="1.64502">
+        <ele>117.2</ele>
+      </trkpt>
+      <trkpt lat="44.92765" lon="1.64505">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.92801" lon="1.64511">
+        <ele>121.3</ele>
+      </trkpt>
+      <trkpt lat="44.92816" lon="1.64516">
+        <ele>127.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>64</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.92826" lon="1.64522">
+        <ele>129.2</ele>
+      </trkpt>
+      <trkpt lat="44.92877" lon="1.64565">
+        <ele>123.7</ele>
+      </trkpt>
+      <trkpt lat="44.92886" lon="1.64579">
+        <ele>123.2</ele>
+      </trkpt>
+      <trkpt lat="44.92895" lon="1.64609">
+        <ele>124.7</ele>
+      </trkpt>
+      <trkpt lat="44.92908" lon="1.64635">
+        <ele>125.5</ele>
+      </trkpt>
+      <trkpt lat="44.92965" lon="1.64712">
+        <ele>131.2</ele>
+      </trkpt>
+      <trkpt lat="44.93054" lon="1.64839">
+        <ele>124.2</ele>
+      </trkpt>
+      <trkpt lat="44.93097" lon="1.64916">
+        <ele>121.1</ele>
+      </trkpt>
+      <trkpt lat="44.93197" lon="1.65112">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="44.93208" lon="1.65128">
+        <ele>115.6</ele>
+      </trkpt>
+      <trkpt lat="44.93226" lon="1.65144">
+        <ele>116.4</ele>
+      </trkpt>
+      <trkpt lat="44.93264" lon="1.65166">
+        <ele>118.6</ele>
+      </trkpt>
+      <trkpt lat="44.9329" lon="1.65184">
+        <ele>120.3</ele>
+      </trkpt>
+      <trkpt lat="44.93312" lon="1.65206">
+        <ele>120.7</ele>
+      </trkpt>
+      <trkpt lat="44.93332" lon="1.65235">
+        <ele>120</ele>
+      </trkpt>
+      <trkpt lat="44.93354" lon="1.65274">
+        <ele>120.9</ele>
+      </trkpt>
+      <trkpt lat="44.93379" lon="1.65328">
+        <ele>123.1</ele>
+      </trkpt>
+      <trkpt lat="44.93398" lon="1.65386">
+        <ele>123</ele>
+      </trkpt>
+      <trkpt lat="44.9341" lon="1.65437">
+        <ele>124.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>65</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.93419" lon="1.65498">
+        <ele>123.6</ele>
+      </trkpt>
+      <trkpt lat="44.93424" lon="1.65514">
+        <ele>122.6</ele>
+      </trkpt>
+      <trkpt lat="44.93441" lon="1.65543">
+        <ele>123.8</ele>
+      </trkpt>
+      <trkpt lat="44.93497" lon="1.65608">
+        <ele>125.6</ele>
+      </trkpt>
+      <trkpt lat="44.93509" lon="1.6562">
+        <ele>125.4</ele>
+      </trkpt>
+      <trkpt lat="44.93542" lon="1.65647">
+        <ele>126.4</ele>
+      </trkpt>
+      <trkpt lat="44.93563" lon="1.65672">
+        <ele>126.6</ele>
+      </trkpt>
+      <trkpt lat="44.93582" lon="1.65704">
+        <ele>125</ele>
+      </trkpt>
+      <trkpt lat="44.93606" lon="1.65753">
+        <ele>123.3</ele>
+      </trkpt>
+      <trkpt lat="44.93627" lon="1.6579">
+        <ele>122.3</ele>
+      </trkpt>
+      <trkpt lat="44.93716" lon="1.65919">
+        <ele>123.7</ele>
+      </trkpt>
+      <trkpt lat="44.93755" lon="1.65971">
+        <ele>122.5</ele>
+      </trkpt>
+      <trkpt lat="44.93821" lon="1.66042">
+        <ele>121.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>66</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.9384" lon="1.66059">
+        <ele>121.2</ele>
+      </trkpt>
+      <trkpt lat="44.93867" lon="1.66078">
+        <ele>121.2</ele>
+      </trkpt>
+      <trkpt lat="44.93934" lon="1.66117">
+        <ele>118.6</ele>
+      </trkpt>
+      <trkpt lat="44.93952" lon="1.66132">
+        <ele>118.2</ele>
+      </trkpt>
+      <trkpt lat="44.9396" lon="1.66141">
+        <ele>118</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>67</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.93941" lon="1.6621">
+        <ele>116.3</ele>
+      </trkpt>
+      <trkpt lat="44.9393" lon="1.66231">
+        <ele>115.5</ele>
+      </trkpt>
+      <trkpt lat="44.93919" lon="1.66247">
+        <ele>115.8</ele>
+      </trkpt>
+      <trkpt lat="44.93915" lon="1.66255">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="44.93913" lon="1.66264">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="44.93915" lon="1.66314">
+        <ele>115.7</ele>
+      </trkpt>
+      <trkpt lat="44.93912" lon="1.66367">
+        <ele>115.8</ele>
+      </trkpt>
+      <trkpt lat="44.93907" lon="1.66406">
+        <ele>115.7</ele>
+      </trkpt>
+      <trkpt lat="44.93893" lon="1.66482">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="44.93891" lon="1.6651">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="44.93892" lon="1.66546">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="44.93896" lon="1.6657">
+        <ele>115.9</ele>
+      </trkpt>
+      <trkpt lat="44.93897" lon="1.66605">
+        <ele>115.7</ele>
+      </trkpt>
+      <trkpt lat="44.93886" lon="1.66694">
+        <ele>115.9</ele>
+      </trkpt>
+      <trkpt lat="44.93876" lon="1.66838">
+        <ele>115.5</ele>
+      </trkpt>
+      <trkpt lat="44.93876" lon="1.66873">
+        <ele>115.5</ele>
+      </trkpt>
+      <trkpt lat="44.93882" lon="1.6698">
+        <ele>115.3</ele>
+      </trkpt>
+      <trkpt lat="44.93879" lon="1.67003">
+        <ele>115.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>68</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.9382" lon="1.67003">
+        <ele>115.1</ele>
+      </trkpt>
+      <trkpt lat="44.93796" lon="1.67005">
+        <ele>115.1</ele>
+      </trkpt>
+      <trkpt lat="44.93785" lon="1.67008">
+        <ele>115.1</ele>
+      </trkpt>
+      <trkpt lat="44.9374" lon="1.67036">
+        <ele>115</ele>
+      </trkpt>
+      <trkpt lat="44.93662" lon="1.67074">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="44.93651" lon="1.67079">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="44.93642" lon="1.67081">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="44.93622" lon="1.67078">
+        <ele>115</ele>
+      </trkpt>
+      <trkpt lat="44.93601" lon="1.67072">
+        <ele>114.8</ele>
+      </trkpt>
+      <trkpt lat="44.93578" lon="1.67068">
+        <ele>115.1</ele>
+      </trkpt>
+      <trkpt lat="44.9355" lon="1.67065">
+        <ele>115.4</ele>
+      </trkpt>
+      <trkpt lat="44.935" lon="1.67064">
+        <ele>115.4</ele>
+      </trkpt>
+      <trkpt lat="44.9346" lon="1.67069">
+        <ele>115.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>69</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.93469" lon="1.67067">
+        <ele>115.2</ele>
+      </trkpt>
+      <trkpt lat="44.93471" lon="1.67089">
+        <ele>114.4</ele>
+      </trkpt>
+      <trkpt lat="44.93477" lon="1.67107">
+        <ele>115.4</ele>
+      </trkpt>
+      <trkpt lat="44.93501" lon="1.67143">
+        <ele>114</ele>
+      </trkpt>
+      <trkpt lat="44.93585" lon="1.67258">
+        <ele>115</ele>
+      </trkpt>
+      <trkpt lat="44.93633" lon="1.67314">
+        <ele>115.1</ele>
+      </trkpt>
+      <trkpt lat="44.93658" lon="1.67347">
+        <ele>115.2</ele>
+      </trkpt>
+      <trkpt lat="44.93682" lon="1.67382">
+        <ele>115.2</ele>
+      </trkpt>
+      <trkpt lat="44.937" lon="1.6742">
+        <ele>114.8</ele>
+      </trkpt>
+      <trkpt lat="44.93709" lon="1.67444">
+        <ele>115</ele>
+      </trkpt>
+      <trkpt lat="44.93716" lon="1.67487">
+        <ele>115.2</ele>
+      </trkpt>
+      <trkpt lat="44.93733" lon="1.67603">
+        <ele>115</ele>
+      </trkpt>
+      <trkpt lat="44.93745" lon="1.67713">
+        <ele>115.2</ele>
+      </trkpt>
+      <trkpt lat="44.93764" lon="1.67804">
+        <ele>115.5</ele>
+      </trkpt>
+      <trkpt lat="44.93771" lon="1.67858">
+        <ele>115.2</ele>
+      </trkpt>
+      <trkpt lat="44.93771" lon="1.67887">
+        <ele>115.2</ele>
+      </trkpt>
+      <trkpt lat="44.93766" lon="1.67964">
+        <ele>115.4</ele>
+      </trkpt>
+      <trkpt lat="44.93733" lon="1.68136">
+        <ele>115.6</ele>
+      </trkpt>
+      <trkpt lat="44.93727" lon="1.68177">
+        <ele>115.5</ele>
+      </trkpt>
+      <trkpt lat="44.93713" lon="1.68225">
+        <ele>115.3</ele>
+      </trkpt>
+      <trkpt lat="44.93708" lon="1.68228">
+        <ele>115.5</ele>
+      </trkpt>
+      <trkpt lat="44.93701" lon="1.68237">
+        <ele>115.8</ele>
+      </trkpt>
+      <trkpt lat="44.93657" lon="1.68301">
+        <ele>116.3</ele>
+      </trkpt>
+      <trkpt lat="44.93585" lon="1.68411">
+        <ele>115.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>70</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.93604" lon="1.6856">
+        <ele>115.7</ele>
+      </trkpt>
+      <trkpt lat="44.93608" lon="1.68641">
+        <ele>115.9</ele>
+      </trkpt>
+      <trkpt lat="44.93618" lon="1.68746">
+        <ele>116.2</ele>
+      </trkpt>
+      <trkpt lat="44.93615" lon="1.68789">
+        <ele>116.1</ele>
+      </trkpt>
+      <trkpt lat="44.93587" lon="1.68962">
+        <ele>116.1</ele>
+      </trkpt>
+      <trkpt lat="44.93584" lon="1.69009">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="44.93586" lon="1.69032">
+        <ele>116.2</ele>
+      </trkpt>
+      <trkpt lat="44.93617" lon="1.69183">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93621" lon="1.69212">
+        <ele>116.6</ele>
+      </trkpt>
+      <trkpt lat="44.93623" lon="1.69257">
+        <ele>116.5</ele>
+      </trkpt>
+      <trkpt lat="44.93627" lon="1.69288">
+        <ele>117.3</ele>
+      </trkpt>
+      <trkpt lat="44.93643" lon="1.69355">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93649" lon="1.69398">
+        <ele>117.2</ele>
+      </trkpt>
+      <trkpt lat="44.93652" lon="1.6941">
+        <ele>117.1</ele>
+      </trkpt>
+      <trkpt lat="44.93659" lon="1.69419">
+        <ele>117</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>71</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.93665" lon="1.69423">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93694" lon="1.69426">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93739" lon="1.69428">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93749" lon="1.6943">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93757" lon="1.69435">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93767" lon="1.69446">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93775" lon="1.6946">
+        <ele>117.1</ele>
+      </trkpt>
+      <trkpt lat="44.93807" lon="1.69529">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93839" lon="1.69616">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93852" lon="1.69659">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93855" lon="1.69686">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93856" lon="1.69743">
+        <ele>117.2</ele>
+      </trkpt>
+      <trkpt lat="44.93858" lon="1.69753">
+        <ele>117.1</ele>
+      </trkpt>
+      <trkpt lat="44.93869" lon="1.69774">
+        <ele>117.6</ele>
+      </trkpt>
+      <trkpt lat="44.93876" lon="1.69782">
+        <ele>117.5</ele>
+      </trkpt>
+      <trkpt lat="44.93898" lon="1.69801">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93903" lon="1.69808">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.93906" lon="1.69817">
+        <ele>117.3</ele>
+      </trkpt>
+      <trkpt lat="44.93906" lon="1.69849">
+        <ele>117.3</ele>
+      </trkpt>
+      <trkpt lat="44.939" lon="1.69884">
+        <ele>117.8</ele>
+      </trkpt>
+      <trkpt lat="44.939" lon="1.69899">
+        <ele>117.8</ele>
+      </trkpt>
+      <trkpt lat="44.93902" lon="1.69912">
+        <ele>117.6</ele>
+      </trkpt>
+      <trkpt lat="44.93906" lon="1.69919">
+        <ele>117.6</ele>
+      </trkpt>
+      <trkpt lat="44.93916" lon="1.69926">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.93957" lon="1.69944">
+        <ele>118.4</ele>
+      </trkpt>
+      <trkpt lat="44.9399" lon="1.69961">
+        <ele>118.8</ele>
+      </trkpt>
+      <trkpt lat="44.94018" lon="1.6998">
+        <ele>118.7</ele>
+      </trkpt>
+      <trkpt lat="44.94035" lon="1.69989">
+        <ele>118.3</ele>
+      </trkpt>
+      <trkpt lat="44.94093" lon="1.69987">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.94103" lon="1.69988">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.94112" lon="1.6999">
+        <ele>117</ele>
+      </trkpt>
+      <trkpt lat="44.9414" lon="1.70006">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.94132" lon="1.70042">
+        <ele>117.8</ele>
+      </trkpt>
+      <trkpt lat="44.94111" lon="1.70159">
+        <ele>118.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>72</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.94137" lon="1.70171">
+        <ele>118.8</ele>
+      </trkpt>
+      <trkpt lat="44.94208" lon="1.70197">
+        <ele>117.6</ele>
+      </trkpt>
+      <trkpt lat="44.94245" lon="1.70207">
+        <ele>117.9</ele>
+      </trkpt>
+      <trkpt lat="44.94284" lon="1.70215">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.94314" lon="1.70215">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.94323" lon="1.70217">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.94398" lon="1.70253">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.94407" lon="1.70259">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.94435" lon="1.70285">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.94448" lon="1.70294">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.9446" lon="1.70299">
+        <ele>118</ele>
+      </trkpt>
+      <trkpt lat="44.94519" lon="1.70316">
+        <ele>118.2</ele>
+      </trkpt>
+      <trkpt lat="44.94655" lon="1.70349">
+        <ele>118.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>73</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.94672" lon="1.70346">
+        <ele>118.6</ele>
+      </trkpt>
+      <trkpt lat="44.94682" lon="1.70341">
+        <ele>118.9</ele>
+      </trkpt>
+      <trkpt lat="44.94699" lon="1.70327">
+        <ele>119</ele>
+      </trkpt>
+      <trkpt lat="44.94715" lon="1.70318">
+        <ele>119</ele>
+      </trkpt>
+      <trkpt lat="44.94736" lon="1.70312">
+        <ele>118.6</ele>
+      </trkpt>
+      <trkpt lat="44.94754" lon="1.70316">
+        <ele>118.5</ele>
+      </trkpt>
+      <trkpt lat="44.94773" lon="1.70324">
+        <ele>118.9</ele>
+      </trkpt>
+      <trkpt lat="44.94793" lon="1.7033">
+        <ele>119</ele>
+      </trkpt>
+      <trkpt lat="44.94806" lon="1.70332">
+        <ele>119</ele>
+      </trkpt>
+      <trkpt lat="44.94836" lon="1.70329">
+        <ele>119</ele>
+      </trkpt>
+      <trkpt lat="44.94885" lon="1.70319">
+        <ele>119</ele>
+      </trkpt>
+      <trkpt lat="44.94907" lon="1.70319">
+        <ele>119</ele>
+      </trkpt>
+      <trkpt lat="44.94925" lon="1.70323">
+        <ele>119.2</ele>
+      </trkpt>
+      <trkpt lat="44.94971" lon="1.70349">
+        <ele>119.5</ele>
+      </trkpt>
+      <trkpt lat="44.94991" lon="1.70358">
+        <ele>120.3</ele>
+      </trkpt>
+      <trkpt lat="44.94999" lon="1.7036">
+        <ele>120.9</ele>
+      </trkpt>
+      <trkpt lat="44.95019" lon="1.70355">
+        <ele>121.5</ele>
+      </trkpt>
+      <trkpt lat="44.95057" lon="1.70333">
+        <ele>121</ele>
+      </trkpt>
+      <trkpt lat="44.95164" lon="1.70276">
+        <ele>122</ele>
+      </trkpt>
+      <trkpt lat="44.95183" lon="1.70272">
+        <ele>123.1</ele>
+      </trkpt>
+      <trkpt lat="44.95213" lon="1.70269">
+        <ele>125.2</ele>
+      </trkpt>
+      <trkpt lat="44.9529" lon="1.70268">
+        <ele>133.5</ele>
+      </trkpt>
+      <trkpt lat="44.953" lon="1.7027">
+        <ele>134.3</ele>
+      </trkpt>
+      <trkpt lat="44.95299" lon="1.70273">
+        <ele>134.4</ele>
+      </trkpt>
+      <trkpt lat="44.95304" lon="1.7029">
+        <ele>135.9</ele>
+      </trkpt>
+      <trkpt lat="44.95307" lon="1.70336">
+        <ele>139.1</ele>
+      </trkpt>
+      <trkpt lat="44.95302" lon="1.70341">
+        <ele>138.9</ele>
+      </trkpt>
+      <trkpt lat="44.95296" lon="1.70351">
+        <ele>138.9</ele>
+      </trkpt>
+      <trkpt lat="44.95288" lon="1.70345">
+        <ele>138.6</ele>
+      </trkpt>
+      <trkpt lat="44.95281" lon="1.70343">
+        <ele>138.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>74</visugpx:node>
+            </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

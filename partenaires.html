@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="partners_main_title">Partenaires - Guidon Vayracois</title>
+
+  <!-- Polices et icônes -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@6.6.6/css/flag-icons.min.css">
+
+
+  <style>
+     /* Loader */
+     #loader {
+      position: fixed;
+      left: 0; top: 0; width: 100%; height: 100%;
+      background: #fff;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .spinner {
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid #0d47a1;
+      border-radius: 50%;
+      width: 60px; height: 60px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fdfdfd;
+      color: #2b2b2b;
+      padding-top: 100px;
+    }
+   header {
+      background: #111;
+      padding: 14px 30px;
+      position: fixed;
+      top: 0; width: 100%;
+      z-index: 1000;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    .header-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo img { height: 55px; }
+    .nav-left ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .nav-left ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-left a {
+  position: relative;
+  display: inline-block;
+  color: #eee;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  padding: 6px 12px;
+}
+
+.nav-left a::after {
+  content: '';
+  position: absolute;
+  left: 12px;     /* correspond au padding-left */
+  right: 12px;    /* correspond au padding-right */
+  bottom: -1px;   /* décalé légèrement VERS LE BAS */
+  height: 2px;
+  background-color: #ffeb3b; /* jaune */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-left a:hover::after,
+.nav-left a:focus::after,
+.nav-left a:active::after {
+  transform: scaleX(1);
+}
+
+.nav-left a:hover,
+.nav-left a:focus,
+.nav-left a:active {
+  color: #50b5ff; /* bleu clair */
+}
+.nav-left a.active {
+  color: #50b5ff;
+}
+
+.nav-left a.active::after {
+  transform: scaleX(1);
+}
+
+
+    
+    /* Hamburger button */
+.burger {
+  display: none;
+  font-size: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Responsive nav */
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+    z-index: 1001;
+  }
+
+  .nav-left {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    background: #111;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .nav-left ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-left.show {
+    display: flex;
+  }
+}
+
+
+    h1 {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 3rem;
+      text-align: center;
+      margin: 40px 20px 10px;
+      color: #003566;
+    }
+    .intro {
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.1rem;
+      padding: 10px 20px 30px;
+      color: #444;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px 30px;
+    }
+    .gallery a img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery a img:hover {
+      transform: scale(1.04);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    }
+    #scrollTopBtn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background-color: #50b5ff;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 12px;
+      font-size: 18px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      display: none;
+      z-index: 999;
+    }
+    #scrollTopBtn:hover {
+      background-color: #0d47a1;
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      padding: 60px 20px 20px;
+    }
+    .footer-container {
+      max-width: 1200px;
+      margin: auto;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+    .footer-column h4 {
+      color: #50b5ff;
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+    .footer-column a, .footer-column p, .footer-column li {
+      color: #ccc;
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+    .footer-column a:hover {
+      color: #fff;
+    }
+    .newsletter-form input[type="email"] {
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 12px;
+      border: none;
+      border-radius: 6px;
+    }
+    .newsletter-form button {
+      padding: 10px 20px;
+      border: none;
+      background: #50b5ff;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .social-icons a {
+      margin: 0 8px;
+      font-size: 1.5rem;
+      color: #ccc;
+    }
+    .social-icons a:hover {
+      color: #50b5ff;
+    }
+    .footer-logo-center {
+      text-align: center;
+    }
+    .footer-logo-center img {
+    max-width: 130px;
+    margin-bottom: 10px;
+  }
+    .footer-copyright {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #fff;
+    }
+    .partner-title {
+  text-align: center;
+  color: #0d47a1;
+  margin: 60px 0 30px;
+  font-size: 2rem;
+}
+
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px 40px;
+}
+
+.partner-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.partner-card img {
+  max-width: 140px;
+  max-height: 100px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+#majeurs .partner-card img {
+  max-width: 180px;   /* ↑ élargit les logos */
+  max-height: 140px;  /* ↑ augmente la hauteur maximale */
+}
+
+
+.partner-card p {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 0;
+}
+
+.partner-card:hover {
+  transform: scale(1.04);
+}
+
+/* Animation déclenchée uniquement quand on ajoute .appear */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#devenir-partenaire {
+  background: #f5faff;
+  padding: 60px 20px;
+}
+
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.partnership-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.partnership-form label {
+  font-weight: bold;
+  color: #003566;
+}
+
+.partnership-form input,
+.partnership-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.partnership-form button {
+  align-self: flex-start;
+  padding: 12px 24px;
+  background-color: #0d47a1;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.partnership-form button:hover {
+  background-color: #003566;
+}
+.partner-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: #fdfdfd;
+  position: sticky;
+  top: 80px; /* correspond à la hauteur de ton header */
+  z-index: 999;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.partner-nav a {
+  padding: 10px 20px;
+  border: 2px solid #0d47a1;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0d47a1;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.partner-nav a:hover,
+.partner-nav a.active {
+  background: #0d47a1;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+html {
+  scroll-behavior: smooth;
+}
+.grecaptcha-badge {
+  visibility: hidden;
+}
+.lang-buttons {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-left: 20px;
+    }
+    .lang-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+    }
+    .lang-btn span.fi {
+      width: 24px;
+      height: 16px;
+      border-radius: 3px;
+      box-shadow: 0 0 0 1px #fff;
+    }
+    /* Responsive - adapte les drapeaux sur petit écran */
+@media (max-width: 768px) {
+  .lang-switcher {
+    justify-content: center;
+    margin: 10px auto 0;
+    padding-bottom: 10px;
+    order: 3;
+  }
+
+  .lang-btn span.fi {
+    width: 22px;
+    height: 15px;
+  }
+}
+section[id^="majeurs"],
+section[id^="institutionnels"],
+section[id^="fournisseurs"],
+section[id^="socles"] {
+  scroll-margin-top: 140px;
+}
+
+
+
+
+  </style>
+</head>
+<body>
+  <div id="loader"><div class="spinner"></div></div>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Logo-Guidon-Vayracois.png" alt="Logo Guidon Vayracois">
+        </a>
+      </div>
+      <nav class="nav nav-left">
+        <ul>
+          <li><a href="index.html" data-i18n="nav_home">Accueil</a></li>
+          <li><a href="qui-sommes-nous.html" data-i18n="nav_about">Qui sommes-nous</a></li>
+          <li><a href="Uxellotoise-2025.html" data-i18n="nav_event">Uxellotoise 2025</a></li>
+          <li><a href="galerie.html" data-i18n="nav_gallery">Galerie</a></li>
+          <li><a href="inscription.html" data-i18n="nav_register">Inscription</a></li>
+          <li><a href="partenaires.html" class="active" data-i18n="nav_partners">Partenaires</a></li>
+          <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="lang-buttons">
+        <button class="lang-btn" data-lang="fr"><span class="fi fi-fr"></span></button>
+        <button class="lang-btn" data-lang="en"><span class="fi fi-gb"></span></button>
+        <button class="lang-btn" data-lang="es"><span class="fi fi-es"></span></button>
+      </div>
+    </div>
+  </header>
+
+ 
+  
+    <main>
+      <h1 data-i18n="partners_main_title">Nos Partenaires</h1>
+  
+      <div class="partner-nav">
+        <a href="#institutionnels" data-i18n="partner_nav_institutionnels">Institutionnels</a>
+        <a href="#majeurs" data-i18n="partner_nav_majeurs">Majeurs</a>
+        <a href="#fournisseurs" data-i18n="partner_nav_fournisseurs">Fournisseurs</a>
+        <a href="#socles" data-i18n="partner_nav_socles">Socles</a>
+        <a href="#devenir-partenaire" data-i18n="partner_nav_devenir">Devenir partenaire</a>
+
+      </div>
+    
+      <div class="intro">
+        <p data-i18n="partners_intro_text">Merci à tous ceux qui nous soutiennent...</p>
+
+      </div>
+    
+      
+    
+      <section id="institutionnels">
+        <h2 class="partner-title" data-i18n="section_institutionnels">Partenaires institutionnels</h2>
+        <div class="partner-grid">
+        <div class="partner-card fade-in">
+          <a href="https://www.cauvaldor.fr" target="_blank">
+            <img src="images/cauvaldor (1).jpg" alt="Partenaire Institutionnel 1">
+          </a>
+          <p>CAUVALDOR</p>
+        </div>
+        <div class="partner-card fade-in">
+          <a href="https://www.lot.fr" target="_blank">
+            <img src="images/le lot.jpg" alt="Partenaire Institutionnel 2">
+          </a>
+          <p>Département du Lot</p>
+        </div>
+        <div class="partner-card fade-in">
+          <a href="https://www.vayrac" target="_blank">
+            <img src="images/vayrac_logo.gif" alt="Partenaire Institutionnel 2">
+          </a>
+          <p>Mairie de Vayrac</p>
+        </div>
+       
+      </div>
+    </section>
+    
+    
+  
+    <section id="majeurs">
+      <h2 class="partner-title" data-i18n="section_majeurs">Partenaires majeurs</h2>
+      <div class="partner-grid">
+        <div class="partner-card fade-in">
+            <a href="https://www.broussetp-souillac-bretenoux.fr" target="_blank">
+              <img src="images/logo/BROUSSE TP 2.JPG" alt="Partenaires majeurs 2">
+            </a>
+            <p>Brousse TP</p>
+      </div>
+     
+  <div class="partner-card fade-in">
+    <a href="https://www.ets-brousse-jerome.fr" target="_blank">
+      <img src="images/logo/BROUSSE JEROME 2.jpg" alt="Partenaires Majeurs 2">
+    </a>
+    <p>ets brousse jerome</p>
+  </div>
+  <div class="partner-card fade-in">
+    <a href="https://www.hotel-le-belvedere.fr" target="_blank">
+      <img src="images/logo/HOTELS ROCAMADOUR A5.PNG" alt="Partenaires Majeurs 2">
+    </a>
+    <p>Hotels Rocamadour</p>
+  </div>
+</div>
+    </section>
+
+    <section id="fournisseurs">
+      <h2 class="partner-title" data-i18n="section_fournisseurs">Fournisseurs officiels</h2>
+      <div class="gallery">
+        <a href="#"><img src="images/fournisseur1.png" alt="Fournisseur 1"></a>
+        <a href="#"><img src="images/fournisseur2.png" alt="Fournisseur 2"></a>
+      </div>
+    </section>
+        
+  
+    <section id="socles">
+      <h2 class="partner-title" data-i18n="section_socles">Partenaires socles</h2>
+      <div class="gallery">
+        <a href="#"><img src="images/socle1.png" alt="Partenaire socle 1"></a>
+        <a href="#"><img src="images/socle2.png" alt="Partenaire socle 2"></a>
+        <a href="#"><img src="images/socle3.png" alt="Partenaire socle 3"></a>
+      </div>
+    </section>
+    
+    <section id="devenir-partenaire">
+      <h2 class="partner-title" data-i18n="become_partner_title">Devenir partenaire</h2>
+      <div class="intro">
+        <p data-i18n="become_partner_intro">Vous souhaitez soutenir Le Guidon Vayracois ? Remplissez ce formulaire.</p>
+      </div>
+    
+      <div class="form-container">
+        <form id="partenaire-form" class="partnership-form">
+          
+          <div class="form-group">
+            <label for="nom" data-i18n="form_name_label">Nom / Entreprise *</label>
+            <input type="text" id="nom" name="nom" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="email" data-i18n="form_email_label">Adresse email *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="telephone" data-i18n="form_phone_label">Téléphone</label>
+            <input type="tel" id="telephone" name="telephone">
+          </div>
+    
+          <div class="form-group">
+            <label for="message" data-i18n="form_message_label">Votre message *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+    
+          <button type="submit" data-i18n="form_button">Envoyer ma demande</button>
+        </form>
+    
+        <p id="form-message" style="margin-top: 15px; color: green;"></p>
+      </div>
+    </section>
+    
+    
+  </main>
+  
+
+  <button onclick="scrollToTop()" id="scrollTopBtn" title="Retour en haut"><i class="fas fa-arrow-up"></i></button>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h4 data-i18n="footer_contact">Contact</h4>
+          <p><i class="fas fa-map-marker-alt"></i> 28 Rue Jean de Vayrac, 46110 Vayrac</p>
+          <p><i class="fas fa-phone"></i> <a href="tel:+33787340690">07 87 34 06 90</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:gvayracois@gmail.com">gvayracois@gmail.com</a></p>
+        </div>
+        <div class="footer-column">
+          <h4 data-i18n="footer_navigation">Navigation</h4>
+          <ul>
+            <li><a href="mentions-legales.html">Mentions légales</a></li>
+            <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+            <li><a href="cgu.html">CGU</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 data-i18n="footer_newsletter">Newsletter</h4>
+          <form class="newsletter-form">
+            <input type="email" name="email" placeholder="Votre email" required />
+            <button type="submit">S'inscrire</button>
+          </form>
+        </div>
+        <div class="footer-column footer-logo-center">
+          <img src="images/Logo-Guidon-Vayracois.png" alt="Logo du club" />
+          <p data-i18n="footer_followus">Suivez-nous sur</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p style="font-size: 0.85rem;">
+          Ce site est protégé par reCAPTCHA – 
+          <a href="https://policies.google.com/privacy" target="_blank" style="color: #50b5ff;">Politique de confidentialité</a> et 
+          <a href="https://policies.google.com/terms" target="_blank" style="color: #50b5ff;">Conditions d'utilisation</a> de Google s'appliquent.
+        </p>
+        <p>&copy; <span id="currentYear"></span> <span data-i18n="copyright_text">Le Guidon Vayracois. Tous droits réservés.</span></p>
+      </div>
+      
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    window.addEventListener("scroll", function () {
+      const btn = document.getElementById("scrollTopBtn");
+      btn.style.display = window.scrollY > 300 ? "block" : "none";
+    });
+
+    window.addEventListener("load", () => {
+      document.getElementById("loader").style.display = "none";
+    });
+  </script>
+  <script>
+    // Animation d’apparition au scroll
+    const faders = document.querySelectorAll('.fade-in');
+  
+    const appearOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+  
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('appear');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+  
+    faders.forEach(fader => {
+      appearOnScroll.observe(fader);
+    });
+  </script>
+ <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+ <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ 
+ <script>
+   // Initialisation EmailJS
+   (function() {
+     emailjs.init("nmg-sxembgC-2gZE7"); // Clé publique
+   })();
+ 
+   function onSubmit(token) {
+     const form = document.getElementById('partenaire-form');
+ 
+     emailjs.sendForm('service_8e9f46o', 'template_m4ianfo', form)
+       .then(() => {
+        window.location.href = "merci.html"; 
+
+       }, error => {
+         alert("Une erreur est survenue lors de l'envoi. Merci de réessayer.");
+         console.error(error);
+       });
+   }
+ </script>
+ <script>
+  const sections = document.querySelectorAll("section[id]");
+  const navLinks = document.querySelectorAll(".partner-nav a");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop - 120; // Ajuste en fonction du header + boutons
+      const sectionHeight = section.offsetHeight;
+      if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach((link) => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + current) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+<script>
+  const burger = document.getElementById('burger');
+  const navMenu = document.getElementById('nav-menu');
+
+  burger.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+  });
+</script>
+<script>
+ 
+// === SCRIPT DE TRADUCTION (le code que je t'ai donné) ===
+let translations = {};
+let currentLang = "fr";
+
+async function loadTranslations() {
+  try {
+    const response = await fetch("locales/lang.json");
+    translations = await response.json();
+    setLanguage(currentLang);
+  } catch (error) {
+    console.error("Erreur de chargement des traductions :", error);
+  }
+}
+
+function setLanguage(lang) {
+  if (!translations[lang]) return;
+  currentLang = lang;
+  const elements = document.querySelectorAll("[data-i18n]");
+  elements.forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    if (translations[lang][key]) {
+      if (el.tagName.toLowerCase() === "input" && el.type === "email") {
+        el.placeholder = translations[lang][key];
+      } else {
+        el.innerHTML = translations[lang][key];
+      }
+    }
+  });
+  if (translations[lang]["page_title"]) {
+    document.title = translations[lang]["page_title"];
+  }
+}
+
+const langButtons = document.querySelectorAll(".lang-btn");
+langButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    const lang = button.getAttribute("data-lang");
+    setLanguage(lang);
+    setActiveButton(lang);
+  });
+});
+
+function setActiveButton(lang) {
+  langButtons.forEach(btn => {
+    btn.classList.remove("active");
+    if (btn.getAttribute("data-lang") === lang) {
+      btn.classList.add("active");
+    }
+  });
+}
+
+window.addEventListener("load", loadTranslations);
+</script>
+
+
+  
+</body>
+</html>
+
+

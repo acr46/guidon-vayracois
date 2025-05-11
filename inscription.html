@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="page_title">Inscription - Uxellotoise 2025</title>
+
+  <!-- Polices et icônes -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@6.6.6/css/flag-icons.min.css">
+  <link rel="stylesheet" href="css/global.css">
+
+  <style>
+    html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: #fdfdfd;
+      color: #2b2b2b;
+      padding-top: 100px;
+    }
+    header {
+      background: #111;
+      padding: 14px 30px;
+      position: fixed;
+      top: 0; width: 100%;
+      z-index: 1000;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    .header-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo img { height: 55px; }
+    .nav-left ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+   
+    .nav-left ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-left a {
+  position: relative;
+  display: inline-block;
+  color: #eee;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  padding: 6px 12px;
+}
+
+.nav-left a::after {
+  content: '';
+  position: absolute;
+  left: 12px;     /* correspond au padding-left */
+  right: 12px;    /* correspond au padding-right */
+  bottom: -1px;   /* décalé légèrement VERS LE BAS */
+  height: 2px;
+  background-color: #ffeb3b; /* jaune */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-left a:hover::after,
+.nav-left a:focus::after,
+.nav-left a:active::after {
+  transform: scaleX(1);
+}
+
+.nav-left a:hover,
+.nav-left a:focus,
+.nav-left a:active {
+  color: #50b5ff; /* bleu clair */
+}
+.nav-left a.active {
+  color: #50b5ff;
+}
+
+.nav-left a.active::after {
+  transform: scaleX(1);
+}
+
+   /* Hamburger button */
+   .burger {
+  display: none;
+  font-size: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Responsive nav */
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+    z-index: 1001;
+  }
+
+  .nav-left {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    background: #111;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .nav-left ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-left.show {
+    display: flex;
+  }
+}
+
+    .lang-buttons {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-left: 20px;
+    }
+    .lang-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+    }
+    .lang-btn span.fi {
+      width: 24px;
+      height: 16px;
+      border-radius: 3px;
+      box-shadow: 0 0 0 1px #fff;
+    }
+    .inscription-section {
+  max-width: 800px;
+  margin: 150px auto 60px;
+  padding: 30px;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+.inscription-container h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2.2rem;
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+
+.inscription-container h2 i {
+  margin-right: 10px;
+  color: #0d47a1;
+}
+
+.inscription-subtext {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.weezevent-widget-wrapper a {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #0d47a1;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.weezevent-widget-wrapper a:hover {
+  background-color: #08306b;
+}
+
+.weezevent-widget-wrapper i {
+  margin-right: 8px;
+}
+
+    footer {
+      background: #111;
+      color: #ccc;
+      padding: 60px 20px 20px;
+    }
+    .footer-container {
+      max-width: 1200px;
+      margin: auto;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+    .footer-column h4 {
+      color: #50b5ff;
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+    .footer-column a, .footer-column p, .footer-column li {
+      color: #ccc;
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+    .footer-column a:hover {
+      color: #fff;
+    }
+    .newsletter-form input[type="email"] {
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 12px;
+      border: none;
+      border-radius: 6px;
+    }
+    .newsletter-form button {
+      padding: 10px 20px;
+      border: none;
+      background: #50b5ff;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .social-icons a {
+      margin: 0 8px;
+      font-size: 1.5rem;
+      color: #ccc;
+    }
+    .social-icons a:hover {
+      color: #50b5ff;
+    }
+    .footer-logo-center {
+      text-align: center;
+    }
+    .footer-logo-center img {
+    max-width: 130px;
+    margin-bottom: 10px;
+  }
+    .footer-copyright {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #fff;
+    }
+   
+  </style>
+</head>
+
+<body>
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <a href="index.html"><img src="images/Logo-Guidon-Vayracois.png" alt="Logo Guidon Vayracois"></a>
+    </div>
+    <nav class="nav nav-left">
+      <ul>
+        <li><a href="index.html" data-i18n="nav_home">Accueil</a></li>
+        <li><a href="qui-sommes-nous.html" data-i18n="nav_about">Qui sommes-nous</a></li>
+        <li><a href="Uxellotoise-2025.html" data-i18n="nav_event">Uxellotoise 2025</a></li>
+        <li><a href="galerie.html" data-i18n="nav_gallery">Galerie</a></li>
+        <li><a href="inscription.html" class="active" data-i18n="nav_register">Inscription</a></li>
+        <li><a href="partenaires.html" data-i18n="nav_partners">Partenaires</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="lang-buttons">
+      <button class="lang-btn" data-lang="fr"><span class="fi fi-fr"></span></button>
+      <button class="lang-btn" data-lang="en"><span class="fi fi-gb"></span></button>
+      <button class="lang-btn" data-lang="es"><span class="fi fi-es"></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="inscription" class="inscription-section" data-aos="fade-up">
+    <div class="inscription-container">
+      <h2><i class="fas fa-pencil-alt"></i> <span data-i18n="register_title">Inscription à l'Uxel'Lotoise 2025</span></h2>
+      <p class="inscription-subtext" data-i18n="register_subtext">
+        Réservez votre place en toute simplicité grâce à notre billetterie sécurisée.<br>
+        Cliquez ci-dessous pour accéder au formulaire d'inscription Weezevent.
+      </p>
+      <div class="weezevent-widget-wrapper">
+        <a title="Billetterie Uxellotoise 2025" 
+           href="https://weezevent.com/?c=sys_widget"
+           class="weezevent-widget-integration"
+           data-src="https://widget.weezevent.com/ticket/E1290901/?code=53974&locale=fr-FR&width_auto=1&color_primary=0d47a1"
+           data-width="650"
+           data-height="600"
+           data-id="1290901"
+           data-resize="1"
+           data-width_auto="1"
+           data-noscroll="0"
+           data-use-container="yes"
+           data-type="neo"
+           target="_blank">
+           <i class="fas fa-ticket-alt"></i> <span data-i18n="register_button">Billetterie officielle</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  
+</main>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h4 data-i18n="footer_contact">Contact</h4>
+        <p><i class="fas fa-map-marker-alt"></i> 28 Rue Jean de Vayrac, 46110 Vayrac</p>
+        <p><i class="fas fa-phone"></i> <a href="tel:+33787340690">07 87 34 06 90</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:gvayracois@gmail.com">gvayracois@gmail.com</a></p>
+      </div>
+      <div class="footer-column">
+        <h4 data-i18n="footer_navigation">Navigation</h4>
+        <ul>
+          <li><a href="mentions-legales.html" data-i18n="footer_mentions">Mentions légales</a></li>
+          <li><a href="confidentialite.html" data-i18n="footer_privacy">Politique de confidentialité</a></li>
+          <li><a href="cgu.html" data-i18n="footer_terms">CGU</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4 data-i18n="footer_newsletter">Newsletter</h4>
+        <form class="newsletter-form">
+          <input type="email" name="email" placeholder="Votre email" required />
+          <button type="submit" data-i18n="footer_subscribe">S'inscrire</button>
+        </form>
+      </div>
+      <div class="footer-column footer-logo-center">
+        <img src="images/Logo-Guidon-Vayracois.png" alt="Logo du club" />
+        <p data-i18n="footer_followus">Suivez-nous sur</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>&copy; 2025 <span data-i18n="copyright_text">Le Guidon Vayracois. Tous droits réservés.</span></p>
+
+    </div>
+  </div>
+</footer>
+
+<script src="https://widget.weezevent.com/weez.js"></script>
+<script>
+  langButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const lang = button.getAttribute("data-lang");
+      let locale = "fr-FR";
+      if (lang === "en") locale = "en-GB";
+      if (lang === "es") locale = "es-ES";
+
+      const weezBtn = document.querySelector(".weezevent-widget-integration");
+      weezBtn.setAttribute("data-src", `https://widget.weezevent.com/ticket/E1290901/?code=53974&locale=${locale}&width_auto=1&color_primary=00AEEF`);
+      WeezWidget.init();
+    });
+  });
+</script>
+<script>
+  // === SCRIPT DE TRADUCTION (le code que je t'ai donné) ===
+  let translations = {};
+  let currentLang = "fr";
+
+  async function loadTranslations() {
+    try {
+      const response = await fetch("locales/lang.json");
+      translations = await response.json();
+      setLanguage(currentLang);
+    } catch (error) {
+      console.error("Erreur de chargement des traductions :", error);
+    }
+  }
+
+  function setLanguage(lang) {
+    if (!translations[lang]) return;
+    currentLang = lang;
+    const elements = document.querySelectorAll("[data-i18n]");
+    elements.forEach(el => {
+      const key = el.getAttribute("data-i18n");
+      if (translations[lang][key]) {
+        if (el.tagName.toLowerCase() === "input" && el.type === "email") {
+          el.placeholder = translations[lang][key];
+        } else {
+          el.innerHTML = translations[lang][key];
+        }
+      }
+    });
+    if (translations[lang]["page_title"]) {
+      document.title = translations[lang]["page_title"];
+    }
+  }
+
+  const langButtons = document.querySelectorAll(".lang-btn");
+  langButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const lang = button.getAttribute("data-lang");
+      setLanguage(lang);
+      setActiveButton(lang);
+    });
+  });
+
+  function setActiveButton(lang) {
+    langButtons.forEach(btn => {
+      btn.classList.remove("active");
+      if (btn.getAttribute("data-lang") === lang) {
+        btn.classList.add("active");
+      }
+    });
+  }
+
+  window.addEventListener("load", loadTranslations);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "images": [
+    "1745073412779.jpg",
+    "1745073412786.jpg",
+    "1745073471983.jpeg",
+    "1745073471990.jpeg",
+    "1745073532995.jpeg",
+    "1745073581626.jpg",
+    "1745073581634.jpg",
+    "1745073624061.jpg",
+    "1745073581643.jpg",
+    "1745079037850.jpg",
+    "1745079037858.jpeg",
+    "1745079060586.jpeg",
+    "1745079060595.jpeg",
+    "1745079060603.jpeg",
+    "1745079090639.jpeg",
+    "1745079090644.jpeg",
+    "1745079090654.jpeg",
+    "1745079110059.jpeg",
+    "1745079110067.jpeg"
+],
+"gallery": [
+      {
+        "file": "vayrac.jpg",
+        "caption": {
+          "fr": "Vayrac © Christophe Bouthé",
+          "en": "Vayrac © Christophe Bouthé",
+          "es": "Vayrac © Christophe Bouthé"
+        }
+      },
+      {
+        "file": "rocamadour.jpg",
+        "caption": {
+          "fr": "Rocamadour © Christophe Bouthé",
+          "en": "Rocamadour © Christophe Bouthé",
+          "es": "Rocamadour © Christophe Bouthé"
+        }
+      },
+      {
+        "file": "autoire2.jpg",
+        "caption": {
+          "fr": "Autoire © Christophe Bouthé",
+          "en": "Autoire © Christophe Bouthé",
+          "es": "Autoire © Christophe Bouthé"
+        }
+      },
+      {
+        "file": "loubressac2.jpg",
+        "caption": {
+          "fr": "Loubressac © Maxime Seinbille",
+          "en": "Loubressac © Maxime Seinbille",
+          "es": "Loubressac © Maxime Seinbille"
+        }
+      },
+      {
+        "file": "carennac2.jpg",
+        "caption": {
+          "fr": "Carennac © Cyril Novello",
+          "en": "Carennac © Cyril Novello",
+          "es": "Carennac © Cyril Novello"
+        }
+      },
+      {
+        "file": "curemonte2.jpg",
+        "caption": {
+          "fr": "Curemonte © Christophe Bouthé",
+          "en": "Curemonte © Christophe Bouthé",
+          "es": "Curemonte © Christophe Bouthé"
+        }
+      }
+    ]
+  }
+
+
+  
+  

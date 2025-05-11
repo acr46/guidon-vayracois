@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title data-i18n="privacy_title">Politique de confidentialité</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7/css/flag-icons.min.css">
+
+  <style>
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 2em;
+      color: #222;
+    }
+    h2 {
+      margin-top: 30px;
+      font-size: 1.4em;
+      color: #444;
+    }
+    .lang-btn {
+  background: transparent; /* enlève le gris */
+  border: none;            /* enlève les bordures */
+  padding: 0;
+  margin: 0 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.lang-btn span.fi {
+  width: 24px;
+  height: 16px;
+  display: inline-block;
+  border-radius: 3px;
+  box-shadow: none; /* ← enlève le contour gris si existant */
+}
+
+
+@media (max-width: 500px) {
+  .lang-btn span.fi {
+    width: 20px;
+    height: 13px;
+  }
+}
+
+
+    .lang-btn:hover span.fi {
+      transform: scale(1.1);
+    }
+
+    .lang-switcher {
+  display: flex;
+  justify-content: center; /* ← centre horizontalement */
+  gap: 10px;
+  margin-bottom: 20px;
+}
+/* Responsive - adapte les drapeaux sur petit écran */
+@media (max-width: 768px) {
+  .lang-switcher {
+    justify-content: center;
+    margin: 10px auto 0;
+    padding-bottom: 10px;
+    order: 3;
+  }
+
+  .lang-btn span.fi {
+    width: 22px;
+    height: 15px;
+  }
+}
+
+
+
+  </style>
+</head>
+<body>
+  <div class="lang-switcher">
+    <button class="lang-btn" data-lang="fr" aria-label="Français">
+      <span class="fi fi-fr"></span>
+    </button>
+    <button class="lang-btn" data-lang="en" aria-label="English">
+      <span class="fi fi-gb"></span>
+    </button>
+    <button class="lang-btn" data-lang="es" aria-label="Español">
+      <span class="fi fi-es"></span>
+    </button>
+  </div>
+  
+  
+
+  <h1 data-i18n="privacy_title">Politique de confidentialité</h1>
+
+  <h2 data-i18n="privacy_data_title">Collecte des données</h2>
+  <p data-i18n="privacy_data_text">
+    Nous collectons uniquement les données nécessaires à la communication avec les utilisateurs (nom, email, téléphone). Ces données ne sont jamais revendues.
+  </p>
+
+  <h2 data-i18n="privacy_cookies_title">Cookies</h2>
+  <p data-i18n="privacy_cookies_text">
+    Ce site utilise des cookies à des fins statistiques ou pour améliorer l’expérience utilisateur. Vous pouvez accepter ou refuser ces cookies via la bannière RGPD.
+  </p>
+
+  <h2 data-i18n="privacy_forms_title">Formulaires</h2>
+  <p data-i18n="privacy_forms_text">
+    Les informations transmises via les formulaires (ex. newsletter) sont stockées de manière sécurisée et ne sont utilisées que pour la finalité prévue.
+  </p>
+
+  <h2 data-i18n="privacy_rights_title">Vos droits</h2>
+  <p data-i18n="privacy_rights_text">
+    Conformément à la loi Informatique et Libertés, vous pouvez demander à consulter, modifier ou supprimer vos données en écrivant à : contact@guidonvayracois.fr
+  </p>
+
+  <script>
+    let translations = {};
+    let currentLang = "fr";
+
+    function updateLanguage(lang) {
+      if (!translations[lang]) return;
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          el.innerHTML = translations[lang][key];
+        }
+      });
+
+      document.documentElement.setAttribute("lang", lang);
+      localStorage.setItem("language", lang);
+      currentLang = lang;
+    }
+
+    async function loadTranslations() {
+      try {
+        const res = await fetch("/locales/lang.json");
+        translations = await res.json();
+
+        const savedLang = localStorage.getItem("language");
+        const browserLang = navigator.language.slice(0, 2);
+        const lang = savedLang || (translations[browserLang] ? browserLang : "fr");
+
+        updateLanguage(lang);
+      } catch (error) {
+        console.error("Erreur de chargement des traductions :", error);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      loadTranslations();
+
+      document.querySelectorAll(".lang-btn").forEach(btn => {
+        btn.addEventListener("click", function () {
+          updateLanguage(this.dataset.lang);
+        });
+      });
+    });
+  </script>
+</body>
+</html>

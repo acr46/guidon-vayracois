@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title data-i18n="legal_title">Mentions légales</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7/css/flag-icons.min.css">
+
+  <style>
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 2em;
+      color: #222;
+    }
+    h2 {
+      margin-top: 30px;
+      font-size: 1.4em;
+      color: #444;
+    }
+    .lang-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 8px;
+  padding: 0;
+}
+
+.lang-btn span.fi {
+  width: 32px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px #ccc;
+}
+
+  </style>
+</head>
+<body>
+  <div class="lang-buttons" style="margin-bottom: 20px;">
+    <button class="lang-btn" data-lang="fr" aria-label="Français">
+      <span class="fi fi-fr"></span>
+    </button>
+    <button class="lang-btn" data-lang="en" aria-label="English">
+      <span class="fi fi-gb"></span>
+    </button>
+    <button class="lang-btn" data-lang="es" aria-label="Español">
+      <span class="fi fi-es"></span>
+    </button>
+  </div>
+  
+  <h1 data-i18n="legal_title">Mentions légales</h1>
+
+  <h2 data-i18n="legal_publisher_title">Éditeur du site</h2>
+  <p>
+    <strong data-i18n="legal_association_label">Association :</strong> Le Guidon Vayracois<br/>
+    <strong data-i18n="legal_address_label">Adresse :</strong> 28 Rue Jean de Vayrac, 46110 Vayrac<br/>
+    <strong data-i18n="legal_phone_label">Téléphone :</strong> 07 87 34 06 90<br/>
+    <strong data-i18n="legal_email_label">Email :</strong> contact@guidonvayracois.fr
+  </p>
+
+  <h2 data-i18n="legal_hosting_title">Hébergement</h2>
+  <p>
+    <span data-i18n="legal_hosting_provider">Ce site est hébergé par :</span> [Nom de l'hébergeur]<br/>
+    <span data-i18n="legal_hosting_address">Adresse :</span> [Adresse hébergeur]
+  </p>
+
+  <h2 data-i18n="legal_responsibility_title">Responsabilité</h2>
+  <p data-i18n="legal_responsibility_text">
+    L’éditeur s'efforce d'assurer l'exactitude des informations, mais ne peut être tenu responsable d'éventuelles erreurs ou omissions.
+  </p>
+
+  <h2 data-i18n="legal_ip_title">Propriété intellectuelle</h2>
+  <p data-i18n="legal_ip_text">
+    Tout le contenu du site (textes, images, etc.) est la propriété du Guidon Vayracois, sauf mention contraire. Toute reproduction est interdite sans autorisation préalable.
+  </p>
+
+  <script>
+    let translations = {};
+    let currentLang = "fr";
+  
+    function updateLanguage(lang) {
+      if (!translations[lang]) return;
+  
+      // Appliquer la traduction à tous les éléments avec data-i18n
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          el.innerHTML = translations[lang][key];
+        }
+      });
+  
+      document.documentElement.setAttribute("lang", lang);
+      localStorage.setItem("language", lang);
+      currentLang = lang;
+    }
+  
+    async function loadTranslations() {
+      try {
+        const res = await fetch("/locales/lang.json");
+        translations = await res.json();
+  
+        const savedLang = localStorage.getItem("language");
+        const browserLang = navigator.language.slice(0, 2); // fr, en, es
+        const lang = savedLang || (translations[browserLang] ? browserLang : "fr");
+  
+        updateLanguage(lang);
+      } catch (error) {
+        console.error("Erreur de chargement des traductions :", error);
+      }
+    }
+  
+    document.addEventListener("DOMContentLoaded", loadTranslations);
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".lang-btn").forEach(btn => {
+        btn.addEventListener("click", function () {
+          const lang = this.dataset.lang;
+          updateLanguage(lang);
+        });
+      });
+    });
+  </script>
+  
+  
+</body>
+</html>

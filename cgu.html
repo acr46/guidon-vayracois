@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7/css/flag-icons.min.css">
+  <title data-i18n="title">Conditions Générales d'Utilisation</title>
+  <style>
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 2em;
+      color: #222;
+    }
+    h2 {
+      margin-top: 30px;
+      font-size: 1.4em;
+      color: #444;
+    }
+    .lang-btn {
+      background: transparent;
+      border: none;
+      padding: 0;
+      margin: 0 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s ease;
+    }
+    .lang-btn span.fi {
+      width: 24px;
+      height: 16px;
+      display: inline-block;
+      border-radius: 3px;
+      box-shadow: none;
+    }
+    @media (max-width: 500px) {
+      .lang-btn span.fi {
+        width: 20px;
+        height: 13px;
+      }
+    }
+    .lang-btn:hover span.fi {
+      transform: scale(1.1);
+    }
+    .lang-switcher {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 768px) {
+      .lang-switcher {
+        justify-content: center;
+        margin: 10px auto 0;
+        padding-bottom: 10px;
+        order: 3;
+      }
+      .lang-btn span.fi {
+        width: 22px;
+        height: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-switcher">
+    <button class="lang-btn" data-lang="fr" aria-label="Français">
+      <span class="fi fi-fr"></span>
+    </button>
+    <button class="lang-btn" data-lang="en" aria-label="English">
+      <span class="fi fi-gb"></span>
+    </button>
+    <button class="lang-btn" data-lang="es" aria-label="Español">
+      <span class="fi fi-es"></span>
+    </button>
+  </div>
+
+  <h1 data-i18n="cgu_title">Conditions Générales d'Utilisation</h1>
+
+  <h2 data-i18n="section1">1. Objet</h2>
+  <p data-i18n="section1_text">Les présentes conditions générales ont pour objet de définir les modalités d'accès et d'utilisation du site <strong>guidonvayracois.fr</strong>.</p>
+
+  <h2 data-i18n="section2">2. Acceptation</h2>
+  <p data-i18n="section2_text">L'utilisation du site implique l'acceptation pleine et entière des présentes CGU par l'utilisateur.</p>
+
+  <h2 data-i18n="section3">3. Accès au site</h2>
+  <p data-i18n="section3_text">Le site est accessible gratuitement à tout utilisateur disposant d'un accès à Internet. Tous les coûts afférents à l'accès (matériel, logiciels, connexion) sont à la charge de l'utilisateur.</p>
+
+  <h2 data-i18n="section4">4. Propriété intellectuelle</h2>
+  <p data-i18n="section4_text">Les contenus présents sur le site (textes, images, logos, etc.) sont protégés par le droit d’auteur. Toute reproduction sans autorisation est interdite.</p>
+
+  <h2 data-i18n="section5">5. Données personnelles</h2>
+  <p data-i18n="section5_text">Les informations personnelles éventuellement collectées sur le site sont traitées conformément à la <a href="confidentialite.html" data-i18n="privacy_policy">Politique de confidentialité</a>.</p>
+
+  <h2 data-i18n="section6">6. Responsabilité</h2>
+  <p data-i18n="section6_text">Le site s'efforce de fournir des informations fiables, mais ne saurait être tenu responsable des erreurs, omissions ou indisponibilités.</p>
+
+  <h2 data-i18n="section7">7. Modification des CGU</h2>
+  <p data-i18n="section7_text">Le site se réserve le droit de modifier à tout moment les présentes conditions générales. Les utilisateurs sont invités à les consulter régulièrement.</p>
+
+  <script>
+    let translations = {};
+    let currentLang = "fr";
+
+    function updateLanguage(lang) {
+      if (!translations[lang]) return;
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          el.innerHTML = translations[lang][key];
+        }
+      });
+
+      document.documentElement.setAttribute("lang", lang);
+      localStorage.setItem("language", lang);
+      currentLang = lang;
+    }
+
+    async function loadTranslations() {
+      try {
+        const res = await fetch("/locales/lang.json");
+        translations = await res.json();
+
+        const savedLang = localStorage.getItem("language");
+        const browserLang = navigator.language.slice(0, 2);
+        const lang = savedLang || (translations[browserLang] ? browserLang : "fr");
+
+        updateLanguage(lang);
+      } catch (error) {
+        console.error("Erreur de chargement des traductions :", error);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      loadTranslations();
+
+      document.querySelectorAll(".lang-btn").forEach(btn => {
+        btn.addEventListener("click", function () {
+          updateLanguage(this.dataset.lang);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
